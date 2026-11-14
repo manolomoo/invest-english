@@ -1,0 +1,396 @@
+{
+ "id": "10",
+ "title": "第二層思考要考慮的事",
+ "n": 10,
+ "en": "What Second-Level Thinkers Take into Account",
+ "chapter": "第 1 章 Second-Level Thinking",
+ "pdf": "20–21",
+ "vocab": [
+  {
+   "word": "convoluted",
+   "ipa": "/ˈkɑːnvəˌluːtɪd/",
+   "meaning": "錯綜複雜的、曲折的",
+   "example": "Second-level thinking is deep, complex and convoluted.",
+   "pos": "adjective",
+   "def": "原指捲曲、盤繞，比喻事情有很多層次、很難理清。與 deep、complex 並列，強調第二層思考很不簡單。",
+   "exzh": "第二層思考是深入、複雜而且錯綜曲折的。",
+   "audio": "audio/10/en_8dc3e2bed5f3df82.mp3",
+   "exampleAudio": "audio/10/en_3beb4f7a9dc6f9f0.mp3"
+  },
+  {
+   "word": "take into account",
+   "ipa": "/teɪk ˈɪntu əˈkaʊnt/",
+   "meaning": "考慮到、把…納入考量",
+   "example": "The second-level thinker takes a great many things into account",
+   "pos": "phrase",
+   "def": "把某些因素一併考慮進去。受詞可以放在中間：take a great many things into account。",
+   "exzh": "第二層思考者會把非常多的事情納入考量",
+   "audio": "audio/10/en_e9b54dabe37b5422.mp3",
+   "exampleAudio": "audio/10/en_dd4d157eb568b6fb.mp3"
+  },
+  {
+   "word": "comport with",
+   "ipa": "/kəmˈpɔːrt wɪð/",
+   "meaning": "與…相符、一致",
+   "example": "How does the current price for the asset comport with the consensus view of the future, and with mine?",
+   "pos": "phrasal verb（正式）",
+   "def": "正式用語，指兩者吻合。這裡是問：現在的價格，和市場共識、和我自己的看法，各自吻合到什麼程度。",
+   "exzh": "這項資產目前的價格，和市場對未來的共識看法吻合到什麼程度？和我的看法又吻合到什麼程度？",
+   "audio": "audio/10/en_dd38b938c43eb82e.mp3",
+   "exampleAudio": "audio/10/en_885d72802a1fc8b9.mp3"
+  },
+  {
+   "word": "consensus",
+   "ipa": "/kənˈsɛnsəs/",
+   "meaning": "共識、市場共識",
+   "example": "What does the consensus think?",
+   "pos": "noun",
+   "def": "大多數人一致的看法。在投資裡，市場共識反映在價格上，第二層思考者要找出自己和共識的差異。",
+   "exzh": "市場共識是怎麼想的？",
+   "audio": "audio/10/en_4f170d6a09b95cfe.mp3",
+   "exampleAudio": "audio/10/en_ab4ba1a567b0d8b2.mp3"
+  },
+  {
+   "word": "bullish or bearish",
+   "ipa": "/ˈbʊlɪʃ ɔːr ˈbɛrɪʃ/",
+   "meaning": "看多或看空",
+   "example": "Is the consensus psychology that’s incorporated in the price too bullish or bearish?",
+   "pos": "adjective phrase",
+   "def": "bull（牛）往上頂，代表看漲；bear（熊）往下拍，代表看跌。分別為「看多的」、「看空的」。",
+   "exzh": "已經反映在價格裡的市場共識心理，是過於看多還是過於看空？",
+   "audio": "audio/10/en_1502228ba5aa7dcb.mp3",
+   "exampleAudio": "audio/10/en_ae5891059d6e6ee6.mp3"
+  },
+  {
+   "word": "antithesis",
+   "ipa": "/ænˈtɪθəsɪs/",
+   "meaning": "正好相反的事物、對立面",
+   "example": "Second-level thinkers know that success in investing is the antithesis of simple.",
+   "pos": "noun",
+   "def": "不只是「不同」，而是完全相反。the antithesis of simple 就是「與簡單正好相反」。",
+   "exzh": "第二層思考者知道，投資成功與簡單正好相反。",
+   "audio": "audio/10/en_2850379b08b74cad.mp3",
+   "exampleAudio": "audio/10/en_8eaaf2f6217e46a9.mp3"
+  },
+  {
+   "word": "run into",
+   "ipa": "/rʌn ˈɪntuː/",
+   "meaning": "碰上、遇見",
+   "example": "That’s not to say you won’t run into plenty of people who try their darnedest to make it sound simple.",
+   "pos": "phrasal verb",
+   "def": "偶然碰到人或事。you won’t run into plenty of people 是「你會碰到很多這樣的人」。",
+   "exzh": "這並不是說你不會碰到很多人，他們拚命想把它說得很簡單。",
+   "audio": "audio/10/en_241e2c74a7345e48.mp3",
+   "exampleAudio": "audio/10/en_039d5c257b61136a.mp3"
+  },
+  {
+   "word": "try one’s darnedest",
+   "ipa": "/traɪ ðɛr ˈdɑːrnɪdɪst/",
+   "meaning": "拚了命地努力",
+   "example": "That’s not to say you won’t run into plenty of people who try their darnedest to make it sound simple.",
+   "pos": "idiom（口語）",
+   "def": "darnedest 是 damnedest 的委婉說法，比 try one’s best 更口語、更用力。",
+   "exzh": "這並不是說你不會碰到很多人，他們拚命想把它說得很簡單。",
+   "say": "try their darnedest",
+   "audio": "audio/10/en_b6629a77934a1df4.mp3",
+   "exampleAudio": "audio/10/en_039d5c257b61136a.mp3"
+  },
+  {
+   "word": "mercenary",
+   "ipa": "/ˈmɜːrsəˌnɛri/",
+   "meaning": "唯利是圖的人、傭兵",
+   "example": "Some of them I might characterize as “mercenaries.”",
+   "pos": "noun",
+   "def": "原指為錢打仗的傭兵，這裡指只在乎賺錢、不真心為你著想的人，如券商與基金公司。",
+   "exzh": "我可能會把其中一些人稱為「唯利是圖者」。",
+   "audio": "audio/10/en_c4099ecb142ea261.mp3",
+   "exampleAudio": "audio/10/en_9ec26806316d53bc.mp3"
+  },
+  {
+   "word": "proselytizer",
+   "ipa": "/ˈprɑːsələˌtaɪzər/",
+   "meaning": "熱心傳教的人、鼓吹者",
+   "example": "Others who simplify are what I think of as “proselytizers.”",
+   "pos": "noun",
+   "def": "proselytize 是熱心地勸人接受某種信仰或主張。這裡指真心相信、並熱情鼓吹「投資很簡單」的人。",
+   "exzh": "其他把投資簡化的人，是我所認為的「傳教士」。",
+   "audio": "audio/10/en_2f70ca7383d5c15d.mp3",
+   "exampleAudio": "audio/10/en_f55d84b1b17bbd52.mp3"
+  },
+  {
+   "word": "practitioner",
+   "ipa": "/prækˈtɪʃənər/",
+   "meaning": "實務工作者、從業人員",
+   "example": "Others are well-intentioned practitioners who overestimate the extent to which they’re in control",
+   "pos": "noun",
+   "def": "與 academic（學者）相對，指實際做這行的人。well-intentioned 是「出於善意的」。",
+   "exzh": "另一些人是出於善意的實務工作者，他們高估了自己能掌控的程度",
+   "audio": "audio/10/en_edcc418fefaa1482.mp3",
+   "exampleAudio": "audio/10/en_e8af454df93f5d64.mp3"
+  },
+  {
+   "word": "tote up",
+   "ipa": "/toʊt ʌp/",
+   "meaning": "加總、算出總數",
+   "example": "I think most of them fail to tote up their records",
+   "pos": "phrasal verb（口語）",
+   "def": "把數字加起來。tote up their records 就是把自己的成績單認真算一次，看看到底賺多少、賠多少。",
+   "exzh": "我認為他們大多數人沒有把自己的成績算清楚",
+   "audio": "audio/10/en_1f8f308413a37df9.mp3",
+   "exampleAudio": "audio/10/en_20c01e6c85ab23eb.mp3"
+  },
+  {
+   "word": "overlook",
+   "ipa": "/ˌoʊvərˈlʊk/",
+   "meaning": "忽略、沒注意到",
+   "example": "I think most of them fail to tote up their records, or they overlook their bad years or attribute losses to bad luck.",
+   "pos": "verb",
+   "def": "沒看見或故意不看。overlook their bad years 是「對自己的壞年頭視而不見」。",
+   "exzh": "我認為他們大多數人沒有把自己的成績算清楚，或是忽略自己表現不好的年份，或把虧損歸咎於運氣不好。",
+   "audio": "audio/10/en_1b8ee344f03e5e40.mp3",
+   "exampleAudio": "audio/10/en_07debc31527fae58.mp3"
+  },
+  {
+   "word": "attribute … to",
+   "ipa": "/əˈtrɪbjuːt/",
+   "meaning": "把…歸因於",
+   "example": "attribute losses to bad luck",
+   "pos": "verb",
+   "def": "attribute A to B 是「把 A 歸因於 B」。注意作為動詞時重音在第二音節；名詞「屬性」則重音在第一音節。",
+   "exzh": "把虧損歸咎於運氣不好",
+   "audio": "audio/10/en_a77d83ff74723353.mp3",
+   "exampleAudio": "audio/10/en_e7bd4d5a1aac180c.mp3"
+  },
+  {
+   "word": "collectively",
+   "ipa": "/kəˈlɛktɪvli/",
+   "meaning": "集體地、整體而言",
+   "example": "All investors can’t beat the market since, collectively, they are the market.",
+   "pos": "adverb",
+   "def": "把所有人合起來看。作者用這個字說明：全體投資人加起來，就是市場本身。",
+   "exzh": "所有投資人不可能都勝過市場，因為整體而言，他們就是市場。",
+   "audio": "audio/10/en_a16aecfc04ad0eae.mp3",
+   "exampleAudio": "audio/10/en_208fd06f563a769f.mp3"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Second-level thinking is deep, complex and convoluted.",
+   "zh": "第二層思考是深入、複雜而且錯綜曲折的。",
+   "audio": "audio/10/en_3beb4f7a9dc6f9f0.mp3",
+   "para": 0
+  },
+  {
+   "en": "The second-level thinker takes a great many things into account:",
+   "zh": "第二層思考者會把非常多的事情納入考量：",
+   "audio": "audio/10/en_8cacf30f3044cdfc.mp3",
+   "para": 0
+  },
+  {
+   "en": "What is the range of likely future outcomes?",
+   "zh": "未來可能出現的結果範圍有多大？",
+   "audio": "audio/10/en_27cdb03a767a79db.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "Which outcome do I think will occur?",
+   "zh": "我認為會出現哪一種結果？",
+   "audio": "audio/10/en_d18525876877549a.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "What’s the probability I’m right?",
+   "zh": "我是對的機率有多高？",
+   "audio": "audio/10/en_520a11c553651ed8.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "What does the consensus think?",
+   "zh": "市場共識是怎麼想的？",
+   "audio": "audio/10/en_ab4ba1a567b0d8b2.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "How does my expectation differ from the consensus?",
+   "zh": "我的預期和市場共識有什麼不同？",
+   "audio": "audio/10/en_0ff66f2004b1b147.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "How does the current price for the asset comport with the consensus view of the future, and with mine?",
+   "zh": "這項資產目前的價格，和市場對未來的共識看法吻合到什麼程度？和我的看法又吻合到什麼程度？",
+   "audio": "audio/10/en_885d72802a1fc8b9.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "Is the consensus psychology that’s incorporated in the price too bullish or bearish?",
+   "zh": "已經反映在價格裡的市場共識心理，是過於看多還是過於看空？",
+   "audio": "audio/10/en_ae5891059d6e6ee6.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "What will happen to the asset’s price if the consensus turns out to be right, and what if I’m right?",
+   "zh": "如果市場共識是對的，資產價格會怎麼變？如果是我對了，又會怎麼變？",
+   "audio": "audio/10/en_08fd91dcdc93ab47.mp3",
+   "para": 1,
+   "meta": {
+    "k": "list"
+   }
+  },
+  {
+   "en": "The difference in workload between first-level and second-level thinking is clearly massive, and the number of people capable of the latter is tiny compared to the number capable of the former.",
+   "zh": "第一層與第二層思考所需要的工作量，差距顯然極大，而有能力做到後者的人，比起能做到前者的人，數量少得可憐。",
+   "audio": "audio/10/en_c5150f8666c41c1a.mp3",
+   "para": 2
+  },
+  {
+   "en": "First-level thinkers look for simple formulas and easy answers.",
+   "zh": "第一層思考者尋找簡單的公式和容易的答案。",
+   "audio": "audio/10/en_0521d19a8a327243.mp3",
+   "para": 3
+  },
+  {
+   "en": "Second-level thinkers know that success in investing is the antithesis of simple.",
+   "zh": "第二層思考者知道，投資成功與簡單正好相反。",
+   "audio": "audio/10/en_8eaaf2f6217e46a9.mp3",
+   "para": 3
+  },
+  {
+   "en": "That’s not to say you won’t run into plenty of people who try their darnedest to make it sound simple.",
+   "zh": "這並不是說你不會碰到很多人，他們拚命想把它說得很簡單。",
+   "audio": "audio/10/en_039d5c257b61136a.mp3",
+   "para": 3
+  },
+  {
+   "en": "Some of them I might characterize as “mercenaries.”",
+   "zh": "我可能會把其中一些人稱為「唯利是圖者」。",
+   "audio": "audio/10/en_9ec26806316d53bc.mp3",
+   "para": 3
+  },
+  {
+   "en": "Brokerage firms want you to think everyone’s capable of investing—at $10 per trade.",
+   "zh": "券商希望你以為每個人都有能力投資——一筆交易只要 10 美元。",
+   "audio": "audio/10/en_e6a0bfe22de0b26b.mp3",
+   "para": 3
+  },
+  {
+   "en": "Mutual fund companies don’t want you to think you can do it;",
+   "zh": "共同基金公司不希望你以為自己做得到；",
+   "audio": "audio/10/en_9baf0776e6739fe9.mp3",
+   "para": 3
+  },
+  {
+   "en": "they want you to think they can do it.",
+   "zh": "他們要你以為他們做得到。",
+   "audio": "audio/10/en_6cbba92898f68f2f.mp3",
+   "para": 3
+  },
+  {
+   "en": "In that case, you’ll put your money into actively managed funds and pay the associated high fees.",
+   "zh": "那樣一來，你就會把錢投入主動式管理基金，並且付出相關的高額費用。",
+   "audio": "audio/10/en_5de28ea9be3e404d.mp3",
+   "para": 3
+  },
+  {
+   "en": "Others who simplify are what I think of as “proselytizers.”",
+   "zh": "其他把投資簡化的人，是我所認為的「傳教士」。",
+   "audio": "audio/10/en_f55d84b1b17bbd52.mp3",
+   "para": 4
+  },
+  {
+   "en": "Some are academics who teach investing.",
+   "zh": "有些是教投資的學者。",
+   "audio": "audio/10/en_c1b33f92acd12b6f.mp3",
+   "para": 4
+  },
+  {
+   "en": "Others are well-intentioned practitioners who overestimate the extent to which they’re in control;",
+   "zh": "另一些人是出於善意的實務工作者，他們高估了自己能掌控的程度；",
+   "audio": "audio/10/en_c3d1ba6b7be4a204.mp3",
+   "para": 4
+  },
+  {
+   "en": "I think most of them fail to tote up their records, or they overlook their bad years or attribute losses to bad luck.",
+   "zh": "我認為他們大多數人沒有把自己的成績算清楚，或是忽略自己表現不好的年份，或把虧損歸咎於運氣不好。",
+   "audio": "audio/10/en_07debc31527fae58.mp3",
+   "para": 4
+  },
+  {
+   "en": "Finally, there are those who simply fail to understand the complexity of the subject.",
+   "zh": "最後，還有一些人，單純是不了解這個主題的複雜性。",
+   "audio": "audio/10/en_8f84a77b66dddabe.mp3",
+   "para": 4
+  },
+  {
+   "en": "A guest commentator on my drive-time radio station says, “If you have had good experience with a product, buy the stock.”",
+   "zh": "我在開車時聽的廣播電台，有位特約評論員說：「如果你用過某項產品，經驗不錯，就買它的股票。」",
+   "audio": "audio/10/en_46463fafcca1224b.mp3",
+   "para": 4
+  },
+  {
+   "en": "There’s so much more than that to being a successful investor.",
+   "zh": "要成為成功的投資人，要懂的事情遠遠不只這些。",
+   "audio": "audio/10/en_564cc417a8a2129d.mp3",
+   "para": 4
+  },
+  {
+   "en": "First-level thinkers think the same way other first-level thinkers do about the same things, and they generally reach the same conclusions.",
+   "zh": "第一層思考者對同樣的事，用和其他第一層思考者相同的方式思考，而且通常得到相同的結論。",
+   "audio": "audio/10/en_e9c23a44010446f4.mp3",
+   "para": 5
+  },
+  {
+   "en": "By definition, this can’t be the route to superior results.",
+   "zh": "依定義，這不可能是通往卓越成果的路。",
+   "audio": "audio/10/en_2fb714232223aea0.mp3",
+   "para": 5
+  },
+  {
+   "en": "All investors can’t beat the market since, collectively, they are the market.",
+   "zh": "所有投資人不可能都勝過市場，因為整體而言，他們就是市場。",
+   "audio": "audio/10/en_208fd06f563a769f.mp3",
+   "para": 5
+  }
+ ],
+ "grammar": [
+  {
+   "point": "the former / the latter：前者與後者",
+   "quote": "The difference in workload between first-level and second-level thinking is clearly massive, and the number of people capable of the latter is tiny compared to the number capable of the former.",
+   "explain": "the latter 指兩項中的後一項（second-level），the former 指前一項（first-level）。這兩個詞只用在「兩項」的對比，指回前面剛提過的東西。\ncapable of the latter 是形容詞片語，放在名詞 people／number 後面修飾它；compared to 是分詞片語，「與…相比」。整句是 the number A is tiny compared to the number B。",
+   "quoteAudio": "audio/10/en_c5150f8666c41c1a.mp3"
+  },
+  {
+   "point": "want you to think …：want ＋ 受詞 ＋ to 動詞，並列對比",
+   "quote": "Mutual fund companies don’t want you to think you can do it; they want you to think they can do it.",
+   "explain": "want ＋ 人 ＋ to ＋ 動詞，是「希望某人去…」。後面 think 接了一個沒有 that 的名詞子句：you can do it、they can do it。\n兩半句結構完全一樣，只換了主詞，形成「你做得到／他們做得到」的對比，是 Marks 常用的平行句型。",
+   "quoteAudio": "audio/10/en_245921c8458449a5.mp3"
+  },
+  {
+   "point": "the same way … do：代動詞與關係副詞省略",
+   "quote": "First-level thinkers think the same way other first-level thinkers do about the same things, and they generally reach the same conclusions.",
+   "explain": "the same way other first-level thinkers do 是「和其他第一層思考者一樣的方式」，do 代替前面的 think，避免重複。完整是 think the same way (that) other thinkers think。\nabout the same things 放在 do 之後，修飾整個 think … 動作。把這個句子拆開讀：A think the same way B do / about the same things。",
+   "quoteAudio": "audio/10/en_e9c23a44010446f4.mp3"
+  }
+ ]
+}

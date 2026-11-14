@@ -1,0 +1,201 @@
+{
+ "id": "05",
+ "title": "好日子只會教壞功課",
+ "n": 5,
+ "en": "Good Times Teach Only Bad Lessons",
+ "chapter": "導言 Introduction",
+ "pdf": "14–15",
+ "vocab": [
+  {
+   "word": "doozy",
+   "ipa": "/ˈduːzi/",
+   "meaning": "非常嚴重、非比尋常的事",
+   "example": "I’ve been “fortunate” to have lived through some doozies",
+   "pos": "noun（口語，複數 doozies）",
+   "def": "美式口語，可褒可貶，指「超乎尋常」的事物。這裡指非常慘烈的市場風暴。",
+   "exzh": "我「幸運地」親身經歷過一些非常慘烈的事件",
+   "audio": "audio/05/en_635e93e68aec6c27.mp3",
+   "exampleAudio": "audio/05/en_f32d75793475fea4.mp3"
+  },
+  {
+   "word": "embargo",
+   "ipa": "/ɪmˈbɑːrɡoʊ/",
+   "meaning": "禁運",
+   "example": "the Arab oil embargo, stagflation, Nifty Fifty stock collapse and “death of equities” of the 1970s",
+   "pos": "noun",
+   "def": "政府禁止與某國或某種商品進行貿易。Arab oil embargo 指 1970 年代阿拉伯國家的石油禁運。",
+   "exzh": "1970 年代的阿拉伯石油禁運、停滯性通膨、「漂亮五十」股票崩跌與「股票已死」",
+   "audio": "audio/05/en_4084593964d70853.mp3",
+   "exampleAudio": "audio/05/en_608148ddc5bb9d5b.mp3"
+  },
+  {
+   "word": "stagflation",
+   "ipa": "/stæɡˈfleɪʃən/",
+   "meaning": "停滯性通膨",
+   "example": "the Arab oil embargo, stagflation, Nifty Fifty stock collapse and “death of equities” of the 1970s",
+   "pos": "noun",
+   "def": "由 stagnation（停滯）與 inflation（通膨）合成：經濟不成長、物價卻一直漲。",
+   "exzh": "1970 年代的阿拉伯石油禁運、停滯性通膨、「漂亮五十」股票崩跌與「股票已死」",
+   "audio": "audio/05/en_de6029a0abc58900.mp3",
+   "exampleAudio": "audio/05/en_608148ddc5bb9d5b.mp3"
+  },
+  {
+   "word": "equities",
+   "ipa": "/ˈɛkwətiz/",
+   "meaning": "股票、股權類資產",
+   "example": "“death of equities” of the 1970s",
+   "pos": "noun（複數）",
+   "def": "金融業常用 equities 指股票，意思比 stocks 更正式，也泛指股權投資。",
+   "exzh": "1970 年代的「股票已死」",
+   "audio": "audio/05/en_f9682e45ce1c5e5d.mp3",
+   "exampleAudio": "audio/05/en_359475cef8699d3e.mp3"
+  },
+  {
+   "word": "spike",
+   "ipa": "/spaɪk/",
+   "meaning": "飆升、急劇上升",
+   "example": "the 1994 spike in interest rates that put rate-sensitive debt instruments into freefall",
+   "pos": "noun",
+   "def": "原指尖刺，在圖表上就是突然尖尖向上的一點。a spike in interest rates 是利率突然飆升。",
+   "exzh": "1994 年利率飆升，使對利率敏感的債務工具陷入自由落體般的暴跌",
+   "audio": "audio/05/en_73cc33b96ddcddc9.mp3",
+   "exampleAudio": "audio/05/en_4bf37417e0f8bdc2.mp3"
+  },
+  {
+   "word": "freefall",
+   "ipa": "/ˈfriːˌfɔːl/",
+   "meaning": "自由落體式暴跌",
+   "example": "the 1994 spike in interest rates that put rate-sensitive debt instruments into freefall",
+   "pos": "noun",
+   "def": "原指跳傘時還沒開傘的下墜。in freefall 比喻價格或情勢快速下跌、無法控制。",
+   "exzh": "1994 年利率飆升，使對利率敏感的債務工具陷入自由落體般的暴跌",
+   "audio": "audio/05/en_51c4508199ee4242.mp3",
+   "exampleAudio": "audio/05/en_4bf37417e0f8bdc2.mp3"
+  },
+  {
+   "word": "meltdown",
+   "ipa": "/ˈmɛltˌdaʊn/",
+   "meaning": "崩盤、崩潰",
+   "example": "the emerging market crisis, Russian default and meltdown of Long-Term Capital Management in 1998",
+   "pos": "noun",
+   "def": "原指核反應爐熔毀，比喻機構或市場徹底崩潰。",
+   "exzh": "1998 年的新興市場危機、俄羅斯債務違約，以及長期資本管理公司的崩潰",
+   "audio": "audio/05/en_1a696657e887505a.mp3",
+   "exampleAudio": "audio/05/en_178a3ae7a611045c.mp3"
+  },
+  {
+   "word": "default",
+   "ipa": "/dɪˈfɔːlt/",
+   "meaning": "違約、債務不履行",
+   "example": "the emerging market crisis, Russian default and meltdown of Long-Term Capital Management in 1998",
+   "pos": "noun",
+   "def": "債務人還不出本金或利息。注意，在投資領域不是「預設值」的意思。",
+   "exzh": "1998 年的新興市場危機、俄羅斯債務違約，以及長期資本管理公司的崩潰",
+   "audio": "audio/05/en_7505d64a54e061b7.mp3",
+   "exampleAudio": "audio/05/en_178a3ae7a611045c.mp3"
+  },
+  {
+   "word": "formative",
+   "ipa": "/ˈfɔːrmətɪv/",
+   "meaning": "對人格或思想形成有決定性影響的",
+   "example": "Living through the 1970s was particularly formative, since so many challenges arose.",
+   "pos": "adjective",
+   "def": "formative years 是「成長的關鍵年代」。課文說 1970 年代對作者的投資觀影響很深。",
+   "exzh": "親身經歷 1970 年代對我的養成特別重要，因為當時冒出了那麼多挑戰。",
+   "audio": "audio/05/en_f29be653b955bd3c.mp3",
+   "exampleAudio": "audio/05/en_8998149703ab7524.mp3"
+  },
+  {
+   "word": "virtually",
+   "ipa": "/ˈvɜːrtʃuəli/",
+   "meaning": "幾乎、實質上",
+   "example": "It was virtually impossible to get an investment job during the seventies",
+   "pos": "adverb",
+   "def": "表示「幾乎等於」。virtually impossible 就是「幾乎不可能」，語氣比 almost 正式。",
+   "exzh": "在七〇年代，要找到一份投資工作幾乎是不可能的",
+   "audio": "audio/05/en_5038fbed1ceeb069.mp3",
+   "exampleAudio": "audio/05/en_213763e869b9b871.mp3"
+  },
+  {
+   "word": "roll around",
+   "ipa": "/roʊl əˈraʊnd/",
+   "meaning": "（時間、事件）又來到、到來",
+   "example": "How many of the people who started by the sixties were still working in the late nineties when the tech bubble rolled around?",
+   "pos": "phrasal verb（口語）",
+   "def": "指某個時間點或週期性的事件到來。the tech bubble rolled around 是說「科技泡沫那時又出現了」。",
+   "exzh": "在六〇年代就入行的人，有多少人在九〇年代後期科技泡沫出現時還在工作？",
+   "audio": "audio/05/en_c93f169b3c52e2c7.mp3",
+   "exampleAudio": "audio/05/en_95fe63d158fd9a8d.mp3"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "I like to say, “Experience is what you got when you didn’t get what you wanted.”",
+   "zh": "我常說：「經驗，就是你沒得到想要的東西時，所得到的東西。」",
+   "audio": "audio/05/en_0f0d9452bd86f6ef.mp3",
+   "para": 0
+  },
+  {
+   "en": "Good times teach only bad lessons: that investing is easy, that you know its secrets, and that you needn’t worry about risk.",
+   "zh": "好日子只會教壞功課：以為投資很容易、以為自己懂得其中的祕訣、以為不需要擔心風險。",
+   "audio": "audio/05/en_ab5e68f3f02c9772.mp3",
+   "para": 1
+  },
+  {
+   "en": "The most valuable lessons are learned in tough times.",
+   "zh": "最有價值的教訓，是在艱困時期學到的。",
+   "audio": "audio/05/en_6bb9cd7fefc508fb.mp3",
+   "para": 1
+  },
+  {
+   "en": "In that sense, I’ve been “fortunate” to have lived through some doozies: the Arab oil embargo, stagflation, Nifty Fifty stock collapse and “death of equities” of the 1970s; Black Monday in 1987, when the Dow Jones Industrial Index lost 22.6 percent of its value in one day; the 1994 spike in interest rates that put rate-sensitive debt instruments into freefall; the emerging market crisis, Russian default and meltdown of Long-Term Capital Management in 1998; the bursting of the tech-stock bubble in 2000–2001; the accounting scandals of 2001–2002; and the worldwide financial crisis of 2007–2008.",
+   "zh": "就這層意義而言，我「幸運地」親身經歷過一些非常慘烈的事件：1970 年代的阿拉伯石油禁運、停滯性通膨、「漂亮五十」股票崩跌與「股票已死」；1987 年的黑色星期一，道瓊工業指數一天內蒸發了 22.6% 的價值；1994 年利率飆升，使對利率敏感的債務工具陷入自由落體般的暴跌；1998 年的新興市場危機、俄羅斯債務違約，以及長期資本管理公司的崩潰；2000 至 2001 年科技股泡沫破滅；2001 至 2002 年的會計醜聞；以及 2007 至 2008 年的全球金融危機。",
+   "audio": "audio/05/en_1c6b8729d06b0218.mp3",
+   "para": 1
+  },
+  {
+   "en": "Living through the 1970s was particularly formative, since so many challenges arose.",
+   "zh": "親身經歷 1970 年代對我的養成特別重要，因為當時冒出了那麼多挑戰。",
+   "audio": "audio/05/en_8998149703ab7524.mp3",
+   "para": 2
+  },
+  {
+   "en": "It was virtually impossible to get an investment job during the seventies, meaning that in order to have experienced that decade, you had to have gotten your job before it started.",
+   "zh": "七〇年代幾乎不可能找到投資工作，也就是說，想經歷那個年代，你必須在它開始之前就已經入行。",
+   "audio": "audio/05/en_41531ccdaf7312f0.mp3",
+   "para": 2
+  },
+  {
+   "en": "How many of the people who started by the sixties were still working in the late nineties when the tech bubble rolled around?",
+   "zh": "在六〇年代就入行的人，有多少人在九〇年代後期科技泡沫出現時還在工作？",
+   "audio": "audio/05/en_95fe63d158fd9a8d.mp3",
+   "para": 2
+  },
+  {
+   "en": "Not many.",
+   "zh": "不多。",
+   "audio": "audio/05/en_05df25c3d354c923.mp3",
+   "para": 2
+  },
+  {
+   "en": "Most professional investors had joined the industry in the eighties or nineties and didn’t know a market decline could exceed 5 percent, the greatest drop seen between 1982 and 1999.",
+   "zh": "大多數專業投資人是在八〇或九〇年代才進入這一行，他們不知道市場跌幅可能超過 5%，因為 1982 到 1999 年間最大的跌幅就是 5%。",
+   "audio": "audio/05/en_ac36a5992e41cfd0.mp3",
+   "para": 2
+  }
+ ],
+ "grammar": [
+  {
+   "point": "what 名詞子句當補語，雙重 get",
+   "quote": "Experience is what you got when you didn’t get what you wanted.",
+   "explain": "what you got 是名詞子句，作 is 的補語，意思是「你所得到的東西」；what you wanted 也是名詞子句，作第二個 get 的受詞。\n兩個 get 意思不同：got 是「得到（經驗）」，didn’t get 是「沒如願得到」。整句是個文字遊戲，意思是：沒得到想要的結果，得到的就是經驗。",
+   "quoteAudio": "audio/05/en_56a5582b20525b63.mp3"
+  },
+  {
+   "point": "meaning that：用分詞片語補充說明結果",
+   "quote": "It was virtually impossible to get an investment job during the seventies, meaning that in order to have experienced that decade, you had to have gotten your job before it started.",
+   "explain": "meaning that … 是分詞構句，補充說明前面整句的含意，相當於 which means that…。\n後面 had to have gotten 是「必須是已經取得」：had to ＋ have ＋ 過去分詞，表示在那個時間點之前，事情必須已經完成。",
+   "quoteAudio": "audio/05/en_41531ccdaf7312f0.mp3"
+  }
+ ]
+}

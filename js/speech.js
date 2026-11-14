@@ -1,6 +1,6 @@
-/* 英文語音：預錄 Microsoft 神經語音（en-US-JennyNeural）mp3。對照表 window.UNIT_C（字串→檔案路徑）由 weekNN-audio.js 提供。
+/* 英文語音：預錄 Microsoft 神經語音（en-US-JennyNeural）mp3，放在 audio/NN/。對照表 window.UNIT_C（字串→audio/NN/en_xxxx.mp3）由 js/lesson.js 載入 lessons/lesson-NN.json 後組出。
    TTS.play(text, rate) → Promise<秒數>；被中斷回傳 null。TTS.cancel() 中斷；TTS.sess() 目前世代。
-   同一個 <audio> 重複使用（手機在回音法間隔後，新的 Audio() 可能被自動播放政策擋住，導致只聽到第一段）。
+   同一個 <audio> 重複使用（手機在回音法間隔後，新的 Audio() 可能被自動播放政策擋住，導致只聽到第一段）；TTS.unlock() 必須在使用者手勢時呼叫。
    rate 用 Audio.playbackRate（preservesPitch）。找不到音檔才退回 speechSynthesis，並在 console 警告。 */
 (function(){
 const syn=window.speechSynthesis;let sess=0,pend=null,clip=0,cur=null,shared=null;const C=()=>window.UNIT_C||{};

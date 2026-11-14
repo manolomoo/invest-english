@@ -1,0 +1,224 @@
+{
+ "id": "06",
+ "title": "良師與把想法做出來",
+ "n": 6,
+ "en": "Teachers, and Putting Ideas into Action",
+ "chapter": "導言 Introduction",
+ "pdf": "15–16",
+ "vocab": [
+  {
+   "word": "merit",
+   "ipa": "/ˈmɛrɪt/",
+   "meaning": "值得、應得",
+   "example": "you can learn from people whose ideas merit publishing.",
+   "pos": "verb",
+   "def": "這裡是動詞：ideas that merit publishing 是「值得出版的想法」。merit 也常當名詞，指優點、價值。",
+   "exzh": "你可以向那些想法值得出版的人學習。",
+   "audio": "audio/06/en_ffc3f191eae05480.mp3",
+   "exampleAudio": "audio/06/en_a6ed0d06842e459a.mp3"
+  },
+  {
+   "word": "shape",
+   "ipa": "/ʃeɪp/",
+   "meaning": "形塑、影響",
+   "example": "Each did a great deal to shape my thinking.",
+   "pos": "verb",
+   "def": "shape one’s thinking 是「塑造一個人的思維」，比 influence 更強調成形的過程。",
+   "exzh": "每一位都對形塑我的思維貢獻很大。",
+   "audio": "audio/06/en_5080fd62c27826c4.mp3",
+   "exampleAudio": "audio/06/en_0726c175e69957fd.mp3"
+  },
+  {
+   "word": "outstanding",
+   "ipa": "/aʊtˈstændɪŋ/",
+   "meaning": "傑出的",
+   "example": "I’ve been extremely fortunate to learn directly from some outstanding thinkers",
+   "pos": "adjective",
+   "def": "在同類中特別突出。注意：在財務裡 outstanding 也可指「未償付的」，要看上下文。",
+   "exzh": "我極為幸運，能直接向一些傑出的思想家學習",
+   "audio": "audio/06/en_b5efd4907162b84b.mp3",
+   "exampleAudio": "audio/06/en_cb0b05ca8df45597.mp3"
+  },
+  {
+   "word": "foible",
+   "ipa": "/ˈfɔɪbəl/",
+   "meaning": "（性格上的）小缺點、弱點",
+   "example": "John Kenneth Galbraith on human foibles",
+   "pos": "noun",
+   "def": "不嚴重、卻很人性的弱點。human foibles 指人類常犯的毛病，如貪婪、從眾、盲目樂觀。",
+   "exzh": "約翰・肯尼斯・高伯瑞教我的是人性的弱點",
+   "audio": "audio/06/en_02731e53e4857d45.mp3",
+   "exampleAudio": "audio/06/en_8ad42415ffb3a06a.mp3"
+  },
+  {
+   "word": "contrarianism",
+   "ipa": "/kənˈtrɛriəˌnɪzəm/",
+   "meaning": "逆向思考、反向操作",
+   "example": "Warren Buffett on patience and contrarianism",
+   "pos": "noun",
+   "def": "contrarian 是「與大多數人相反的人」。在投資上，指大家賣時買、大家買時賣的態度。",
+   "exzh": "華倫・巴菲特教我的是耐心與逆向思考",
+   "audio": "audio/06/en_aadfa160e173178c.mp3",
+   "exampleAudio": "audio/06/en_3c580074d1d5c012.mp3"
+  },
+  {
+   "word": "risk bearing",
+   "ipa": "/rɪsk ˈbɛrɪŋ/",
+   "meaning": "承擔風險",
+   "example": "Michael Milken on conscious risk bearing",
+   "pos": "noun",
+   "def": "bear 是「承擔」，bearing 在這裡是動名詞，不是「方向、軸承」。conscious risk bearing 是有意識地、知道自己在冒什麼險而去承擔它。",
+   "exzh": "麥可・米爾肯教我的是有意識地承擔風險",
+   "audio": "audio/06/en_bdf0319cc25b2da2.mp3",
+   "exampleAudio": "audio/06/en_2ddd94b28312f629.mp3"
+  },
+  {
+   "word": "trap",
+   "ipa": "/træp/",
+   "meaning": "陷阱（此處為正面意義的「設局」）",
+   "example": "Ric Kayne on setting “traps” (underrated investment opportunities where you can make a lot but can’t lose a lot)",
+   "pos": "noun",
+   "def": "作者用引號強調特殊用法：Kayne 的 trap 是自己設下的局，只要走對，賺得多、賠得少。",
+   "exzh": "瑞克・凱恩教我設下「陷阱」（被低估的投資機會，你可能賺很多，卻不會賠很多）",
+   "audio": "audio/06/en_e6d307367af53829.mp3",
+   "exampleAudio": "audio/06/en_4c8e18c70393a927.mp3"
+  },
+  {
+   "word": "underrated",
+   "ipa": "/ˌʌndərˈreɪtɪd/",
+   "meaning": "被低估的",
+   "example": "underrated investment opportunities where you can make a lot but can’t lose a lot",
+   "pos": "adjective",
+   "def": "價值被別人看輕了。相反詞是 overrated（被高估的），第二層思考裡這兩個字很常見。",
+   "exzh": "被低估的投資機會，你可能賺很多，卻不會賠很多",
+   "audio": "audio/06/en_384c7a7eecb93c79.mp3",
+   "exampleAudio": "audio/06/en_d13cbc92f302026c.mp3"
+  },
+  {
+   "word": "benefit from",
+   "ipa": "/ˈbɛnəfɪt frʌm/",
+   "meaning": "從…中受益",
+   "example": "I’ve also benefited from my association with Peter Bernstein, Seth Klarman, Jack Bogle, Jacob Rothschild, Jeremy Grantham, Joel Greenblatt, Tony Pace, Orin Kramer, Jim Grant and Doug Kass.",
+   "pos": "phrasal verb",
+   "def": "I’ve also benefited from my association with… 是「我也因為與…的交往而獲益」。",
+   "exzh": "我也因為與彼得・伯恩斯坦、賽斯・卡拉曼、傑克・柏格、雅各布・羅斯柴爾德、傑瑞米・葛蘭桑、喬爾・葛林布萊特、東尼・佩斯、奧林・克萊默、吉姆・格蘭特和道格・卡斯的交往而受益。",
+   "audio": "audio/06/en_0cdd65399bbc9095.mp3",
+   "exampleAudio": "audio/06/en_128a676aa59ca4fa.mp3"
+  },
+  {
+   "word": "there are lots of ways to skin the cat",
+   "ipa": "/ðɛr ɑːr lɑːts ʌv weɪz tuː skɪn ðə kæt/",
+   "meaning": "達成目標的方法不只一種",
+   "example": "It’s not the only right one—there are lots of ways to skin the cat—but it’s right for us.",
+   "pos": "idiom",
+   "def": "直譯是「剝貓皮的方法有很多種」，其實指條條大路通羅馬。這個說法有點粗，但在美式英文很常見。",
+   "exzh": "它不是唯一正確的做法——達成目標的方法有很多種——但它適合我們。",
+   "audio": "audio/06/en_5ff0253a57efb94b.mp3",
+   "exampleAudio": "audio/06/en_ffcceb34246c537e.mp3"
+  },
+  {
+   "word": "hasten to",
+   "ipa": "/ˈheɪsən tuː/",
+   "meaning": "急忙（補充說明）",
+   "example": "I hasten to point out that my philosophy wouldn’t have meant much without skilled implementation",
+   "pos": "verb phrase",
+   "def": "I hasten to point out 是常見的客氣說法，意思是「我得趕緊說明一下」，避免讀者誤會。",
+   "exzh": "我要趕緊說明，如果沒有熟練的執行，我的哲學就不會有太大意義",
+   "audio": "audio/06/en_6155b04af20f9d41.mp3",
+   "exampleAudio": "audio/06/en_0c4063e1fe536f9a.mp3"
+  },
+  {
+   "word": "implementation",
+   "ipa": "/ˌɪmpləmɛnˈteɪʃən/",
+   "meaning": "執行、落實",
+   "example": "no idea can be any better than the action taken on it",
+   "pos": "noun",
+   "def": "把想法真正做出來。作者強調：想法再好，沒有行動也沒有價值。",
+   "exzh": "再好的想法，也不會比根據它採取的行動更好",
+   "audio": "audio/06/en_797efd83f8c15dee.mp3",
+   "exampleAudio": "audio/06/en_f740ae5b2c62b994.mp3"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "If you read widely, you can learn from people whose ideas merit publishing.",
+   "zh": "如果你廣泛閱讀，就能向那些想法值得出版的人學習。",
+   "audio": "audio/06/en_7ca6a3975eaeec20.mp3",
+   "para": 0
+  },
+  {
+   "en": "Some of the most important for me were Charley Ellis’s great article “The Loser’s Game” (The Financial Analysts Journal, July-August 1975), A Short History of Financial Euphoria, by John Kenneth Galbraith (New York: Viking, 1990) and Nassim Nicholas Taleb’s Fooled by Randomness (New York: Texere, 2001).",
+   "zh": "對我最重要的幾位，包括查理・艾利斯那篇很棒的文章〈輸家的遊戲〉（《財務分析師期刊》，1975 年 7–8 月號）、約翰・肯尼斯・高伯瑞的《金融狂熱簡史》（紐約：Viking，1990 年），以及納西姆・尼可拉斯・塔雷伯的《隨機騙局》（紐約：Texere，2001 年）。",
+   "audio": "audio/06/en_b0c71efbbb3ebed2.mp3",
+   "para": 0
+  },
+  {
+   "en": "Each did a great deal to shape my thinking.",
+   "zh": "每一位都對形塑我的思維貢獻很大。",
+   "audio": "audio/06/en_0726c175e69957fd.mp3",
+   "para": 0
+  },
+  {
+   "en": "Finally, I’ve been extremely fortunate to learn directly from some outstanding thinkers: John Kenneth Galbraith on human foibles; Warren Buffett on patience and contrarianism; Charlie Munger on the importance of reasonable expectations; Bruce Newberg on “probability and outcome”; Michael Milken on conscious risk bearing; and Ric Kayne on setting “traps” (underrated investment opportunities where you can make a lot but can’t lose a lot).",
+   "zh": "最後，我極為幸運，能直接向一些傑出的思想家學習：約翰・肯尼斯・高伯瑞教我的是人性的弱點；華倫・巴菲特教我的是耐心與逆向思考；查理・蒙格教我的是合理期望的重要性；布魯斯・紐伯格教我的是「機率與結果」；麥可・米爾肯教我的是有意識地承擔風險；瑞克・凱恩教我設下「陷阱」（被低估的投資機會，你可能賺很多，卻不會賠很多）。",
+   "audio": "audio/06/en_3af460b9634186dd.mp3",
+   "para": 1
+  },
+  {
+   "en": "I’ve also benefited from my association with Peter Bernstein, Seth Klarman, Jack Bogle, Jacob Rothschild, Jeremy Grantham, Joel Greenblatt, Tony Pace, Orin Kramer, Jim Grant and Doug Kass.",
+   "zh": "我也因為與彼得・伯恩斯坦、賽斯・卡拉曼、傑克・柏格、雅各布・羅斯柴爾德、傑瑞米・葛蘭桑、喬爾・葛林布萊特、東尼・佩斯、奧林・克萊默、吉姆・格蘭特和道格・卡斯的交往而受益。",
+   "audio": "audio/06/en_128a676aa59ca4fa.mp3",
+   "para": 1
+  },
+  {
+   "en": "The happy truth is that I was exposed to all of these elements and aware enough to combine them into the investment philosophy that has worked for my organizations—and thus for my clients—for many years.",
+   "zh": "令人開心的事實是，我接觸過所有這些要素，也夠敏銳，能把它們結合成一套投資哲學，而這套哲學多年來對我的公司、也因此對我的客戶都行之有效。",
+   "audio": "audio/06/en_33d6a08842e6a72d.mp3",
+   "para": 2
+  },
+  {
+   "en": "It’s not the only right one—there are lots of ways to skin the cat—but it’s right for us.",
+   "zh": "它不是唯一正確的哲學——達成目標的方法有很多種——但它適合我們。",
+   "audio": "audio/06/en_ffcceb34246c537e.mp3",
+   "para": 2
+  },
+  {
+   "en": "I hasten to point out that my philosophy wouldn’t have meant much without skilled implementation on the part of my incredible Oaktree cofounders—Bruce Karsh, Sheldon Stone, Larry Keele, Richard Masson and Steve Kaplan—with whom I was fortunate to team up between 1983 and 1993.",
+   "zh": "我要趕緊說明，如果沒有我那些了不起的橡樹資本共同創辦人熟練的執行，我的哲學不會有太大意義——他們是布魯斯・卡什、謝爾登・斯通、賴瑞・基利、理查・馬森和史蒂夫・卡普蘭，我很幸運在 1983 到 1993 年間與他們合作。",
+   "audio": "audio/06/en_5de5b1e44a36d843.mp3",
+   "para": 3
+  },
+  {
+   "en": "I’m convinced that no idea can be any better than the action taken on it, and that’s especially true in the world of investing.",
+   "zh": "我深信，再好的想法，也不會比根據它採取的行動更好，這在投資的世界裡尤其真實。",
+   "audio": "audio/06/en_c38bbf835fc17ca5.mp3",
+   "para": 3
+  },
+  {
+   "en": "The philosophy I share here wouldn’t have attracted attention were it not for the accomplishments of these partners and the rest of my Oaktree colleagues.",
+   "zh": "如果不是這些夥伴和橡樹資本其他同事的成就，我在這裡分享的哲學就不會受到關注。",
+   "audio": "audio/06/en_f436a40b75312486.mp3",
+   "para": 3
+  }
+ ],
+ "grammar": [
+  {
+   "point": "whose：所有格關係代名詞",
+   "quote": "If you read widely, you can learn from people whose ideas merit publishing.",
+   "explain": "whose ideas merit publishing 修飾 people，whose 代表 people’s，所以是「那些其想法值得出版的人」。\nmerit 後面接動名詞 publishing，意思是「值得被出版」，這是 merit 少見的動詞用法，和 deserve 類似。",
+   "quoteAudio": "audio/06/en_7ca6a3975eaeec20.mp3"
+  },
+  {
+   "point": "with whom：介系詞＋關代，連接前面的人",
+   "quote": "I hasten to point out that my philosophy wouldn’t have meant much without skilled implementation on the part of my incredible Oaktree cofounders—Bruce Karsh, Sheldon Stone, Larry Keele, Richard Masson and Steve Kaplan—with whom I was fortunate to team up between 1983 and 1993.",
+   "explain": "with whom I was fortunate to team up 修飾前面的 cofounders，等於 I was fortunate to team up with them。因為 team up with 的介系詞 with 被提前，所以關代用 whom。\n兩條破折號之間是同位語，列出這些人的名字，閱讀時可以先略過。wouldn’t have meant much 是和過去事實相反的假設，省略了 if 子句。",
+   "quoteAudio": "audio/06/en_5de5b1e44a36d843.mp3"
+  },
+  {
+   "point": "were it not for：省略 if 的倒裝假設",
+   "quote": "The philosophy I share here wouldn’t have attracted attention were it not for the accomplishments of these partners and the rest of my Oaktree colleagues.",
+   "explain": "were it not for X 等於 if it were not for X，「若不是因為 X」。省略 if 之後，把 were 提到主詞前面。\n這句因為主要子句用 wouldn’t have attracted，所以是過去式的假設：若不是這些夥伴的成就，這套哲學當時就不會受到注意。",
+   "quoteAudio": "audio/06/en_f436a40b75312486.mp3"
+  }
+ ]
+}

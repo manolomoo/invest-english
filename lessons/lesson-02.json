@@ -1,0 +1,249 @@
+{
+ "id": "02",
+ "title": "這不是操作手冊",
+ "n": 2,
+ "en": "This Is Not a How-To Manual",
+ "chapter": "導言 Introduction",
+ "pdf": "12",
+ "vocab": [
+  {
+   "word": "set out to",
+   "ipa": "/sɛt aʊt tuː/",
+   "meaning": "著手、打算（做某事）",
+   "example": "I didn’t set out to write a manual for investing.",
+   "pos": "phrasal verb",
+   "def": "set out to do 表示一開始就有的目標或打算。課文用否定：我並不是一開始就打算寫操作手冊。",
+   "exzh": "我並不是一開始就打算寫一本投資操作手冊。",
+   "audio": "audio/02/en_f98ee0ef3dd137f6.mp3",
+   "exampleAudio": "audio/02/en_74d584de48d0a85b.mp3"
+  },
+  {
+   "word": "creed",
+   "ipa": "/kriːd/",
+   "meaning": "信條、信念",
+   "example": "I consider it my creed, and in the course of my investing career it has served like a religion.",
+   "pos": "noun",
+   "def": "一個人所堅信、用來指引行為的原則，帶有宗教色彩。所以後面接著說它「像宗教一樣」。",
+   "exzh": "我把它當作我的信條，在我的投資生涯中，它就像一種宗教。",
+   "audio": "audio/02/en_ddbbf6166888b293.mp3",
+   "exampleAudio": "audio/02/en_1112d00a7c2c148e.mp3"
+  },
+  {
+   "word": "guidepost",
+   "ipa": "/ˈɡaɪdˌpoʊst/",
+   "meaning": "路標、指標",
+   "example": "These are the things I believe in, the guideposts that keep me on track.",
+   "pos": "noun",
+   "def": "原指路旁的指示牌，比喻為判斷與行動提供方向的原則。",
+   "exzh": "這些是我所相信的事，是讓我不偏離軌道的路標。",
+   "audio": "audio/02/en_2ac96ae1995fb7dd.mp3",
+   "exampleAudio": "audio/02/en_78fe0050e3d0e29d.mp3"
+  },
+  {
+   "word": "on track",
+   "ipa": "/ɑːn træk/",
+   "meaning": "在正軌上",
+   "example": "the guideposts that keep me on track",
+   "pos": "phrase",
+   "def": "keep someone on track 是「讓某人不偏離正軌」。投資人常受情緒干擾，原則就是用來維持方向的。",
+   "exzh": "讓我不偏離軌道的路標",
+   "audio": "audio/02/en_464e4361f38b5e9f.mp3",
+   "exampleAudio": "audio/02/en_4a044251dc50f610.mp3"
+  },
+  {
+   "word": "surefire",
+   "ipa": "/ˈʃʊrˌfaɪr/",
+   "meaning": "萬無一失的、一定奏效的",
+   "example": "There’s no surefire recipe for investment success.",
+   "pos": "adjective",
+   "def": "表示「一定會成功」。作者要強調：投資沒有這種東西。",
+   "exzh": "投資成功沒有萬無一失的配方。",
+   "audio": "audio/02/en_5541379002f6c351.mp3",
+   "exampleAudio": "audio/02/en_1feecde1cc171549.mp3"
+  },
+  {
+   "word": "valuation",
+   "ipa": "/ˌvæljuˈeɪʃən/",
+   "meaning": "估值、評價",
+   "example": "No valuation formulas containing mathematical constants or fixed ratios—in fact, very few numbers.",
+   "pos": "noun",
+   "def": "替一家公司或一項資產估算它值多少錢。valuation formulas 就是各種估值公式。",
+   "exzh": "沒有包含數學常數或固定比率的估值公式——事實上，數字少之又少。",
+   "audio": "audio/02/en_f3d12387335fee97.mp3",
+   "exampleAudio": "audio/02/en_defb24c8249e62e5.mp3"
+  },
+  {
+   "word": "pitfall",
+   "ipa": "/ˈpɪtˌfɔːl/",
+   "meaning": "陷阱、隱藏的危險",
+   "example": "avoid the pitfalls that ensnare so many",
+   "pos": "noun",
+   "def": "原意是「陷阱坑洞」，比喻不容易察覺、容易栽進去的錯誤。",
+   "exzh": "避開那些困住許多人的陷阱",
+   "audio": "audio/02/en_e94748a91db6f9d3.mp3",
+   "exampleAudio": "audio/02/en_79a992351e5cb826.mp3"
+  },
+  {
+   "word": "ensnare",
+   "ipa": "/ɪnˈsnɛr/",
+   "meaning": "使陷入圈套、困住",
+   "example": "Just a way to think that might help you make good decisions and, perhaps more important, avoid the pitfalls that ensnare so many.",
+   "pos": "verb",
+   "def": "snare 是捕獸的圈套，ensnare 就是把人或動物套住。這裡的主詞是 pitfalls。",
+   "exzh": "只是一種思考方式，也許能幫助你做出好的決定，而且或許更重要的是，避開那些困住許多人的陷阱。",
+   "audio": "audio/02/en_01d1baa24537c715.mp3",
+   "exampleAudio": "audio/02/en_386649bacb7b4f73.mp3"
+  },
+  {
+   "word": "disservice",
+   "ipa": "/dɪsˈsɜːrvɪs/",
+   "meaning": "傷害、幫倒忙",
+   "example": "Those who try to simplify investing do their audience a great disservice.",
+   "pos": "noun",
+   "def": "do someone a disservice 是「對某人做了壞事或幫了倒忙」，常指好意卻造成壞結果。",
+   "exzh": "那些想把投資簡化的人，是在對讀者幫倒忙。",
+   "audio": "audio/02/en_b115fcca44404afb.mp3",
+   "exampleAudio": "audio/02/en_71c4bb2f4a67274c.mp3"
+  },
+  {
+   "word": "stick to",
+   "ipa": "/stɪk tuː/",
+   "meaning": "堅持、只談（某範圍）",
+   "example": "I’m going to stick to general thoughts on return, risk and process",
+   "pos": "phrasal verb",
+   "def": "stick to general thoughts 是「只談一般性的想法」，不離開這個範圍。",
+   "exzh": "我打算只談關於報酬、風險和流程的一般性想法",
+   "audio": "audio/02/en_19ead2a1dfb89960.mp3",
+   "exampleAudio": "audio/02/en_fb92dea9a1825b14.mp3"
+  },
+  {
+   "word": "asset class",
+   "ipa": "/ˈæsɛt klæs/",
+   "meaning": "資產類別",
+   "example": "any time I discuss specific asset classes and tactics, I do so only to illustrate my points.",
+   "pos": "noun",
+   "def": "性質相近的一類投資標的，例如股票、債券、不動產。",
+   "exzh": "每當我談到特定的資產類別和操作策略，都只是為了說明我的論點。",
+   "audio": "audio/02/en_844c796029547981.mp3",
+   "exampleAudio": "audio/02/en_535572531daf551b.mp3"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "I didn’t set out to write a manual for investing.",
+   "zh": "我並不是一開始就打算寫一本投資操作手冊。",
+   "audio": "audio/02/en_74d584de48d0a85b.mp3",
+   "para": 0
+  },
+  {
+   "en": "Rather, this book is a statement of my investment philosophy.",
+   "zh": "這本書其實是我投資哲學的陳述。",
+   "audio": "audio/02/en_e15c6f7eeb2672fd.mp3",
+   "para": 0
+  },
+  {
+   "en": "I consider it my creed, and in the course of my investing career it has served like a religion.",
+   "zh": "我把它當作我的信條，在我的投資生涯中，它就像一種宗教。",
+   "audio": "audio/02/en_1112d00a7c2c148e.mp3",
+   "para": 0
+  },
+  {
+   "en": "These are the things I believe in, the guideposts that keep me on track.",
+   "zh": "這些是我所相信的事，是讓我不偏離軌道的路標。",
+   "audio": "audio/02/en_78fe0050e3d0e29d.mp3",
+   "para": 0
+  },
+  {
+   "en": "The messages I deliver are the ones I consider the most lasting.",
+   "zh": "我傳達的訊息，是我認為最能長久流傳的那些。",
+   "audio": "audio/02/en_56871f29e3b80ff1.mp3",
+   "para": 0
+  },
+  {
+   "en": "I’m confident their relevance will extend beyond today.",
+   "zh": "我有信心，它們的意義不會只限於今天。",
+   "audio": "audio/02/en_36398b946ee87793.mp3",
+   "para": 0
+  },
+  {
+   "en": "You won’t find a how-to book here.",
+   "zh": "你在這裡找不到操作手冊。",
+   "audio": "audio/02/en_87c45b4c08ea0b56.mp3",
+   "para": 1
+  },
+  {
+   "en": "There’s no surefire recipe for investment success.",
+   "zh": "投資成功沒有萬無一失的配方。",
+   "audio": "audio/02/en_1feecde1cc171549.mp3",
+   "para": 1
+  },
+  {
+   "en": "No step-by-step instructions.",
+   "zh": "沒有一步一步的指示。",
+   "audio": "audio/02/en_bf5b51d12a94490a.mp3",
+   "para": 1
+  },
+  {
+   "en": "No valuation formulas containing mathematical constants or fixed ratios—in fact, very few numbers.",
+   "zh": "沒有包含數學常數或固定比率的估值公式——事實上，數字少之又少。",
+   "audio": "audio/02/en_defb24c8249e62e5.mp3",
+   "para": 1
+  },
+  {
+   "en": "Just a way to think that might help you make good decisions and, perhaps more important, avoid the pitfalls that ensnare so many.",
+   "zh": "只是一種思考方式，也許能幫助你做出好的決定，而且或許更重要的是，避開那些困住許多人的陷阱。",
+   "audio": "audio/02/en_386649bacb7b4f73.mp3",
+   "para": 1
+  },
+  {
+   "en": "It’s not my goal to simplify the act of investing.",
+   "zh": "我的目標並不是把投資這件事簡單化。",
+   "audio": "audio/02/en_36ab4ea87c83b5a7.mp3",
+   "para": 2
+  },
+  {
+   "en": "In fact, the thing I most want to make clear is just how complex it is.",
+   "zh": "事實上，我最想講清楚的，正是投資有多複雜。",
+   "audio": "audio/02/en_b153c76547ec98b2.mp3",
+   "para": 2
+  },
+  {
+   "en": "Those who try to simplify investing do their audience a great disservice.",
+   "zh": "那些想把投資簡化的人，是在對讀者幫倒忙。",
+   "audio": "audio/02/en_71c4bb2f4a67274c.mp3",
+   "para": 2
+  },
+  {
+   "en": "I’m going to stick to general thoughts on return, risk and process;",
+   "zh": "我打算只談關於報酬、風險和流程的一般性想法；",
+   "audio": "audio/02/en_c22a815c9f086300.mp3",
+   "para": 2
+  },
+  {
+   "en": "any time I discuss specific asset classes and tactics, I do so only to illustrate my points.",
+   "zh": "每當我談到特定的資產類別和操作策略，都只是為了說明我的論點。",
+   "audio": "audio/02/en_535572531daf551b.mp3",
+   "para": 2
+  }
+ ],
+ "grammar": [
+  {
+   "point": "承前省略：只剩名詞片語的句子",
+   "quote": "No step-by-step instructions.",
+   "explain": "這不是完整句子，而是承接上一句 There’s no surefire recipe 省略了 There are。\n英文作者想營造節奏感時，常把重複的「There is／are」省掉，只留名詞片語。下一句 No valuation formulas… 也是同樣的寫法。",
+   "quoteAudio": "audio/02/en_bf5b51d12a94490a.mp3"
+  },
+  {
+   "point": "省略關係代名詞：the ones I consider…",
+   "quote": "The messages I deliver are the ones I consider the most lasting.",
+   "explain": "the messages I deliver 是 the messages that I deliver 省略了 that；the ones I consider the most lasting 是 the ones that I consider … 省略 that。\nconsider ＋ 受詞 ＋ 補語（the most lasting）表示「認為某物是…」。讀到名詞後面直接接「主詞＋動詞」，就知道省略了關係代名詞。",
+   "quoteAudio": "audio/02/en_56871f29e3b80ff1.mp3"
+  },
+  {
+   "point": "the thing … is just how …：關係子句＋名詞子句",
+   "quote": "In fact, the thing I most want to make clear is just how complex it is.",
+   "explain": "主詞是 the thing I most want to make clear（我最想講清楚的事，省略了 that），動詞是 is，補語是 how complex it is 這個名詞子句。\n注意 how complex it is 的語序是「主詞＋動詞」，不是疑問句的倒裝。這種結構可以拆成：我最想說的是／投資有多複雜。",
+   "quoteAudio": "audio/02/en_b153c76547ec98b2.mp3"
+  }
+ ]
+}

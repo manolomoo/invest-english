@@ -1,0 +1,242 @@
+{
+ "id": "04",
+ "title": "投資哲學從哪裡來",
+ "n": 4,
+ "en": "Where an Investment Philosophy Comes From",
+ "chapter": "導言 Introduction",
+ "pdf": "13–14",
+ "vocab": [
+  {
+   "word": "what makes something tick",
+   "ipa": "/wʌt meɪks ˈsʌmθɪŋ tɪk/",
+   "meaning": "（某人或某事物）運作的原理、到底憑什麼",
+   "example": "When potential clients want to understand what makes Oaktree tick, their number one question is usually some variation on “What have been the keys to your success?”",
+   "pos": "idiom",
+   "def": "tick 原指鐘錶滴答運轉。what makes X tick 是問「X 內部是靠什麼運作的」，常用來問一個人或一家公司的核心特質。",
+   "exzh": "當潛在客戶想了解橡樹資本是怎麼運作的，他們的第一個問題通常是「你們成功的關鍵是什麼？」之類的變形。",
+   "audio": "audio/04/en_df654f8cbc6bd32c.mp3",
+   "exampleAudio": "audio/04/en_af9ea55855a5ead8.mp3"
+  },
+  {
+   "word": "hone",
+   "ipa": "/hoʊn/",
+   "meaning": "磨練、精進",
+   "example": "developed and honed over more than four decades",
+   "pos": "verb",
+   "def": "原意是把刀磨利，比喻長期打磨某種能力或想法，使它更精準。",
+   "exzh": "歷經四十多年發展並磨練而成",
+   "audio": "audio/04/en_c5057d0d475a8167.mp3",
+   "exampleAudio": "audio/04/en_af50a1a94dc91bf2.mp3"
+  },
+  {
+   "word": "conscientiously",
+   "ipa": "/ˌkɑːnʃiˈɛnʃəsli/",
+   "meaning": "認真負責地、一絲不苟地",
+   "example": "implemented conscientiously by highly skilled individuals who share culture and values",
+   "pos": "adverb",
+   "def": "形容人做事謹慎、有責任感，不馬虎。字尾 -iously 的拼法很容易寫錯。",
+   "exzh": "由具備高度專業、擁有共同文化與價值觀的人認真執行",
+   "audio": "audio/04/en_534ba4535c41f714.mp3",
+   "exampleAudio": "audio/04/en_2053772bcc7b2a42.mp3"
+  },
+  {
+   "word": "accumulate",
+   "ipa": "/əˈkjuːmjəˌleɪt/",
+   "meaning": "累積",
+   "example": "A philosophy has to be the sum of many ideas accumulated over a long period of time from a variety of sources.",
+   "pos": "verb",
+   "def": "一點一點地積聚起來。課文用過去分詞 accumulated 當後置修飾：「經長時間累積而來的」。",
+   "exzh": "哲學必須是許多想法的總和，是從各種來源、歷經長時間累積而成的。",
+   "audio": "audio/04/en_da612b00046cfa57.mp3",
+   "exampleAudio": "audio/04/en_fcf1c42187e997c4.mp3"
+  },
+  {
+   "word": "be exposed to",
+   "ipa": "/bi ɪkˈspoʊzd tuː/",
+   "meaning": "接觸到、經歷過",
+   "example": "One cannot develop an effective philosophy without having been exposed to life’s lessons.",
+   "pos": "phrase",
+   "def": "不是「暴露」的負面意思，而是「有機會接觸、見識到」。後面可接經驗、思想或教訓。",
+   "exzh": "一個人若沒有接觸過人生的教訓，就無法形成有效的哲學。",
+   "audio": "audio/04/en_651fa0c65671a87e.mp3",
+   "exampleAudio": "audio/04/en_ee31fca0803a9dfe.mp3"
+  },
+  {
+   "word": "nuts-and-bolts",
+   "ipa": "/ˌnʌts ən ˈboʊlts/",
+   "meaning": "實務的、基本操作層面的",
+   "example": "nuts-and-bolts and qualitative instruction in the pre-theory days of my undergraduate education at Wharton",
+   "pos": "adjective",
+   "def": "螺帽與螺栓，比喻最實際、最具體的細節。與後面的 theoretical（理論的）形成對比。",
+   "exzh": "在我就讀華頓商學院大學部那個理論尚未盛行的年代，實務與定性的教學",
+   "audio": "audio/04/en_bf6c54aad84291b1.mp3",
+   "exampleAudio": "audio/04/en_b56405bf4b480d9c.mp3"
+  },
+  {
+   "word": "quantitative",
+   "ipa": "/ˈkwɑːntəˌteɪtɪv/",
+   "meaning": "定量的、數量分析的",
+   "example": "a theoretical, quantitative education at the Graduate School of Business of the University of Chicago",
+   "pos": "adjective",
+   "def": "以數字與統計來分析。與 qualitative（定性的，重視性質與判斷）相對。",
+   "exzh": "在芝加哥大學商學研究所所受的理論性、量化的教育",
+   "audio": "audio/04/en_75aca650ce9dd98a.mp3",
+   "exampleAudio": "audio/04/en_eb49ae1083cca816.mp3"
+  },
+  {
+   "word": "reconcile",
+   "ipa": "/ˈrɛkənˌsaɪl/",
+   "meaning": "調和、使一致",
+   "example": "having to ponder how to reconcile and synthesize them into my own approach",
+   "pos": "verb",
+   "def": "讓兩個看似衝突的東西得以並存。這裡指把兩大投資學派的想法協調起來。",
+   "exzh": "必須思考如何調和並綜合它們，形成我自己的做法",
+   "audio": "audio/04/en_14a8e5f4b592926e.mp3",
+   "exampleAudio": "audio/04/en_8064dafbe526009f.mp3"
+  },
+  {
+   "word": "synthesize",
+   "ipa": "/ˈsɪnθəˌsaɪz/",
+   "meaning": "綜合、整合",
+   "example": "having to ponder how to reconcile and synthesize them into my own approach",
+   "pos": "verb",
+   "def": "把不同來源的東西融合成一個新的整體，不只是並排放在一起。",
+   "exzh": "必須思考如何調和並綜合它們，形成我自己的做法",
+   "audio": "audio/04/en_864a048683af9d35.mp3",
+   "exampleAudio": "audio/04/en_8064dafbe526009f.mp3"
+  },
+  {
+   "word": "materialize",
+   "ipa": "/məˈtɪriəˌlaɪz/",
+   "meaning": "出現、成為現實",
+   "example": "Only in this way can you put the lessons to work when similar circumstances materialize again.",
+   "pos": "verb",
+   "def": "原本只是可能或預期的事，真的發生了。這裡指類似的情況再度出現。",
+   "exzh": "唯有這樣，當類似的情況再度出現時，你才能把這些教訓派上用場。",
+   "audio": "audio/04/en_ba290e45f0f25fe3.mp3",
+   "exampleAudio": "audio/04/en_8625fb6ce8db9cec.mp3"
+  },
+  {
+   "word": "doom",
+   "ipa": "/duːm/",
+   "meaning": "使註定（失敗或不幸）",
+   "example": "Failing to do this—more than anything else—is what dooms most investors to being victimized repeatedly by cycles of boom and bust.",
+   "pos": "verb",
+   "def": "doom someone to 後面接不好的結果。注意它在這裡是動詞，三單是 dooms。",
+   "exzh": "沒能做到這一點，比任何其他原因都更讓大多數投資人註定一再成為景氣榮枯循環的受害者。",
+   "audio": "audio/04/en_fe046a408689d070.mp3",
+   "exampleAudio": "audio/04/en_aa1d359b258c4b70.mp3"
+  },
+  {
+   "word": "victimize",
+   "ipa": "/ˈvɪktəˌmaɪz/",
+   "meaning": "使受害、坑害",
+   "example": "being victimized repeatedly by cycles of boom and bust",
+   "pos": "verb",
+   "def": "讓人成為受害者。課文用被動式 be victimized by，主詞是投資人，加害者是榮枯循環。",
+   "exzh": "一再被景氣榮枯循環所害",
+   "audio": "audio/04/en_3a10ff016030a4e5.mp3",
+   "exampleAudio": "audio/04/en_1f97c5dc8826962d.mp3"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "When potential clients want to understand what makes Oaktree tick, their number one question is usually some variation on “What have been the keys to your success?”",
+   "zh": "當潛在客戶想了解橡樹資本是怎麼運作的，他們的第一個問題通常是「你們成功的關鍵是什麼？」之類的變形。",
+   "audio": "audio/04/en_af9ea55855a5ead8.mp3",
+   "para": 0
+  },
+  {
+   "en": "My answer is simple: an effective investment philosophy, developed and honed over more than four decades and implemented conscientiously by highly skilled individuals who share culture and values.",
+   "zh": "我的答案很簡單：一套有效的投資哲學，經過四十多年的發展與磨練，並由具備高度專業、擁有共同文化與價值觀的人認真執行。",
+   "audio": "audio/04/en_8014f1ab05e1b32e.mp3",
+   "para": 0
+  },
+  {
+   "en": "Where does an investment philosophy come from?",
+   "zh": "投資哲學是從哪裡來的？",
+   "audio": "audio/04/en_31b70f22fadb9ee6.mp3",
+   "para": 1
+  },
+  {
+   "en": "The one thing I’m sure of is that no one arrives on the doorstep of an investment career with his or her philosophy fully formed.",
+   "zh": "我唯一確定的是，沒有人在踏入投資生涯的時候，就已經擁有完整成形的哲學。",
+   "audio": "audio/04/en_8119c997cc736096.mp3",
+   "para": 1
+  },
+  {
+   "en": "A philosophy has to be the sum of many ideas accumulated over a long period of time from a variety of sources.",
+   "zh": "哲學必須是許多想法的總和，是從各種來源、歷經長時間累積而成的。",
+   "audio": "audio/04/en_fcf1c42187e997c4.mp3",
+   "para": 1
+  },
+  {
+   "en": "One cannot develop an effective philosophy without having been exposed to life’s lessons.",
+   "zh": "一個人若沒有接觸過人生的教訓，就無法形成有效的哲學。",
+   "audio": "audio/04/en_ee31fca0803a9dfe.mp3",
+   "para": 1
+  },
+  {
+   "en": "In my life I’ve been quite fortunate in terms of both rich experiences and powerful lessons.",
+   "zh": "在我的人生中，我相當幸運，既有豐富的經歷，也有深刻的教訓。",
+   "audio": "audio/04/en_c16edfd2a06198be.mp3",
+   "para": 1
+  },
+  {
+   "en": "The time I spent at two great business schools provided a very effective and provocative combination: nuts-and-bolts and qualitative instruction in the pre-theory days of my undergraduate education at Wharton, and a theoretical, quantitative education at the Graduate School of Business of the University of Chicago.",
+   "zh": "我在兩所一流商學院的求學時光，是一個非常有效又發人深省的組合：在華頓商學院大學部那個理論尚未盛行的年代，學到的是實務與定性的教學；在芝加哥大學商學研究所，學到的則是理論性、量化的教育。",
+   "audio": "audio/04/en_c2f647243d96df8c.mp3",
+   "para": 2
+  },
+  {
+   "en": "It’s not the specific facts or processes I learned that mattered most, but being exposed to the two main schools of investment thought and having to ponder how to reconcile and synthesize them into my own approach.",
+   "zh": "對我最重要的，不是我學到的具體事實或流程，而是接觸到投資思想的兩大學派，並且必須思考如何調和並綜合它們，形成我自己的做法。",
+   "audio": "audio/04/en_f811fea1a623a0e9.mp3",
+   "para": 2
+  },
+  {
+   "en": "Importantly, a philosophy like mine comes from going through life with your eyes open.",
+   "zh": "重要的是，像我這樣的哲學，來自睜大眼睛過生活。",
+   "audio": "audio/04/en_f3891c7e4408ebec.mp3",
+   "para": 3
+  },
+  {
+   "en": "You must be aware of what’s taking place in the world and of what results those events lead to.",
+   "zh": "你必須留意世界上發生了什麼事，以及那些事件導致了什麼結果。",
+   "audio": "audio/04/en_3c5f84e13b1afd45.mp3",
+   "para": 3
+  },
+  {
+   "en": "Only in this way can you put the lessons to work when similar circumstances materialize again.",
+   "zh": "唯有這樣，當類似的情況再度出現時，你才能把這些教訓派上用場。",
+   "audio": "audio/04/en_8625fb6ce8db9cec.mp3",
+   "para": 3
+  },
+  {
+   "en": "Failing to do this—more than anything else—is what dooms most investors to being victimized repeatedly by cycles of boom and bust.",
+   "zh": "沒能做到這一點，比任何其他原因都更讓大多數投資人註定一再成為景氣榮枯循環的受害者。",
+   "audio": "audio/04/en_aa1d359b258c4b70.mp3",
+   "para": 3
+  }
+ ],
+ "grammar": [
+  {
+   "point": "Only 開頭的倒裝：Only in this way can you …",
+   "quote": "Only in this way can you put the lessons to work when similar circumstances materialize again.",
+   "explain": "當 only ＋副詞片語（only in this way、only then、only when…）放在句首，後面的主詞與助動詞要倒裝：can you，而不是 you can。\n這是為了強調「唯有」這個條件。put … to work 是「讓…派上用場」。",
+   "quoteAudio": "audio/04/en_8625fb6ce8db9cec.mp3"
+  },
+  {
+   "point": "動名詞當主詞＋what 子句當補語",
+   "quote": "Failing to do this—more than anything else—is what dooms most investors to being victimized repeatedly by cycles of boom and bust.",
+   "explain": "主詞是動名詞片語 Failing to do this，兩條破折號之間的 more than anything else 是插入語，可以先略過。主要動詞 is，後面的 what dooms … 是名詞子句，意思是「造成…的原因」。\ndoom A to B 是「使 A 註定落到 B」，to 後面接名詞或動名詞，所以是 to being victimized。",
+   "quoteAudio": "audio/04/en_aa1d359b258c4b70.mp3"
+  },
+  {
+   "point": "It’s not A … but B：強調句＋對比",
+   "quote": "It’s not the specific facts or processes I learned that mattered most, but being exposed to the two main schools of investment thought and having to ponder how to reconcile and synthesize them into my own approach.",
+   "explain": "這是 It is … that … 的強調句型，加上 not A but B 的對比：不是（我學到的具體事實或流程），而是（接觸兩大學派，並且思考如何整合）。\nthe specific facts or processes I learned 中，I learned 是省略關代的關係子句。but 後面兩個動名詞（being exposed、having to ponder）並列，和前面的名詞 A 形成對比。",
+   "quoteAudio": "audio/04/en_f811fea1a623a0e9.mp3"
+  }
+ ]
+}
