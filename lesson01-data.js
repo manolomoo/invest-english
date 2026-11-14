@@ -1,0 +1,29 @@
+/* 第 1 課｜備忘錄與最重要的事（導言，PDF 第 11–12 頁）
+   cards：w 單字、say 念法、ipa、pos、zh、def、ex/exzh（取自課文）；texts[].paras 與 zh 一一對應；meta[pi]={k:"h|q|list|pair",cite,src}；grammar：title/quote/note */
+window.WEEK={id:"lesson01",n:1,title:"備忘錄與最重要的事",en:"Memos and the Most Important Thing",chapter:"導言 Introduction",pdf:"11–12",
+cards:[
+{w:"cofound",ipa:"/ˌkoʊˈfaʊnd/",pos:"verb",zh:"共同創辦",def:"co- 是「共同」，cofound 就是和別人一起創立公司。課文寫的是過去式 cofounded，作者與夥伴一起創辦了 Oaktree。",ex:"Oaktree Capital Management, the company I cofounded in 1995.",exzh:"橡樹資本管理公司，也就是我在 1995 年共同創辦的公司。"},
+{w:"set forth",ipa:"/sɛt fɔːrθ/",pos:"phrasal verb",zh:"闡述、提出",def:"比較正式的說法，指有條理地把想法或主張寫出來、說清楚。",ex:"I use the memos to set forth my investment philosophy, explain the workings of finance and provide my take on recent events.",exzh:"我用這些備忘錄來闡述我的投資哲學、說明金融運作的道理，並提出我對近期事件的看法。"},
+{w:"take",ipa:"/teɪk/",pos:"noun（口語）",zh:"看法、見解",def:"my take on 就是「我對…的看法」，語氣比 opinion 隨性。這裡的 take 是名詞，不是「拿」。",ex:"provide my take on recent events",exzh:"提出我對近期事件的看法"},
+{w:"apply",ipa:"/əˈplaɪ/",pos:"verb",zh:"適用",def:"這裡不是「申請」，而是指教訓、道理在現在依然「適用」。",ex:"I believe their lessons apply as well today as they did when they were written.",exzh:"我相信這些教訓在今天依然適用，就像它們被寫下來的當時一樣。"},
+{w:"minor",ipa:"/ˈmaɪnər/",pos:"adjective",zh:"小幅的、次要的",def:"與 major 相對，minor changes 指只是小修小改，沒有動到內容。",ex:"For inclusion here I’ve made some minor changes, primarily to make their message clearer.",exzh:"收進這本書時，我做了一些小幅修改，主要是為了讓訊息更清楚。"},
+{w:"prospect",ipa:"/ˈprɑːspɛkt/",pos:"noun（常用複數）",zh:"潛在客戶",def:"在業務領域，prospects 指還沒成交、但有可能成為客戶的人。它也可以指「前景」，要看上下文。",ex:"As I meet with clients and prospects, I repeatedly hear myself say, ‘The most important thing is X.’",exzh:"我在與客戶和潛在客戶見面時，一再聽見自己說：『最重要的事是 X。』"},
+{w:"essential",ipa:"/ɪˈsɛnʃəl/",pos:"adjective",zh:"不可或缺的、必要的",def:"比 important 更強，表示少了它就不行。後面常接 for / to。",ex:"a memo with that title that pulled together the elements I felt were essential for investment success",exzh:"一份用這個標題寫成的備忘錄，把我認為對投資成功不可或缺的要素整合在一起"},
+{w:"fundamental",ipa:"/ˌfʌndəˈmɛntl/",pos:"adjective",zh:"根本的、基本的",def:"指最底層、不會輕易改變的東西。fundamental notion 就是「根本的概念」。",ex:"the fundamental notion is unchanged: they’re all important",exzh:"根本的概念沒有改變：它們全都很重要"},
+{w:"adjustment",ipa:"/əˈdʒʌstmənt/",pos:"noun",zh:"調整、修正",def:"小幅度的修改。作者承認自己的清單有微調，但核心沒變。",ex:"I’ve made a few adjustments in the things I consider “the most important,”",exzh:"我對那些我認為「最重要」的事做了幾項調整，"},
+{w:"omit",ipa:"/oʊˈmɪt/",pos:"verb",zh:"遺漏、省略",def:"把本來該有的東西漏掉。比 leave out 正式。",ex:"Omit any one and the result is likely to be less than satisfactory.",exzh:"漏掉任何一項，結果就可能不夠令人滿意。"},
+{w:"dispensable",ipa:"/dɪˈspɛnsəbəl/",pos:"adjective",zh:"可有可無的、非必要的",def:"indispensable（不可或缺）的反義詞。課文用 none is dispensable，表示每一項都不能少。",ex:"each is a brick in what I hope will be a solid wall, and none is dispensable.",exzh:"每一項都是一塊磚，我希望它們能砌成一道堅實的牆，而且沒有一塊是可有可無的。"}
+],
+texts:[{id:"t1",
+paras:[
+["For the last twenty years I’ve been writing occasional memos to my clients—first at Trust Company of the West and then at Oaktree Capital Management, the company I cofounded in 1995.","I use the memos to set forth my investment philosophy, explain the workings of finance and provide my take on recent events.","Those memos form the core of this book, and you will find passages from many of them in the pages that follow, for I believe their lessons apply as well today as they did when they were written.","For inclusion here I’ve made some minor changes, primarily to make their message clearer."],
+["What, exactly, is “the most important thing”?","In July 2003, I wrote a memo with that title that pulled together the elements I felt were essential for investment success.","Here’s how it began: “As I meet with clients and prospects, I repeatedly hear myself say, ‘The most important thing is X.’","And then ten minutes later it’s, ‘The most important thing is Y.’","And then Z, and so on.”","All told, the memo ended up discussing eighteen “most important things.”"],
+["Since that original memo, I’ve made a few adjustments in the things I consider “the most important,” but the fundamental notion is unchanged: they’re all important.","Successful investing requires thoughtful attention to many separate aspects, all at the same time.","Omit any one and the result is likely to be less than satisfactory.","That is why I have built this book around the idea of the most important things—each is a brick in what I hope will be a solid wall, and none is dispensable."]],
+zh:[
+["過去二十年來，我不定期地寫備忘錄給我的客戶——先是在西部信託公司，後來是在橡樹資本管理公司，那是我在 1995 年共同創辦的公司。","我用這些備忘錄來闡述我的投資哲學、說明金融運作的道理，並提出我對近期事件的看法。","這些備忘錄是本書的核心，你會在後面的篇章裡讀到其中許多段落，因為我相信，這些教訓在今天依然適用，就像它們被寫下來的當時一樣。","收進這本書時，我做了一些小幅修改，主要是為了讓訊息更清楚。"],
+["那麼，「最重要的事」到底是什麼？","2003 年 7 月，我寫了一份以此為題的備忘錄，把我認為對投資成功不可或缺的要素整合在一起。","開頭是這樣寫的：「我在與客戶和潛在客戶見面時，一再聽見自己說：『最重要的事是 X。』","然後十分鐘後又變成：『最重要的事是 Y。』","接著是 Z，如此類推。」","總計，這份備忘錄最後談了十八項「最重要的事」。"],
+["自從那份原始備忘錄之後，我對自己認為「最重要」的事做了幾項調整，但根本的概念沒有變：它們全都很重要。","成功的投資需要同時對許多不同面向都用心關注。","漏掉任何一項，結果就可能不夠令人滿意。","這就是我為什麼把這本書圍繞著「最重要的事」這個概念來架構——每一項都是一塊磚，我希望它們能砌成一道堅實的牆，而且沒有一塊是可有可無的。"]]}],
+grammar:[
+{title:"祈使句＋and：表示「如果…就…」",quote:"Omit any one and the result is likely to be less than satisfactory.",note:"Omit any one 是祈使句（動詞原形開頭），後面接 and 再接一個完整子句，意思相當於 If you omit any one, the result is likely to be…。\n這是很常見的省力寫法，例如 Study hard and you’ll pass. 讀到「祈使句＋and＋結果」，就當成條件句來理解。"},
+{title:"as well … as：同等比較，後半用代動詞",quote:"I believe their lessons apply as well today as they did when they were written.",note:"as well today as they did 是「和…一樣好」的同等比較。後面的 did 代替前面的 applied，避免重複動詞。\n整句的意思是：這些教訓現在適用的程度，和當初寫下它們的時候一樣。"},
+{title:"插入語 I hope：夾在 what 子句中間",quote:"each is a brick in what I hope will be a solid wall",note:"what will be a solid wall 是名詞子句，作 in 的受詞。中間夾了 I hope，是插入語，表示說話者的心態，拿掉也不影響句子結構。\n類似用法還有 what I think is…、what he says is…，讀的時候先把插入語略過，句子就通了。"}]};

@@ -1,0 +1,36 @@
+/* 第 7 課｜很少人能成為偉大投資人（第 1 章 Second-Level Thinking，PDF 第 17 頁） */
+window.WEEK={id:"lesson07",n:7,title:"很少人能成為偉大投資人",en:"Few People Have What It Takes",chapter:"第 1 章 Second-Level Thinking",pdf:"17",
+cards:[
+{w:"have what it takes",ipa:"/hæv wʌt ɪt teɪks/",pos:"idiom",zh:"具備所需的條件、有那個本事",def:"what it takes 指「要做成某事所需的素質」。Few people have what it takes 是說很少人夠格。",ex:"Few people have what it takes to be great investors.",exzh:"很少人具備成為偉大投資人的本事。"},
+{w:"creditable, if unspectacular",ipa:"/ˈkrɛdɪtəbəl ɪf ˌʌnspɛkˈtækjələr/",pos:"adjective phrase",zh:"值得稱許，但談不上亮眼",def:"creditable 是「值得讚許的、過得去的」；if unspectacular 是插入的讓步語氣，意思是「就算不算驚人的話」。",ex:"A creditable, if unspectacular, result can be achieved by the lay investor with a minimum of effort and capability",exzh:"一般投資人只要付出最少的努力與能力，就能取得值得稱許、但不算亮眼的成績"},
+{w:"lay investor",ipa:"/leɪ ɪnˈvɛstər/",pos:"noun phrase",zh:"外行投資人、一般散戶",def:"lay 在這裡是形容詞，指「非專業的、外行的」，與 professional 相對。不是動詞「放置」。",ex:"A creditable, if unspectacular, result can be achieved by the lay investor with a minimum of effort and capability",exzh:"一般投資人只要付出最少的努力與能力，就能取得值得稱許、但不算亮眼的成績"},
+{w:"application",ipa:"/ˌæpləˈkeɪʃən/",pos:"noun",zh:"專注投入、用功",def:"這裡不是「申請」或「應用程式」，而是「專心用功」的舊式用法。much application 就是需要花很多心力。",ex:"to improve this easily attainable standard requires much application and more than a trace of wisdom.",exzh:"要超越這個輕易就能達到的水準，需要很多專注的投入，以及不只一絲的智慧。"},
+{w:"valid",ipa:"/ˈvælɪd/",pos:"adjective",zh:"有效的、站得住腳的",def:"指方法、論點合理且確實有效。valid approaches 是真正有道理的投資方法，但也不會每次都靈。",ex:"Valid approaches work some of the time but not all.",exzh:"有效的方法有時管用，但不是每次都管用。"},
+{w:"algorithm",ipa:"/ˈælɡəˌrɪðəm/",pos:"noun",zh:"演算法",def:"一套固定的計算規則，電腦照著做就能得出答案。作者要說的是：投資沒辦法縮減成固定規則。",ex:"And investing can’t be reduced to an algorithm and turned over to a computer.",exzh:"而且投資不可能被簡化成一套演算法，然後交給電腦處理。"},
+{w:"cause-and-effect",ipa:"/ˌkɔːz ən ɪˈfɛkt/",pos:"adjective",zh:"因果的",def:"用連字號連成形容詞，放在名詞前面：cause-and-effect relationships 就是因果關係。",ex:"Psychology plays a major role in markets, and because it’s highly variable, cause-and-effect relationships aren’t reliable.",exzh:"心理在市場中扮演重要角色，而且因為心理高度多變，因果關係並不可靠。"},
+{w:"variable",ipa:"/ˈvɛriəbəl/",pos:"adjective",zh:"多變的、不固定的",def:"在數學裡 variable 是「變數」（名詞），這裡是形容詞，指「容易變動」。",ex:"Psychology plays a major role in markets, and because it’s highly variable, cause-and-effect relationships aren’t reliable.",exzh:"心理在市場中扮演重要角色，而且因為心理高度多變，因果關係並不可靠。"},
+{w:"call for",ipa:"/kɔːl fɔːr/",pos:"phrasal verb",zh:"要求、需要",def:"這裡的 call for 是「需要、要求採取」，主詞是 an investment approach，意思是這種方法所要求的行動。",ex:"An investment approach may work for a while, but eventually the actions it calls for will change the environment, meaning a new approach is needed.",exzh:"一種投資方法也許會有效一陣子，但最終它所要求採取的行動，會改變環境，也就是需要一套新的方法。"},
+{w:"emulate",ipa:"/ˈɛmjəˌleɪt/",pos:"verb",zh:"仿效、模仿",def:"向成功者看齊、試著做同樣的事。比 copy 正式，語氣偏正面。",ex:"And if others emulate an approach, that will blunt its effectiveness.",exzh:"而且如果其他人仿效某種方法，就會削弱它的效果。"},
+{w:"blunt",ipa:"/blʌnt/",pos:"verb",zh:"削弱、使變鈍",def:"blunt 當形容詞是「鈍的、直率的」，這裡當動詞，意思是把鋒利的東西變鈍，比喻削弱效果。",ex:"And if others emulate an approach, that will blunt its effectiveness.",exzh:"而且如果其他人仿效某種方法，就會削弱它的效果。"},
+{w:"messy",ipa:"/ˈmɛsi/",pos:"adjective",zh:"雜亂的、不乾淨俐落的",def:"形容事情沒有整齊的答案、界線模糊。a little messy 是委婉地說「有點麻煩、不單純」。",ex:"And that means it can get a little messy.",exzh:"而這就表示，事情可能會變得有點亂。"}
+],
+texts:[{id:"t1",
+paras:[
+["The art of investment has one characteristic that is not generally appreciated.","A creditable, if unspectacular, result can be achieved by the lay investor with a minimum of effort and capability; but to improve this easily attainable standard requires much application and more than a trace of wisdom."],
+["Everything should be made as simple as possible, but not simpler."],
+["It’s not supposed to be easy.","Anyone who finds it easy is stupid."],
+["Few people have what it takes to be great investors.","Some can be taught, but not everyone … and those who can be taught can’t be taught everything.","Valid approaches work some of the time but not all.","And investing can’t be reduced to an algorithm and turned over to a computer.","Even the best investors don’t get it right every time."],
+["The reasons are simple.","No rule always works.","The environment isn’t controllable, and circumstances rarely repeat exactly.","Psychology plays a major role in markets, and because it’s highly variable, cause-and-effect relationships aren’t reliable.","An investment approach may work for a while, but eventually the actions it calls for will change the environment, meaning a new approach is needed.","And if others emulate an approach, that will blunt its effectiveness."],
+["Investing, like economics, is more art than science.","And that means it can get a little messy."]],
+meta:[{k:"q",cite:"— BEN GRAHAM, THE INTELLIGENT INVESTOR"},{k:"q",cite:"— ALBERT EINSTEIN"},{k:"q",cite:"— CHARLIE MUNGER"},{},{},{}],
+zh:[
+["投資這門藝術有一項特點，一般人並不太欣賞。","一般投資人只要付出最少的努力與能力，就能取得值得稱許、但不算亮眼的成績；但要超越這個輕易就能達到的水準，需要很多專注的投入，以及不只一絲的智慧。"],
+["一切都應該盡可能簡單，但不能過度簡化。"],
+["這本來就不該是容易的事。","凡是覺得它容易的人，都很愚蠢。"],
+["很少人具備成為偉大投資人的本事。","有些人可以被教會，但不是每個人都可以……而那些可以被教會的人，也不可能什麼都學得會。","有效的方法有時管用，但不是每次都管用。","而且投資不可能被簡化成一套演算法，然後交給電腦處理。","即使是最頂尖的投資人，也不是每次都能做對。"],
+["原因很簡單。","沒有任何規則永遠有效。","環境無法控制，情況也很少會完全重演。","心理在市場中扮演重要角色，而且因為心理高度多變，因果關係並不可靠。","一種投資方法也許會有效一陣子，但最終它所要求採取的行動，會改變環境，也就是需要一套新的方法。","而且如果其他人仿效某種方法，就會削弱它的效果。"],
+["投資就像經濟學一樣，藝術的成分多於科學。","而這就表示，事情可能會變得有點亂。"]]}],
+grammar:[
+{title:"as … as possible, but not simpler：省略的比較",quote:"Everything should be made as simple as possible, but not simpler.",note:"as simple as possible 是「盡可能簡單」。but not simpler 是 but not (made) simpler (than possible)，把重複的部分全部省掉，只留比較級 simpler。\nEinstein 的名言就是靠這種省略達到簡潔：要簡化，但別簡化到失真。should be made ＋ 形容詞，是被動式「被弄成…」。"},
+{title:"部分否定與並列省略",quote:"Some can be taught, but not everyone … and those who can be taught can’t be taught everything.",note:"but not everyone 前面省略了 can be taught，完整是 but not everyone can be taught。\n最後的 can’t be taught everything 是「部分否定」：不是什麼都學不會，而是「不能每一樣都學會」。not … everything、not … all、not … always 都是這種「不是全部」的意思，不等於 nothing。"},
+{title:"more A than B：比較兩個名詞，而不是兩種程度",quote:"Investing, like economics, is more art than science.",note:"more art than science 的意思是「藝術的成分多於科學」，是在比較兩種性質，而不是說「更有藝術」。\nlike economics 是插在主詞與動詞之間的插入語，拿掉後句子仍完整：Investing is more art than science。下一課還會看到 at least as much art as … science 的相似用法。"}]};

@@ -1,0 +1,6 @@
+FABLE_*.md
+SOURCE_LESSONS.md
+REPORT.md
+*.log
+*.pdf
+.DS_Store

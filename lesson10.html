@@ -1,0 +1,50 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>第 10 課｜投資最重要的事｜學英文</title><link rel="stylesheet" href="style.css?v=1"></head><body><div class="w">
+<header class="wk">
+<div class="wk-top"><a class="nav" href="index.html">← 回首頁</a>
+<h1 id="ttl"></h1><div class="en" id="ten"></div></div>
+<nav class="jump" id="jump" aria-label="本課單元">
+<div class="jump-bar">
+<button type="button" class="on" data-sec="v">單字</button>
+<button type="button" data-sec="t">課文</button>
+<button type="button" data-sec="g">文法</button>
+</div>
+</nav>
+</header>
+<div id="nov" style="display:none;color:var(--bad);font-size:14px">⚠️ 這個瀏覽器不支援音訊播放，請改用 Chrome／Safari／Edge。</div>
+
+<section id="sec-v" class="panel">
+<div class="box c bc"><div class="pos" id="pos"></div><div class="big" id="w"></div><div class="zhw" id="zh"></div><div class="ipa" id="ipa"></div><div class="tag" id="tag"></div><div class="def" id="def"></div><div class="ex" id="ex"></div><div class="cue" id="cue"></div></div>
+<div class="row" style="flex-wrap:nowrap"><button class="b" id="o1">念單字</button><button class="b" id="o2">念例句</button></div>
+<div class="row"><button class="b" id="pv">‹ 上一個</button><button class="b p" id="pl">▶ 回音法播放</button><button class="b" id="nx">下一個 ›</button></div>
+<div class="mu">語速</div><div class="seg" id="rate"></div>
+<div class="box"><b>單字卡</b><div class="mu" style="font-size:14px">點卡聽發音（單字→例句），並切換到這張卡練習。</div><div class="ga" id="ga"></div></div>
+</section>
+
+<section id="sec-t" class="panel" hidden>
+<div id="texts" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+
+<section id="sec-g" class="panel" hidden>
+<div id="gram" style="display:flex;flex-direction:column;gap:14px"></div>
+</section>
+</div>
+<script>window.PAGEVER="1"</script><script src="version.js?v=1"></script><script src="lesson10-audio.js?v=1"></script><script src="speech.js?v=1"></script><script src="lesson10-data.js?v=1"></script>
+<script>
+(function(){var D=window.WEEK;if(D){document.getElementById("ttl").textContent="第 "+D.n+" 課｜"+D.title;document.getElementById("ten").textContent=D.en+"　・　"+D.chapter}})();
+</script>
+<script src="unit.js?v=1"></script>
+<script>
+(function(){
+  const nav=document.getElementById("jump"),ids=["v","t","g"];
+  function show(id,scroll){
+    ids.forEach(s=>{const el=document.getElementById("sec-"+s);if(el)el.hidden=s!==id});
+    nav.querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.sec===id));
+    try{window.__stopAll?window.__stopAll():TTS.cancel()}catch(e){}
+    if(scroll)window.scrollTo(0,0);
+  }
+  nav.addEventListener("click",e=>{const b=e.target.closest("button[data-sec]");if(!b)return;history.replaceState(null,"","#"+b.dataset.sec);show(b.dataset.sec,true)});
+  window.addEventListener("hashchange",()=>{const h=location.hash.replace("#","");if(ids.includes(h))show(h,true)});
+  const init=(location.hash||"").replace("#","");if(ids.includes(init))show(init,false);
+})();
+</script>
+</body></html>
