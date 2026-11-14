@@ -47,7 +47,7 @@ a.nav{color:var(--ac);text-decoration:none}
 .pa.pair{border:1px solid var(--ln);border-radius:12px;padding:4px;margin-bottom:12px}
 .pa.pair .sn:first-child{background:var(--tint)}.pa.pair .sn.hl{outline:2px solid var(--ac)}
 .src{font-size:13px;color:var(--mu);margin:-12px 6px 18px;line-height:1.5}
-.zhs{display:none;font-size:16px;line-height:1.6;color:var(--mu);font-weight:400;font-style:normal;margin-top:2px}.showzh .zhs{display:block}
+.zhs{display:none;font-size:20px;line-height:1.7;color:var(--mu);font-weight:400;font-style:normal;margin-top:2px}.showzh .zhs{display:block}
 .tx .cue{margin:2px 0}.tip{font-size:13px;color:var(--mu)}
 
 /* 文法 */
