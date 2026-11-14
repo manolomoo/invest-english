@@ -10,7 +10,7 @@
       var b=document.createElement("div");
       b.className="rw-ban";
       b.innerHTML="有新版本 ✨ <button>點我更新</button>";
-      b.querySelector("button").onclick=function(){try{var u=new URL(location.href);u.searchParams.set("v",v);location.replace(u.href)}catch(e){location.reload()}};
+      b.querySelector("button").onclick=function(){location.replace(location.pathname+"?v="+v)};
       document.body.prepend(b);
     }
   }).catch(function(){});

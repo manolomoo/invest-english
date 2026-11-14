@@ -1,10 +1,10 @@
 /* 練習紀錄與💵（投資最重要的事｜學英文）。localStorage 鍵：invRW1（獨立，不與其他站共用）。
    動作 → 事件：包裝全域 play1 / quiz / render，再用 rwx CustomEvent 把「練習了什麼」交給 rpg.js 算 XP。
-   版本橫幅由 js/version.js 負責，這裡不重複。 */
+   版本橫幅由 version.js 負責，這裡不重複。 */
 (function(){
-/* 單元 id＝"l"+課號，一旦上線就不要改（練習紀錄靠它）。第 11 課起不用改這裡：page()／home() 會依網址的 id 自動產生單元。 */
+/* 每加一課：在 UNITS 加一行（id 一旦上線就不要改，練習紀錄靠它） */
 const TYPES=["cards","story","gram","speak","quiz"];
-const UNITS=[1,2,3,4,5,6,7,8,9,10].map(n=>({id:"l"+n,n,file:"lesson.html?id="+String(n).padStart(2,"0"),name:"第 "+n+" 課",types:TYPES}));
+const UNITS=[1,2,3,4,5,6,7,8,9,10].map(n=>({id:"l"+n,n,file:"lesson"+String(n).padStart(2,"0")+".html",name:"第 "+n+" 課",types:TYPES}));
 const TN={cards:"單字卡",story:"課文",gram:"文法",speak:"口說（回音法）",quiz:"小測驗"};
 const SPEAK_N=5,QUIZ_N=8;
 const RULE={cards:"每張單字卡都聽過一次（點卡、念單字、念例句或回音法都算）",story:"課文每一句都聽過（全文連播一遍即可）",gram:"每一則文法原句都點過、聽過",speak:"在 "+SPEAK_N+" 個不同的單字上完整做完回音法（單字兩輪＋例句一輪，聽、回音、跟讀）",quiz:"同一輪 "+QUIZ_N+" 題全部作答，且正確率 ≥ 80%（8 題至少答對 7 題）"};
@@ -34,13 +34,13 @@ function draw(){if(!box)return;const x=t=>((ld()[uid]||{})[t])||{};
 const P=t=>uid+"|"+t+"|";
 /* 聽過／練過一個項目：先發基本 XP 事件，再記完成進度（可能接著發 crown／king） */
 function hear(t,k){const r=pinc(P(t)+k);if(r)emit({uid,t,isNew:r===1});upd(t,x=>{x.h=x.h||[];if(!x.h.includes(k))x.h.push(k);if(x.h.length>=TOT[t])x.c=1});deco()}
-/* 包裝全域 play1(text, tag)：tag 由 js/lesson.js 傳入，c:i 單字卡／e:i 回音法起點／s:j 課文句／g:k 文法原句；沒有 tag（測驗發音、回音法其他輪）不算。 */
+/* 包裝全域 play1(text, tag)：tag 由 unit.js 傳入，c:i 單字卡／e:i 回音法起點／s:j 課文句／g:k 文法原句；沒有 tag（測驗發音、回音法其他輪）不算。 */
 const _p=window.play1;window.play1=function(k,tag){if(tag){const a=String(tag).split(":"),t=a[0],n=+a[1];
  if((t==="c"||t==="e")&&cfg.cardKeys[n]!=null)hear("cards",cfg.cardKeys[n]);else if(t==="s")hear("story","s"+n);else if(t==="g")hear("gram","g"+n)}
  return _p.apply(this,arguments)};
 /* 回音法整張卡走完（單字兩輪＋例句一輪）→ 口說 */
 RW.speak=function(i){const k=cfg.cardKeys[i];if(k==null)return;const r=pinc(P("speak")+k,1);emit({uid,t:"speak",isNew:r===1});upd("speak",x=>{x.h=x.h||[];if(!x.h.includes(k))x.h.push(k);if(x.h.length>=nSpeak)x.c=1});deco()};
-/* 包裝全域 quiz(k)：js/lesson.js 的作答處理，回傳這題結果（已作答過回傳 null） */
+/* 包裝全域 quiz(k)：unit.js 的作答處理，回傳這題結果（已作答過回傳 null） */
 const _q=window.quiz;window.quiz=function(){const r=_q.apply(this,arguments);if(r){const p=pinc(P("quiz")+r.k,1);emit({uid,t:"quiz",isNew:p===1,ok:r.ok});
  upd("quiz",x=>{if(r.done>=r.total){const pct=Math.round(r.score/r.done*100);if(!x.bp||pct>x.bp){x.bp=pct;x.b=r.score+"/"+r.done+"（"+pct+"%）"}if(r.score/r.done>=.8)x.c=1}});deco()}return r};
 function mark(el,key){if(!el)return;let m=el.querySelector(":scope>.pm");if(!m){m=document.createElement("div");m.className="pm";el.appendChild(m)}m.textContent=POO(pget(key))}
@@ -53,6 +53,6 @@ function deco(){const keys=cfg.cardKeys;
 RW.deco=deco;const _r=window.render;window.render=function(){const r=_r.apply(this,arguments);deco();return r};
 draw();deco()},
 /* 首頁：在每課卡片下補上完成狀態 */
-home(el){if(!el)return;el.querySelectorAll("a.lc").forEach(a=>{const hm=/[?&]id=(\d+)/.exec(a.getAttribute("href")||"");if(!hm)return;const U=UNITS.find(u=>a.getAttribute("href")===u.file)||{id:"l"+(+hm[1]),n:+hm[1],types:TYPES};const s=ust(U);
+home(el){if(!el)return;el.querySelectorAll("a.lc").forEach(a=>{const U=UNITS.find(u=>a.getAttribute("href")===u.file);if(!U)return;const s=ust(U);
  a.insertAdjacentHTML("beforeend",`<div class="rwb">${U.types.map(t=>`<span class="${tst(U.id,t)===2?"ok":""}">${tst(U.id,t)===2?"✔ ":""}${TN[t]}</span>`).join("")}</div>${s===2?'<div class="rwb"><span class="ok">👑 本課全部完成</span></div>':""}`)})}};
 })();

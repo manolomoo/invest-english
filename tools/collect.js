@@ -1,12 +1,10 @@
-// node tools/collect.js 11 > /tmp/lesson-11.json → 列出該課所有要唸的字串（單字 say||word、例句、每一句課文、文法原句；已去重）
-// 讀 lessons/lesson-NN.json。接著 python3 tools/build_audio.py 11 產音檔並回寫 JSON 的 audio 欄位。
-const fs=require("fs"),path=require("path");
-const id=String(process.argv[2]||"").padStart(2,"0");
-if(!/^\d\d$/.test(id)){console.error("用法：node tools/collect.js 11");process.exit(1)}
-const J=JSON.parse(fs.readFileSync(path.join(__dirname,"..","lessons",`lesson-${id}.json`),"utf8"));
-const plain=s=>s.replace(/\s+/g," ").trim(); // 必須與 js/lesson.js 的 plain 相同
-const S=new Set(),add=s=>{if(s&&typeof s==="string")S.add(s)};
-J.vocab.forEach(v=>{add(v.say||v.word);add(v.example)});
-J.sentences.forEach(s=>add(plain(s.en)));
-(J.grammar||[]).forEach(g=>add(plain(g.quote)));
+// node tools/collect.js lesson01 > /tmp/lesson01.json → 所有會被唸出來的字串（單字 say/w、例句 ex、課文每一句、文法引句）
+const fs=require("fs"),path=require("path");global.window=global;
+const root=path.join(__dirname,"..");
+eval(fs.readFileSync(path.join(root,process.argv[2]+"-data.js"),"utf8"));
+const W=window.WEEK,S=new Set();const add=s=>{if(s&&typeof s==="string")S.add(s)};
+const plain=s=>s.replace(/\s+/g," ").trim(); // 必須與 unit.js 的 plain 相同
+W.cards.forEach(c=>{add(c.say||c.w);add(c.ex)});
+W.texts.forEach(t=>t.paras.forEach(p=>p.forEach(s=>add(plain(s)))));
+(W.grammar||[]).forEach(g=>add(plain(g.quote)));
 console.log(JSON.stringify([...S]));

@@ -1,12 +1,25 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>投資最重要的事｜學英文</title><link rel="stylesheet" href="style.css?v=3"></head><body><div class="w">
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>投資最重要的事｜學英文</title><link rel="stylesheet" href="style.css?v=2"></head><body><div class="w">
 <header>
 <h1>投資最重要的事｜學英文</h1>
 <p class="lead">用 Howard Marks 的原書《The Most Important Thing Illuminated》來學英文。先做導言與第 1 章 Second-Level Thinking 前半，共 10 課。每課有關鍵單字（含音標與回音法跟讀）、可逐句點選播放的原文與中譯、以及簡短的文法筆記。</p>
 </header>
-<div id="due" class="box due"></div>
-<div id="prog" class="box"></div>
 <div id="rpgc"></div>
 <div id="list" style="display:flex;flex-direction:column;gap:10px"></div>
 <p class="mu" style="font-size:13px;line-height:1.6">英文原文出自 Howard Marks, <i>The Most Important Thing Illuminated</i>（Columbia Business School Publishing, 2013）；中文翻譯與說明為學習用途自行撰寫。中譯書名《投資最重要的事》。</p>
 </div>
-<script>window.PAGEVER="3"</script><script src="js/version.js?v=3"></script><script src="js/store.js?v=3"></script><script src="js/srs.js?v=3"></script><script src="js/rw.js?v=3"></script><script src="js/rpg.js?v=3"></script><script src="js/home.js?v=3"></script></body></html>
+<script>
+const L=[
+["備忘錄與最重要的事","Memos and the Most Important Thing","導言","作者為什麼寫備忘錄，以及「最重要的事」其實有很多件。"],
+["這不是操作手冊","This Is Not a How-To Manual","導言","這本書是投資哲學，不是食譜；投資沒有萬無一失的公式。"],
+["全書架構與風險","How the Book Is Organized, and Why Risk Matters","導言","為什麼一次只能談一個主題，以及作者最在意的是風險。"],
+["投資哲學從哪裡來","Where an Investment Philosophy Comes From","導言","有效的投資哲學來自長期累積，也來自睜大眼睛看世界。"],
+["好日子只會教壞功課","Good Times Teach Only Bad Lessons","導言","最有價值的教訓都在艱困時期學到，1970 年代尤其深刻。"],
+["良師與把想法做出來","Teachers, and Putting Ideas into Action","導言","影響作者的書與人，以及為什麼再好的想法也需要執行。"],
+["很少人能成為偉大投資人","Few People Have What It Takes","第 1 章","章首三句名言，以及為什麼投資不能被寫成演算法。"],
+["投資是藝術，目標是勝過市場","Investing Is an Art; the Goal Is to Beat the Market","第 1 章","投資更像藝術；要勝過市場，靠的是運氣或卓越的洞察力。"],
+["什麼是第二層思考","What Is Second-Level Thinking?","第 1 章","為什麼要比別人想得更深，並用三組例子對照第一層與第二層。"],
+["第二層思考要考慮的事","What Second-Level Thinkers Take into Account","第 1 章","第二層思考者要問自己的八個問題，以及誰在把投資說得很簡單。"]];
+document.getElementById("list").innerHTML=L.map((x,k)=>{const n=String(k+1).padStart(2,"0");
+return `<a class="box lc" href="lesson${n}.html"><div class="no">第 ${k+1} 課　・　${x[2]}</div><div class="t">${x[0]}</div><div class="e">${x[1]}</div><div class="s">${x[3]}</div></a>`}).join("");
+</script>
+<script>window.PAGEVER="2"</script><script src="version.js?v=2"></script><script src="rw.js?v=2"></script><script src="rpg.js?v=2"></script><script>RW.home(document.getElementById("list"));RPG.home(document.getElementById("rpgc"));if(location.hash==="#rpg"||location.hash==="#assets"){var e=document.getElementById(location.hash.slice(1));if(e)e.scrollIntoView()}</script></body></html>

@@ -1,4 +1,4 @@
-/* 股神 RPG（投資最重要的事｜學英文）— 需先載入 js/rw.js。練習紀錄與💵由 rw.js 負責，這裡算 XP、等級、頭像、投資組合。
+/* 股神 RPG（投資最重要的事｜學英文）— 需先載入 rw.js。練習紀錄與💵由 rw.js 負責，這裡算 XP、等級、頭像、投資組合。
    localStorage 鍵：invRPG1（RPG）、invAssetsOpen（投資組合展開狀態）。不讀寫任何其他站的鍵。 */
 (function(){
 const K="invRPG1";let MEM=null;
@@ -245,7 +245,7 @@ function gain(o){const s=st();const L0=lvOf(s.xp).L;let b,lab=[];
  pop("+"+x+" XP"+(o.t==="crown"?" 👑 題型完成":o.t==="king"?" 🏆 全課完成":"")+(lab.length?" "+lab.join(" "):""));const L1=lvOf(s.xp).L;if(L1>L0)setTimeout(()=>levelUp(L1),400);trCheck(L1>L0&&!mini?3600:0);drawMini();if(RPG.onChange)RPG.onChange()}
 let mini=null;function drawMini(){if(!mini)return;const s=st(),v=lvOf(s.xp),t=title(v.L);mini.innerHTML=`<a class="rp-go" href="index.html#rpg" aria-label="股神 RPG：回首頁看完整面板">${avatar(v.L,30)}<div style="flex:1;min-width:0"><b>Lv ${v.L}</b> <span style="font-size:11px;color:var(--mu)">${t[1]}</span><div class="rp-bar"><i style="width:${Math.round(v.cur/v.nx*100)}%"></i></div></div></a>`}
 function hints(){const s=st(),L=lvOf(s.xp).L;const max=has(L,"hint3")?3:has(L,"hint2")?2:has(L,"hint1")?1:0;return[max,Math.max(0,max-(s.day.h||0))]}
-/* 測驗提示：js/lesson.js 每次畫完題目都會呼叫。選項容器是 #qo，答案由 RW.cfg.qstate() 提供 */
+/* 測驗提示：unit.js 每次畫完題目都會呼叫。選項容器是 #qo，答案由 RW.cfg.qstate() 提供 */
 function hintUI(){const cfg=window.RW&&RW.cfg;if(!cfg||!cfg.qstate)return;const qo=document.getElementById("qo");if(!qo)return;let b=document.getElementById("rphint");
  if(!b){b=document.createElement("button");b.id="rphint";b.type="button";b.className="rp-hint";qo.after(b);b.onclick=()=>{const[mx,left]=hints();if(!left)return;const s=st();const ans=cfg.qstate().ans;const bs=[...qo.querySelectorAll("button")].filter(x=>!x.disabled&&x.textContent!==ans);if(bs.length<2)return;const x=bs[Math.floor(Math.random()*bs.length)];x.disabled=true;x.style.opacity=.25;x.style.textDecoration="line-through";s.day.h=(s.day.h||0)+1;sv(s);hintUI()}}
  const[mx,left]=hints();const answered=cfg.qstate().answered;
