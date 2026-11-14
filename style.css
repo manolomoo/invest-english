@@ -61,3 +61,11 @@ a.nav{color:var(--ac);text-decoration:none}
 .lc .no{font-size:13px;color:var(--ac);font-weight:700}.lc .t{font-size:19px;font-weight:800;line-height:1.35}.lc .e{font-size:14px;color:var(--mu);overflow-wrap:anywhere}.lc .s{font-size:15px;line-height:1.55;margin-top:2px}
 @media(max-width:360px){.sn{font-size:20px}.b{font-size:15px}.big{font-size:30px}}
 #pl{flex:1.6 1 0}@media(max-width:360px){#pv,#pl,#nx{font-size:14px;padding:12px 2px}}
+
+/* 小測驗（單字分頁底部） */
+#qz{gap:8px}.qw{font-size:30px;font-weight:800;text-align:center;overflow-wrap:anywhere;margin-top:2px}
+.qo{display:grid;grid-template-columns:1fr;gap:8px}
+.qo button{padding:12px 10px;font-size:17px;font-weight:650;border-radius:10px;border:1px solid var(--ln);background:var(--cd);color:var(--fg);text-align:left;overflow-wrap:anywhere;-webkit-tap-highlight-color:transparent}
+.qo button.ok{border-color:var(--ok);background:var(--ok);color:#fff;opacity:1}.qo button.no{border-color:var(--bad);background:var(--bad);color:#fff;opacity:1}
+.qo button:disabled:not(.ok):not(.no){opacity:.6}.qres{font-size:24px;font-weight:800;text-align:center;padding:8px 0}
+#rw{gap:4px}.rp-hint{align-self:center}
