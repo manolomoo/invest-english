@@ -11,7 +11,16 @@ cards:[
 {w:"ensnare",ipa:"/ɪnˈsnɛr/",pos:"verb",zh:"使陷入圈套、困住",def:"snare 是捕獸的圈套，ensnare 就是把人或動物套住。這裡的主詞是 pitfalls。",ex:"Just a way to think that might help you make good decisions and, perhaps more important, avoid the pitfalls that ensnare so many.",exzh:"只是一種思考方式，也許能幫助你做出好的決定，而且或許更重要的是，避開那些困住許多人的陷阱。"},
 {w:"disservice",ipa:"/dɪsˈsɜːrvɪs/",pos:"noun",zh:"傷害、幫倒忙",def:"do someone a disservice 是「對某人做了壞事或幫了倒忙」，常指好意卻造成壞結果。",ex:"Those who try to simplify investing do their audience a great disservice.",exzh:"那些想把投資簡化的人，是在對讀者幫倒忙。"},
 {w:"stick to",ipa:"/stɪk tuː/",pos:"phrasal verb",zh:"堅持、只談（某範圍）",def:"stick to general thoughts 是「只談一般性的想法」，不離開這個範圍。",ex:"I’m going to stick to general thoughts on return, risk and process",exzh:"我打算只談關於報酬、風險和流程的一般性想法"},
-{w:"asset class",ipa:"/ˈæsɛt klæs/",pos:"noun",zh:"資產類別",def:"性質相近的一類投資標的，例如股票、債券、不動產。",ex:"any time I discuss specific asset classes and tactics, I do so only to illustrate my points.",exzh:"每當我談到特定的資產類別和操作策略，都只是為了說明我的論點。"}
+{w:"asset class",ipa:"/ˈæsɛt klæs/",pos:"noun",zh:"資產類別",def:"性質相近的一類投資標的，例如股票、債券、不動產。",ex:"any time I discuss specific asset classes and tactics, I do so only to illustrate my points.",exzh:"每當我談到特定的資產類別和操作策略，都只是為了說明我的論點。"},
+{w:"in the course of",ipa:"/ɪn ðə kɔːrs ʌv/",pos:"phrase",zh:"在…的過程中、在…期間",def:"書面語，表示在一段時間或一個歷程裡。in the course of my investing career 就是「在我的投資生涯中」。",ex:"in the course of my investing career",exzh:"在我的投資生涯中"},
+{w:"lasting",ipa:"/ˈlæstɪŋ/",pos:"adjective",zh:"持久的、長久的",def:"能經得起時間考驗。the most lasting 指最不會隨時間過時的訊息。",ex:"the ones I consider the most lasting",exzh:"我認為最能長久流傳的那些"},
+{w:"relevance",ipa:"/ˈrɛləvəns/",pos:"noun",zh:"相關性、現實意義",def:"某件事和現在、和讀者有沒有關係。作者有信心書中的想法不會過時。",ex:"I’m confident their relevance will extend beyond today.",exzh:"我有信心，它們的意義不會只限於今天。"},
+{w:"extend beyond",ipa:"/ɪkˈstɛnd bɪˈjɑːnd/",pos:"phrasal verb",zh:"延伸到…之外、不侷限於",def:"範圍或影響超出某個界線。這裡指意義不只限於「今天」，往後也適用。",ex:"their relevance will extend beyond today",exzh:"它們的意義不會只限於今天"},
+{w:"recipe",ipa:"/ˈrɛsəpi/",pos:"noun",zh:"配方、秘訣",def:"原指食譜，比喻按步驟做就能得到結果的方法。surefire recipe 就是「保證成功的配方」，作者說投資沒有這種東西。",ex:"There’s no surefire recipe for investment success.",exzh:"投資成功沒有萬無一失的配方。"},
+{w:"ratio",ipa:"/ˈreɪʃioʊ/",pos:"noun",zh:"比率",def:"兩個數字相除的結果，例如本益比。fixed ratios 指固定不變的比率，作者說投資不能靠套公式。",ex:"fixed ratios",exzh:"固定比率"},
+{w:"tactics",ipa:"/ˈtæktɪks/",pos:"noun（複數）",zh:"操作策略、戰術",def:"為了達成目標而採取的具體做法。與 strategy（大方向的策略）相比，tactics 比較偏向實際操作。",ex:"specific asset classes and tactics",exzh:"特定的資產類別和操作策略"},
+{w:"illustrate",ipa:"/ˈɪləˌstreɪt/",pos:"verb",zh:"說明、舉例顯示",def:"用例子讓道理更容易懂。作者提到具體資產只是舉例，不是在推薦。",ex:"only to illustrate my points",exzh:"只是為了說明我的論點"},
+{w:"simplify",ipa:"/ˈsɪmpləˌfaɪ/",pos:"verb",zh:"簡化",def:"把複雜的事變簡單。作者的立場是：投資本來就複雜，硬要簡化只會誤導人。",ex:"It’s not my goal to simplify the act of investing.",exzh:"我的目標並不是把投資這件事簡單化。"}
 ],
 texts:[{id:"t1",
 paras:[

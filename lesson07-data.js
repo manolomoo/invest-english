@@ -12,7 +12,16 @@ cards:[
 {w:"call for",ipa:"/kɔːl fɔːr/",pos:"phrasal verb",zh:"要求、需要",def:"這裡的 call for 是「需要、要求採取」，主詞是 an investment approach，意思是這種方法所要求的行動。",ex:"An investment approach may work for a while, but eventually the actions it calls for will change the environment, meaning a new approach is needed.",exzh:"一種投資方法也許會有效一陣子，但最終它所要求採取的行動，會改變環境，也就是需要一套新的方法。"},
 {w:"emulate",ipa:"/ˈɛmjəˌleɪt/",pos:"verb",zh:"仿效、模仿",def:"向成功者看齊、試著做同樣的事。比 copy 正式，語氣偏正面。",ex:"And if others emulate an approach, that will blunt its effectiveness.",exzh:"而且如果其他人仿效某種方法，就會削弱它的效果。"},
 {w:"blunt",ipa:"/blʌnt/",pos:"verb",zh:"削弱、使變鈍",def:"blunt 當形容詞是「鈍的、直率的」，這裡當動詞，意思是把鋒利的東西變鈍，比喻削弱效果。",ex:"And if others emulate an approach, that will blunt its effectiveness.",exzh:"而且如果其他人仿效某種方法，就會削弱它的效果。"},
-{w:"messy",ipa:"/ˈmɛsi/",pos:"adjective",zh:"雜亂的、不乾淨俐落的",def:"形容事情沒有整齊的答案、界線模糊。a little messy 是委婉地說「有點麻煩、不單純」。",ex:"And that means it can get a little messy.",exzh:"而這就表示，事情可能會變得有點亂。"}
+{w:"messy",ipa:"/ˈmɛsi/",pos:"adjective",zh:"雜亂的、不乾淨俐落的",def:"形容事情沒有整齊的答案、界線模糊。a little messy 是委婉地說「有點麻煩、不單純」。",ex:"And that means it can get a little messy.",exzh:"而這就表示，事情可能會變得有點亂。"},
+{w:"appreciate",ipa:"/əˈpriːʃiˌeɪt/",pos:"verb",zh:"體認到、欣賞",def:"這裡不是「感謝」，而是「真正理解、看出其價值」。not generally appreciated 是說一般人沒有體認到。",ex:"that is not generally appreciated",exzh:"一般人並不太欣賞"},
+{w:"attainable",ipa:"/əˈteɪnəbəl/",pos:"adjective",zh:"可達成的、做得到的",def:"attain（達到）的形容詞。easily attainable standard 是只要稍微努力就能達到的水準。",ex:"this easily attainable standard",exzh:"這個輕易就能達到的水準"},
+{w:"a minimum of",ipa:"/ə ˈmɪnəməm ʌv/",pos:"phrase",zh:"最少量的、極少的",def:"with a minimum of effort 是「只花最少的力氣」。minimum 是名詞，後面接不可數名詞。",ex:"with a minimum of effort and capability",exzh:"只要付出最少的努力與能力"},
+{w:"a trace of",ipa:"/ə treɪs ʌv/",pos:"phrase",zh:"一絲、少許",def:"trace 是「痕跡」，a trace of 指極少的量。more than a trace of wisdom 是說要有不只一點點智慧。",ex:"more than a trace of wisdom",exzh:"不只一絲的智慧"},
+{w:"reduce to",ipa:"/rɪˈduːs tuː/",pos:"phrasal verb",zh:"簡化成、化約為",def:"把複雜的東西壓縮成一個簡單的形式。這裡是被動式：投資不可能被簡化成演算法。",ex:"investing can’t be reduced to an algorithm",exzh:"投資不可能被簡化成一套演算法"},
+{w:"turn over to",ipa:"/tɜːrn ˈoʊvər tuː/",pos:"phrasal verb",zh:"移交給、交給",def:"把責任或控制權交給別人。這裡是被動式：把投資交給電腦處理。",ex:"turned over to a computer",exzh:"交給電腦處理"},
+{w:"play a major role",ipa:"/pleɪ ə ˈmeɪdʒər roʊl/",pos:"phrase",zh:"扮演重要角色",def:"常見的搭配。play a role in 是「在…中扮演角色」，major 表示分量重。",ex:"Psychology plays a major role in markets",exzh:"心理在市場中扮演重要角色"},
+{w:"reliable",ipa:"/rɪˈlaɪəbəl/",pos:"adjective",zh:"可靠的、可信賴的",def:"每次都能得到相同結果、值得信任。作者說投資裡的因果關係靠不住，因為人心多變。",ex:"cause-and-effect relationships aren’t reliable",exzh:"因果關係並不可靠"},
+{w:"eventually",ipa:"/ɪˈvɛntʃuəli/",pos:"adverb",zh:"最終、到頭來",def:"經過一段時間之後終究會發生。注意不是「偶爾」。這裡指有效的方法久了會改變環境，最後失效。",ex:"but eventually the actions it calls for will change the environment",exzh:"但最終它所要求採取的行動，會改變環境"}
 ],
 texts:[{id:"t1",
 paras:[

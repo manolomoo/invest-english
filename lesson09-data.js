@@ -13,7 +13,17 @@ cards:[
 {w:"overrated",ipa:"/ˌoʊvərˈreɪtɪd/",pos:"adjective",zh:"被高估的",def:"大家給的評價高過實際價值。第二層思考者的重點，就是發現市場看法與事實之間的落差。",ex:"So the stock’s overrated and overpriced; let’s sell.",exzh:"所以這檔股票被高估，價格也太高了，賣掉吧。"},
 {w:"dump",ipa:"/dʌmp/",pos:"verb",zh:"拋售、大量賣出",def:"口語用字，帶有急著脫手、不計價錢的味道。dump stocks 就是把股票全拋掉。",ex:"The outlook calls for low growth and rising inflation. Let’s dump our stocks.",exzh:"前景看起來是低成長與通膨上升，我們把股票都拋掉吧。"},
 {w:"simplistic",ipa:"/sɪmˈplɪstɪk/",pos:"adjective",zh:"過度簡化的",def:"帶貶義，指把複雜的事看得太簡單。和 simple（簡單）不同，simple 是中性的。",ex:"First-level thinking is simplistic and superficial, and just about everyone can do it (a bad sign for anything involving an attempt at superiority).",exzh:"第一層思考過於簡化又流於表面，幾乎每個人都做得到（對任何想要出類拔萃的事來說，這是個壞跡象）。"},
-{w:"superficial",ipa:"/ˌsuːpərˈfɪʃəl/",pos:"adjective",zh:"表面的、膚淺的",def:"只看到表層、沒有深入理解。與 deep 相對。",ex:"First-level thinking is simplistic and superficial, and just about everyone can do it (a bad sign for anything involving an attempt at superiority).",exzh:"第一層思考過於簡化又流於表面，幾乎每個人都做得到（對任何想要出類拔萃的事來說，這是個壞跡象）。"}
+{w:"superficial",ipa:"/ˌsuːpərˈfɪʃəl/",pos:"adjective",zh:"表面的、膚淺的",def:"只看到表層、沒有深入理解。與 deep 相對。",ex:"First-level thinking is simplistic and superficial, and just about everyone can do it (a bad sign for anything involving an attempt at superiority).",exzh:"第一層思考過於簡化又流於表面，幾乎每個人都做得到（對任何想要出類拔萃的事來說，這是個壞跡象）。"},
+{w:"count for",ipa:"/kaʊnt fɔːr/",pos:"phrasal verb",zh:"有分量、起作用",def:"count for less 是「作用比較小」。這裡指在投資上，勤奮、體力這類條件不如在別的領域那麼管用。",ex:"where these things count for less",exzh:"這些東西的作用比較小"},
+{w:"a step ahead",ipa:"/ə stɛp əˈhɛd/",pos:"phrase",zh:"領先一步",def:"在競爭中比別人早一點想到、做到。投資是爭奪有限報酬，領先一步的人才拿得到。",ex:"The person who’s a step ahead.",exzh:"是領先一步的那個人。"},
+{w:"front of the pack",ipa:"/frʌnt ʌv ðə pæk/",pos:"phrase",zh:"領先群",def:"pack 是一群人，在賽跑裡指集團。getting to the front of the pack 是擠進前頭的領先群。",ex:"getting to the front of the pack means more schooling",exzh:"要擠進領先群，意味著更多的學習"},
+{w:"mentoring",ipa:"/ˈmɛnˌtɔːrɪŋ/",pos:"noun",zh:"（資深者的）指導、帶領",def:"mentor 是良師，mentoring 是一對一帶人的過程，不只傳授知識，也傳授經驗與判斷。",ex:"receive mentoring from someone with a deep understanding of the investment process",exzh:"得到對投資流程有深刻理解的人指導"},
+{w:"consistently",ipa:"/kənˈsɪstəntli/",pos:"adverb",zh:"始終如一地、持續穩定地",def:"不是偶爾一次，而是每次都能做到。consistently above-average results 是長期穩定地勝過平均。",ex:"required for consistently above-average results",exzh:"始終取得高於平均成績所需要的"},
+{w:"awareness",ipa:"/əˈwɛrnəs/",pos:"noun",zh:"警覺、意識",def:"aware 的名詞，指對某件事有所察覺。awareness of psychology 是留意到市場中人的心理。",ex:"sense of value and awareness of psychology",exzh:"價值感，以及對心理的警覺"},
+{w:"possess",ipa:"/pəˈzɛs/",pos:"verb",zh:"擁有、具備",def:"比 have 正式，常用於能力或特質。注意拼法有兩組 s。",ex:"bring insight they don’t possess",exzh:"帶來他們不具備的洞察"},
+{w:"in short",ipa:"/ɪn ʃɔːrt/",pos:"phrase",zh:"簡單說、總之",def:"用來把前面的論述收成一句結論，相當於 in summary。",ex:"In short, being right may be a necessary condition for investment success, but it won’t be sufficient.",exzh:"簡單說，做對也許是投資成功的必要條件，但並不充分。"},
+{w:"outlook",ipa:"/ˈaʊtˌlʊk/",pos:"noun",zh:"前景、展望",def:"對未來情勢的預期。在投資裡常說 the outlook for the economy／for a company。",ex:"The outlook calls for low growth and rising inflation.",exzh:"前景看起來是低成長與通膨上升。"},
+{w:"favorable",ipa:"/ˈfeɪvərəbəl/",pos:"adjective",zh:"有利的、正面的",def:"對事情的發展有幫助、看好的。英式拼法是 favourable。",ex:"The outlook for the company is favorable",exzh:"這家公司的前景看好"}
 ],
 texts:[{id:"t1",
 paras:[

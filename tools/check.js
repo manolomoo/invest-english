@@ -13,7 +13,7 @@ for(let n=1;n<=10;n++){
  const sents=W.texts.flatMap(t=>t.paras.flat());const got=norm(sents.join(" "));
  if(want!==got){err(id+" 課文與 SOURCE 不同");const a=want.split(" "),b=got.split(" ");let k=0;while(k<a.length&&a[k]===b[k])k++;console.log("   第",k,"字：SOURCE=",a.slice(k,k+6).join(" ")," | 本站=",b.slice(k,k+6).join(" "))}
  W.texts.forEach(t=>{t.paras.forEach((p,pi)=>{if(!t.zh[pi]||t.zh[pi].length!==p.length)err(id+" zh 段 "+pi+" 句數不符");p.forEach((s,si)=>{if(!(t.zh[pi]&&t.zh[pi][si]))err(id+" 缺中譯 "+s.slice(0,30));if(/["']/.test(s))err(id+" 含直引號："+s.slice(0,30));if(/\s\s/.test(s)||s!==s.trim())err(id+" 空白："+s.slice(0,30))})});if(t.zh.length!==t.paras.length)err(id+" zh 段數不符")});
- if(W.cards.length<10||W.cards.length>15)err(id+" 單字數 "+W.cards.length);
+ if(W.cards.length<10||W.cards.length>30)err(id+" 單字數 "+W.cards.length);
  W.cards.forEach(c=>{["w","ipa","pos","zh","def","ex","exzh"].forEach(f=>{if(!c[f])err(id+" "+c.w+" 缺 "+f)});if(c.ex&&!got.includes(c.ex))err(id+" 例句不在課文："+c.w);if(c.ipa&&!/^\//.test(c.ipa))err(id+" ipa 格式 "+c.w)});
  const g=W.grammar||[];if(g.length<1||g.length>3)err(id+" 文法數 "+g.length);g.forEach(x=>{if(!got.includes(x.quote))err(id+" 文法引句不在課文："+x.title);if(!x.note||!x.title)err(id+" 文法缺欄位")});
  console.log(id,"單字",W.cards.length,"句",sents.length,"文法",g.length)}

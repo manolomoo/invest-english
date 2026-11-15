@@ -10,7 +10,16 @@ cards:[
 {w:"novel",ipa:"/ˈnɑːvəl/",pos:"adjective",zh:"新穎的、前所未見的",def:"這裡不是「小說」，而是形容詞「新奇的」。作者希望書中的想法是讀者沒看過的。",ex:"I hope you’ll find this book’s contents novel, thought provoking and perhaps even controversial.",exzh:"我希望你會覺得這本書的內容新穎、發人深省，甚至或許有爭議。"},
 {w:"controversial",ipa:"/ˌkɑːntrəˈvɜːrʃəl/",pos:"adjective",zh:"有爭議的",def:"會引起不同意見爭論的。作者把它當成優點，因為不同於主流的想法才有價值。",ex:"I hope you’ll find this book’s contents novel, thought provoking and perhaps even controversial.",exzh:"我希望你會覺得這本書的內容新穎、發人深省，甚至或許有爭議。"},
 {w:"bear out",ipa:"/bɛr aʊt/",pos:"phrasal verb（過去式 bore out）",zh:"證實、印證",def:"某個說法或結果「證明另一件事是對的」。課文裡是讀者說：這本書印證了我讀過的一切，也就是毫無新意。",ex:"I so enjoyed your book; it bore out everything I’ve ever read,”",exzh:"我好喜歡你的書，它印證了我讀過的一切，」"},
-{w:"come across",ipa:"/kʌm əˈkrɔːs/",pos:"phrasal verb",zh:"偶然遇見、碰到",def:"沒有特別去找，卻遇到某樣東西。這裡的 come across 後面省略了受詞，因為前面的關係代名詞已經是受詞。",ex:"ideas and ways of thinking about investment matters that you haven’t come across before",exzh:"你以前從未接觸過的、關於投資事務的想法和思考方式"}
+{w:"come across",ipa:"/kʌm əˈkrɔːs/",pos:"phrasal verb",zh:"偶然遇見、碰到",def:"沒有特別去找，卻遇到某樣東西。這裡的 come across 後面省略了受詞，因為前面的關係代名詞已經是受詞。",ex:"ideas and ways of thinking about investment matters that you haven’t come across before",exzh:"你以前從未接觸過的、關於投資事務的想法和思考方式"},
+{w:"limitation",ipa:"/ˌlɪməˈteɪʃən/",pos:"noun",zh:"限制、侷限",def:"事物能力或範圍的上限。作者說語言有侷限：只能一次講一件事，沒辦法同時講完。",ex:"the limitations of language force me to take one topic at a time",exzh:"語言的限制逼得我只能一次談一個主題"},
+{w:"establish",ipa:"/ɪˈstæblɪʃ/",pos:"verb",zh:"建立、確立",def:"這裡指先把基礎或背景交代、建立起來。establish the playing field 就是先說明市場的場地與規則。",ex:"to establish the playing field",exzh:"先把這個競技場交代清楚"},
+{w:"at once",ipa:"/æt wʌns/",pos:"phrase",zh:"同時、一次全部",def:"這裡是「在同一時間」的意思（all at once）。也可以指「立刻」，要看上下文。",ex:"I would discuss all of them at once",exzh:"我會把它們一次全部講完"},
+{w:"relevant",ipa:"/ˈrɛləvənt/",pos:"adjective",zh:"相關的、有關聯的",def:"與某件事有關係。be relevant to 後面接相關的對象，這裡是「與不只一章相關」。",ex:"some ideas are relevant to more than one chapter",exzh:"有些想法會與不只一章相關"},
+{w:"sense",ipa:"/sɛns/",pos:"verb",zh:"感覺到、察覺",def:"這裡是動詞，指憑直覺感到某件事。if you sense repetition 是「如果你覺得有重複」。",ex:"if you sense repetition",exzh:"如果你覺得有重複"},
+{w:"repetition",ipa:"/ˌrɛpəˈtɪʃən/",pos:"noun",zh:"重複",def:"repeat 的名詞。作者先為書裡可能出現的重複道歉，因為他的想法是一個整體。",ex:"please bear with me if you sense repetition.",exzh:"如果你覺得有重複，還請多包涵。"},
+{w:"thought provoking",ipa:"/ˈθɔːt prəˌvoʊkɪŋ/",pos:"adjective",zh:"發人深省的",def:"引人思考、讓人停下來想一想的。常寫成 thought-provoking。",ex:"novel, thought provoking and perhaps even controversial",exzh:"新穎、發人深省，甚至或許有爭議"},
+{w:"in particular",ipa:"/ɪn pɚˈtɪkjələr/",pos:"phrase",zh:"特別是、尤其",def:"用來點出重點，後面接最想強調的部分。這裡作者強調本書重視風險多過報酬。",ex:"In particular, you’ll find I spend more time discussing risk",exzh:"特別是，你會發現我花更多篇幅討論風險"},
+{w:"challenging",ipa:"/ˈtʃælɪndʒɪŋ/",pos:"adjective",zh:"具挑戰性的",def:"困難但引人投入，是正面的說法。作者認為風險最有趣、最有挑戰，也最不可或缺。",ex:"the most interesting, challenging and essential aspect of investing",exzh:"投資中最有趣、最具挑戰、也最不可或缺的一環"}
 ],
 texts:[{id:"t1",
 paras:[

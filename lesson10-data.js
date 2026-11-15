@@ -15,7 +15,18 @@ cards:[
 {w:"tote up",ipa:"/toʊt ʌp/",pos:"phrasal verb（口語）",zh:"加總、算出總數",def:"把數字加起來。tote up their records 就是把自己的成績單認真算一次，看看到底賺多少、賠多少。",ex:"I think most of them fail to tote up their records",exzh:"我認為他們大多數人沒有把自己的成績算清楚"},
 {w:"overlook",ipa:"/ˌoʊvərˈlʊk/",pos:"verb",zh:"忽略、沒注意到",def:"沒看見或故意不看。overlook their bad years 是「對自己的壞年頭視而不見」。",ex:"I think most of them fail to tote up their records, or they overlook their bad years or attribute losses to bad luck.",exzh:"我認為他們大多數人沒有把自己的成績算清楚，或是忽略自己表現不好的年份，或把虧損歸咎於運氣不好。"},
 {w:"attribute … to",ipa:"/əˈtrɪbjuːt/",pos:"verb",zh:"把…歸因於",def:"attribute A to B 是「把 A 歸因於 B」。注意作為動詞時重音在第二音節；名詞「屬性」則重音在第一音節。",ex:"attribute losses to bad luck",exzh:"把虧損歸咎於運氣不好"},
-{w:"collectively",ipa:"/kəˈlɛktɪvli/",pos:"adverb",zh:"集體地、整體而言",def:"把所有人合起來看。作者用這個字說明：全體投資人加起來，就是市場本身。",ex:"All investors can’t beat the market since, collectively, they are the market.",exzh:"所有投資人不可能都勝過市場，因為整體而言，他們就是市場。"}
+{w:"collectively",ipa:"/kəˈlɛktɪvli/",pos:"adverb",zh:"集體地、整體而言",def:"把所有人合起來看。作者用這個字說明：全體投資人加起來，就是市場本身。",ex:"All investors can’t beat the market since, collectively, they are the market.",exzh:"所有投資人不可能都勝過市場，因為整體而言，他們就是市場。"},
+{w:"range",ipa:"/reɪndʒ/",pos:"noun",zh:"範圍、區間",def:"從最小到最大之間的幅度。the range of likely outcomes 是各種可能結果的範圍，而不是單一預測。",ex:"What is the range of likely future outcomes?",exzh:"未來可能出現的結果範圍有多大？"},
+{w:"differ from",ipa:"/ˈdɪfər frʌm/",pos:"phrasal verb",zh:"與…不同",def:"differ 是不及物動詞，後面接 from。第二層思考者要找出自己的預期和共識哪裡不同。",ex:"my expectation differ from the consensus",exzh:"我的預期和市場共識有什麼不同"},
+{w:"incorporate",ipa:"/ɪnˈkɔːrpəˌreɪt/",pos:"verb",zh:"包含、納入",def:"把某樣東西融入整體。價格裡已經 incorporated 了大家的心理，就是已經反映進去。",ex:"Is the consensus psychology that’s incorporated in the price too bullish or bearish?",exzh:"已經反映在價格裡的市場共識心理，是過於看多還是過於看空？"},
+{w:"turn out",ipa:"/tɜːrn aʊt/",pos:"phrasal verb",zh:"結果是、最後證明",def:"turn out to be 是「最後發現是…」，用來說明事後才看出的結果。",ex:"if the consensus turns out to be right",exzh:"如果市場共識是對的"},
+{w:"massive",ipa:"/ˈmæsɪv/",pos:"adjective",zh:"巨大的、龐大的",def:"形容規模或差距極大。這裡指兩種思考所需的工作量差距非常懸殊。",ex:"The difference in workload between first-level and second-level thinking is clearly massive",exzh:"第一層與第二層思考所需要的工作量，差距顯然極大"},
+{w:"capable of",ipa:"/ˈkeɪpəbəl ʌv/",pos:"phrase",zh:"有能力做…的",def:"後面接名詞或動名詞。capable of investing 是有能力投資的。",ex:"everyone’s capable of investing",exzh:"每個人都有能力投資"},
+{w:"the latter / the former",say:"the latter and the former",ipa:"/ðə ˈlætər ˈænd ðə ˈfɔːrmər/",pos:"phrase",zh:"後者／前者",def:"指前面剛提到的兩件事：the former 是先提的那個，the latter 是後提的。這裡 latter 指第二層思考，former 指第一層思考。",ex:"the number of people capable of the latter is tiny compared to the number capable of the former",exzh:"有能力做到後者的人，比起能做到前者的人，數量少得可憐"},
+{w:"characterize",ipa:"/ˈkɛrəktəˌraɪz/",pos:"verb",zh:"形容、描述為",def:"characterize A as B 是「把 A 形容成 B」，用一個特徵來給人貼標籤。",ex:"Some of them I might characterize as “mercenaries.”",exzh:"我可能會把其中一些人稱為「唯利是圖者」。"},
+{w:"actively managed",ipa:"/ˈæktɪvli ˈmænɪdʒd/",pos:"adjective phrase",zh:"主動式管理的",def:"由基金經理人挑選標的、試圖勝過市場，費用比被動的指數型基金高。",ex:"actively managed funds",exzh:"主動式管理基金"},
+{w:"associated",ipa:"/əˈsoʊsiˌeɪtɪd/",pos:"adjective",zh:"相關的、隨之而來的",def:"the associated fees 是與前面所說的事情有關連的費用，這裡指主動式基金附帶的高額費用。",ex:"pay the associated high fees",exzh:"付出相關的高額費用"},
+{w:"overestimate",ipa:"/ˌoʊvərˈɛstəˌmeɪt/",pos:"verb",zh:"高估",def:"把某件事估得比實際更高。與 underestimate（低估）相對。",ex:"overestimate the extent to which they’re in control",exzh:"高估了自己能掌控的程度"}
 ],
 texts:[{id:"t1",
 paras:[

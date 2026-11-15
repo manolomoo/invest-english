@@ -11,7 +11,15 @@ cards:[
 {w:"default",ipa:"/dɪˈfɔːlt/",pos:"noun",zh:"違約、債務不履行",def:"債務人還不出本金或利息。注意，在投資領域不是「預設值」的意思。",ex:"the emerging market crisis, Russian default and meltdown of Long-Term Capital Management in 1998",exzh:"1998 年的新興市場危機、俄羅斯債務違約，以及長期資本管理公司的崩潰"},
 {w:"formative",ipa:"/ˈfɔːrmətɪv/",pos:"adjective",zh:"對人格或思想形成有決定性影響的",def:"formative years 是「成長的關鍵年代」。課文說 1970 年代對作者的投資觀影響很深。",ex:"Living through the 1970s was particularly formative, since so many challenges arose.",exzh:"親身經歷 1970 年代對我的養成特別重要，因為當時冒出了那麼多挑戰。"},
 {w:"virtually",ipa:"/ˈvɜːrtʃuəli/",pos:"adverb",zh:"幾乎、實質上",def:"表示「幾乎等於」。virtually impossible 就是「幾乎不可能」，語氣比 almost 正式。",ex:"It was virtually impossible to get an investment job during the seventies",exzh:"在七〇年代，要找到一份投資工作幾乎是不可能的"},
-{w:"roll around",ipa:"/roʊl əˈraʊnd/",pos:"phrasal verb（口語）",zh:"（時間、事件）又來到、到來",def:"指某個時間點或週期性的事件到來。the tech bubble rolled around 是說「科技泡沫那時又出現了」。",ex:"How many of the people who started by the sixties were still working in the late nineties when the tech bubble rolled around?",exzh:"在六〇年代就入行的人，有多少人在九〇年代後期科技泡沫出現時還在工作？"}
+{w:"roll around",ipa:"/roʊl əˈraʊnd/",pos:"phrasal verb（口語）",zh:"（時間、事件）又來到、到來",def:"指某個時間點或週期性的事件到來。the tech bubble rolled around 是說「科技泡沫那時又出現了」。",ex:"How many of the people who started by the sixties were still working in the late nineties when the tech bubble rolled around?",exzh:"在六〇年代就入行的人，有多少人在九〇年代後期科技泡沫出現時還在工作？"},
+{w:"live through",ipa:"/lɪv θruː/",pos:"phrasal verb",zh:"親身熬過、經歷過",def:"指身處某個艱難事件的整個過程並撐過來。課文用 lived through，帶有「走過來了」的意味。",ex:"to have lived through some doozies",exzh:"親身經歷過一些非常慘烈的事件"},
+{w:"in that sense",ipa:"/ɪn ðæt sɛns/",pos:"phrase",zh:"就這層意義而言",def:"用來限定前面那句話成立的角度。作者說艱困時期教人最多，所以在這層意義上，他算是「幸運」。",ex:"In that sense, I’ve been “fortunate”",exzh:"就這層意義而言，我「幸運地」"},
+{w:"instrument",ipa:"/ˈɪnstrəmənt/",pos:"noun",zh:"（金融）工具",def:"在金融裡指可交易的投資標的或合約。debt instruments 是債務工具，例如債券。",ex:"rate-sensitive debt instruments",exzh:"對利率敏感的債務工具"},
+{w:"bubble",ipa:"/ˈbʌbəl/",pos:"noun",zh:"泡沫",def:"資產價格漲到遠超過真實價值的狀態，終究會破滅。bursting of the bubble 就是泡沫破滅。",ex:"the bursting of the tech-stock bubble",exzh:"科技股泡沫的破滅"},
+{w:"scandal",ipa:"/ˈskændl/",pos:"noun",zh:"醜聞",def:"引起公憤的不當行為。accounting scandals 指公司做假帳之類的會計醜聞。",ex:"the accounting scandals",exzh:"會計醜聞"},
+{w:"arise",ipa:"/əˈraɪz/",pos:"verb（過去式 arose）",zh:"出現、產生",def:"問題或情況自然冒出來。課文用過去式 arose，不需要受詞。",ex:"since so many challenges arose",exzh:"因為當時冒出了那麼多挑戰"},
+{w:"exceed",ipa:"/ɪkˈsiːd/",pos:"verb",zh:"超過、超出",def:"數量或程度高於某個界線，後面直接接受詞，不加介系詞。",ex:"a market decline could exceed 5 percent",exzh:"市場跌幅可能超過 5%"},
+{w:"needn’t",ipa:"/ˈniːdnt/",pos:"modal verb",zh:"不必、不需要",def:"need not 的縮寫，後面接原形動詞，較書面。you needn’t worry 就是「你不用擔心」。",ex:"you needn’t worry about risk",exzh:"不需要擔心風險"}
 ],
 texts:[{id:"t1",
 paras:[

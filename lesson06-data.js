@@ -12,7 +12,15 @@ cards:[
 {w:"benefit from",ipa:"/ˈbɛnəfɪt frʌm/",pos:"phrasal verb",zh:"從…中受益",def:"I’ve also benefited from my association with… 是「我也因為與…的交往而獲益」。",ex:"I’ve also benefited from my association with Peter Bernstein, Seth Klarman, Jack Bogle, Jacob Rothschild, Jeremy Grantham, Joel Greenblatt, Tony Pace, Orin Kramer, Jim Grant and Doug Kass.",exzh:"我也因為與彼得・伯恩斯坦、賽斯・卡拉曼、傑克・柏格、雅各布・羅斯柴爾德、傑瑞米・葛蘭桑、喬爾・葛林布萊特、東尼・佩斯、奧林・克萊默、吉姆・格蘭特和道格・卡斯的交往而受益。"},
 {w:"there are lots of ways to skin the cat",ipa:"/ðɛr ɑːr lɑːts ʌv weɪz tuː skɪn ðə kæt/",pos:"idiom",zh:"達成目標的方法不只一種",def:"直譯是「剝貓皮的方法有很多種」，其實指條條大路通羅馬。這個說法有點粗，但在美式英文很常見。",ex:"It’s not the only right one—there are lots of ways to skin the cat—but it’s right for us.",exzh:"它不是唯一正確的做法——達成目標的方法有很多種——但它適合我們。"},
 {w:"hasten to",ipa:"/ˈheɪsən tuː/",pos:"verb phrase",zh:"急忙（補充說明）",def:"I hasten to point out 是常見的客氣說法，意思是「我得趕緊說明一下」，避免讀者誤會。",ex:"I hasten to point out that my philosophy wouldn’t have meant much without skilled implementation",exzh:"我要趕緊說明，如果沒有熟練的執行，我的哲學就不會有太大意義"},
-{w:"implementation",ipa:"/ˌɪmpləmɛnˈteɪʃən/",pos:"noun",zh:"執行、落實",def:"把想法真正做出來。作者強調：想法再好，沒有行動也沒有價值。",ex:"no idea can be any better than the action taken on it",exzh:"再好的想法，也不會比根據它採取的行動更好"}
+{w:"implementation",ipa:"/ˌɪmpləmɛnˈteɪʃən/",pos:"noun",zh:"執行、落實",def:"把想法真正做出來。作者強調：想法再好，沒有行動也沒有價值。",ex:"no idea can be any better than the action taken on it",exzh:"再好的想法，也不會比根據它採取的行動更好"},
+{w:"widely",ipa:"/ˈwaɪdli/",pos:"adverb",zh:"廣泛地",def:"read widely 是廣泛閱讀，涵蓋各種領域與作者，而不只讀一種。",ex:"If you read widely",exzh:"如果你廣泛閱讀"},
+{w:"association",ipa:"/əˌsoʊsiˈeɪʃən/",pos:"noun",zh:"往來、交往、關係",def:"這裡不是「協會」，而是指與某人的交往或合作關係。my association with 是「我與…的往來」。",ex:"I’ve also benefited from my association with Peter Bernstein",exzh:"我也因為與彼得・伯恩斯坦的交往而受益"},
+{w:"aware",ipa:"/əˈwɛr/",pos:"adjective",zh:"有察覺的、有意識的",def:"知道、留意到某件事。aware enough to 是「夠敏銳，足以…」。",ex:"aware enough to combine them into the investment philosophy",exzh:"夠敏銳，能把它們結合成這套投資哲學"},
+{w:"team up",ipa:"/tiːm ʌp/",pos:"phrasal verb",zh:"合作、結為夥伴",def:"與別人聯手做事。team up with 是「與…合作」，課文省略了 with，因為前面的 whom 已經帶了。",ex:"with whom I was fortunate to team up between 1983 and 1993",exzh:"我很幸運在 1983 到 1993 年間與他們合作"},
+{w:"on the part of",ipa:"/ɑːn ðə pɑːrt ʌv/",pos:"phrase",zh:"由…（一方）所做的",def:"正式用語，說明動作或行為是誰做的。implementation on the part of 就是「由…負責的執行」。",ex:"skilled implementation on the part of my incredible Oaktree cofounders",exzh:"我那些了不起的橡樹資本共同創辦人熟練的執行"},
+{w:"convinced",ipa:"/kənˈvɪnst/",pos:"adjective",zh:"深信的、確信的",def:"be convinced that 是「深信…」，語氣比 believe 更肯定，常用於表達堅定的看法。",ex:"I’m convinced that no idea can be any better than the action taken on it",exzh:"我深信，再好的想法，也不會比根據它採取的行動更好"},
+{w:"accomplishment",ipa:"/əˈkɑːmplɪʃmənt/",pos:"noun",zh:"成就、成果",def:"經過努力達成的事。作者把哲學能受到關注，歸功於夥伴的 accomplishments。",ex:"the accomplishments of these partners",exzh:"這些夥伴的成就"},
+{w:"were it not for",ipa:"/wɜːr ɪt nɑːt fɔːr/",pos:"phrase",zh:"若不是因為",def:"If it were not for 省略 if 後把 were 提前的倒裝寫法，正式、書面。wouldn’t have … were it not for 表示假如沒有它，就不會有今天的結果。",ex:"wouldn’t have attracted attention were it not for the accomplishments of these partners",exzh:"如果不是這些夥伴的成就，就不會受到關注"}
 ],
 texts:[{id:"t1",
 paras:[

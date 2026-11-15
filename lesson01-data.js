@@ -12,7 +12,19 @@ cards:[
 {w:"fundamental",ipa:"/ˌfʌndəˈmɛntl/",pos:"adjective",zh:"根本的、基本的",def:"指最底層、不會輕易改變的東西。fundamental notion 就是「根本的概念」。",ex:"the fundamental notion is unchanged: they’re all important",exzh:"根本的概念沒有改變：它們全都很重要"},
 {w:"adjustment",ipa:"/əˈdʒʌstmənt/",pos:"noun",zh:"調整、修正",def:"小幅度的修改。作者承認自己的清單有微調，但核心沒變。",ex:"I’ve made a few adjustments in the things I consider “the most important,”",exzh:"我對那些我認為「最重要」的事做了幾項調整，"},
 {w:"omit",ipa:"/oʊˈmɪt/",pos:"verb",zh:"遺漏、省略",def:"把本來該有的東西漏掉。比 leave out 正式。",ex:"Omit any one and the result is likely to be less than satisfactory.",exzh:"漏掉任何一項，結果就可能不夠令人滿意。"},
-{w:"dispensable",ipa:"/dɪˈspɛnsəbəl/",pos:"adjective",zh:"可有可無的、非必要的",def:"indispensable（不可或缺）的反義詞。課文用 none is dispensable，表示每一項都不能少。",ex:"each is a brick in what I hope will be a solid wall, and none is dispensable.",exzh:"每一項都是一塊磚，我希望它們能砌成一道堅實的牆，而且沒有一塊是可有可無的。"}
+{w:"dispensable",ipa:"/dɪˈspɛnsəbəl/",pos:"adjective",zh:"可有可無的、非必要的",def:"indispensable（不可或缺）的反義詞。課文用 none is dispensable，表示每一項都不能少。",ex:"each is a brick in what I hope will be a solid wall, and none is dispensable.",exzh:"每一項都是一塊磚，我希望它們能砌成一道堅實的牆，而且沒有一塊是可有可無的。"},
+{w:"provide",ipa:"/prəˈvaɪd/",pos:"verb",zh:"提供、提出",def:"這裡指備忘錄除了闡述哲學、說明金融，也「提出」作者對時事的看法。provide my take on 就是把看法講出來給讀者。",ex:"provide my take on recent events",exzh:"提出我對近期事件的看法"},
+{w:"primarily",ipa:"/praɪˈmɛrəli/",pos:"adverb",zh:"主要地、大多是",def:"比 mainly 稍正式，表示最主要的原因或目的。作者說小幅修改「主要」是為了讓訊息更清楚。",ex:"primarily to make their message clearer",exzh:"主要是為了讓訊息更清楚"},
+{w:"occasional",ipa:"/əˈkeɪʒənəl/",pos:"adjective",zh:"偶爾的、不定期的",def:"不是固定頻率，而是想到或有需要才寫。occasional memos 就是不定期寄出的備忘錄。",ex:"I’ve been writing occasional memos to my clients",exzh:"我一直不定期地寫備忘錄給我的客戶"},
+{w:"inclusion",ipa:"/ɪnˈkluːʒən/",pos:"noun",zh:"收錄、納入",def:"include（包含）的名詞。for inclusion here 是「為了收進這本書」，是書面語常見的寫法。",ex:"For inclusion here I’ve made some minor changes",exzh:"收進這本書時，我做了一些小幅修改"},
+{w:"passage",ipa:"/ˈpæsɪdʒ/",pos:"noun",zh:"（文章的）段落、節選",def:"從一篇較長的文字中截出來的一段。課文用複數 passages，指書裡引用了許多備忘錄的片段。",ex:"you will find passages from many of them in the pages that follow",exzh:"你會在後面的篇章裡讀到其中許多段落"},
+{w:"pull together",ipa:"/pʊl təˈɡɛðər/",pos:"phrasal verb",zh:"整合、彙整",def:"把零散的東西湊在一起，整理成一個整體。課文寫的是過去式 pulled together，指把各項要素整合成一份備忘錄。",ex:"pulled together the elements I felt were essential for investment success",exzh:"把我認為對投資成功不可或缺的要素整合在一起"},
+{w:"all told",ipa:"/ɔːl toʊld/",pos:"phrase",zh:"總計、總共",def:"放在句首，表示把所有東西加起來之後的總數或結論，相當於 in total。",ex:"All told, the memo ended up discussing eighteen “most important things.”",exzh:"總計，這份備忘錄最後談了十八項「最重要的事」。"},
+{w:"end up",ipa:"/ɛnd ʌp/",pos:"phrasal verb",zh:"最後變成、結果落得",def:"表示事情經過一段過程，最後出現沒有事先計畫的結果。ended up discussing 是「到頭來談了」十八項。",ex:"the memo ended up discussing eighteen “most important things.”",exzh:"這份備忘錄最後談了十八項「最重要的事」。"},
+{w:"thoughtful",ipa:"/ˈθɔːtfəl/",pos:"adjective",zh:"用心的、深思熟慮的",def:"這裡不是「體貼」，而是指經過認真思考的。thoughtful attention 就是用心、周到地關注。",ex:"Successful investing requires thoughtful attention to many separate aspects, all at the same time.",exzh:"成功的投資需要同時對許多不同面向都用心關注。"},
+{w:"aspect",ipa:"/ˈæspɛkt/",pos:"noun",zh:"面向、層面",def:"一件複雜事物的其中一個部分或角度。投資有很多 aspects，缺一不可。",ex:"many separate aspects",exzh:"許多不同面向"},
+{w:"satisfactory",ipa:"/ˌsætɪsˈfæktəri/",pos:"adjective",zh:"令人滿意的、合格的",def:"達到可接受的標準，但不一定出色。less than satisfactory 是委婉的說法，意思是「不夠好」。",ex:"Omit any one and the result is likely to be less than satisfactory.",exzh:"漏掉任何一項，結果就可能不夠令人滿意。"},
+{w:"workings",ipa:"/ˈwɜːrkɪŋz/",pos:"noun（複數）",zh:"運作方式、內部機制",def:"常用複數，指某個系統內部是怎麼運作的。the workings of finance 就是金融運作的道理。",ex:"explain the workings of finance",exzh:"說明金融運作的道理"}
 ],
 texts:[{id:"t1",
 paras:[

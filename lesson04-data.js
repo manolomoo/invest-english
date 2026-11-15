@@ -12,7 +12,18 @@ cards:[
 {w:"synthesize",ipa:"/ˈsɪnθəˌsaɪz/",pos:"verb",zh:"綜合、整合",def:"把不同來源的東西融合成一個新的整體，不只是並排放在一起。",ex:"having to ponder how to reconcile and synthesize them into my own approach",exzh:"必須思考如何調和並綜合它們，形成我自己的做法"},
 {w:"materialize",ipa:"/məˈtɪriəˌlaɪz/",pos:"verb",zh:"出現、成為現實",def:"原本只是可能或預期的事，真的發生了。這裡指類似的情況再度出現。",ex:"Only in this way can you put the lessons to work when similar circumstances materialize again.",exzh:"唯有這樣，當類似的情況再度出現時，你才能把這些教訓派上用場。"},
 {w:"doom",ipa:"/duːm/",pos:"verb",zh:"使註定（失敗或不幸）",def:"doom someone to 後面接不好的結果。注意它在這裡是動詞，三單是 dooms。",ex:"Failing to do this—more than anything else—is what dooms most investors to being victimized repeatedly by cycles of boom and bust.",exzh:"沒能做到這一點，比任何其他原因都更讓大多數投資人註定一再成為景氣榮枯循環的受害者。"},
-{w:"victimize",ipa:"/ˈvɪktəˌmaɪz/",pos:"verb",zh:"使受害、坑害",def:"讓人成為受害者。課文用被動式 be victimized by，主詞是投資人，加害者是榮枯循環。",ex:"being victimized repeatedly by cycles of boom and bust",exzh:"一再被景氣榮枯循環所害"}
+{w:"victimize",ipa:"/ˈvɪktəˌmaɪz/",pos:"verb",zh:"使受害、坑害",def:"讓人成為受害者。課文用被動式 be victimized by，主詞是投資人，加害者是榮枯循環。",ex:"being victimized repeatedly by cycles of boom and bust",exzh:"一再被景氣榮枯循環所害"},
+{w:"variation",ipa:"/ˌvɛriˈeɪʃən/",pos:"noun",zh:"變化、變形",def:"some variation on 是「某種變化版」，指問法不同、但大意相同的問題。",ex:"some variation on “What have been the keys to your success?”",exzh:"「你們成功的關鍵是什麼？」之類的變形"},
+{w:"implement",ipa:"/ˈɪmpləˌmɛnt/",pos:"verb",zh:"執行、落實",def:"把計畫或想法真正做出來。課文用過去分詞 implemented，表示哲學由專業人員認真執行。",ex:"implemented conscientiously by highly skilled individuals",exzh:"由具備高度專業的人認真執行"},
+{w:"provocative",ipa:"/prəˈvɑːkətɪv/",pos:"adjective",zh:"引發思考的、刺激的",def:"這裡是正面意義，指能激發思考。也可能指「挑釁的」，要看上下文。",ex:"a very effective and provocative combination",exzh:"一個非常有效又發人深省的組合"},
+{w:"qualitative",ipa:"/ˈkwɑːlətˌeɪtɪv/",pos:"adjective",zh:"定性的",def:"重視性質、脈絡與判斷，而不是數字。與 quantitative（定量的）相對。",ex:"nuts-and-bolts and qualitative instruction",exzh:"實務與定性的教學"},
+{w:"ponder",ipa:"/ˈpɑːndər/",pos:"verb",zh:"仔細思考、琢磨",def:"比 think 更慎重、更久，常用於重大或困難的問題。",ex:"having to ponder how to reconcile and synthesize them into my own approach",exzh:"必須思考如何調和並綜合它們，形成我自己的做法"},
+{w:"the sum of",ipa:"/ðə sʌm ʌv/",pos:"phrase",zh:"…的總和",def:"由許多部分加起來的整體。作者說哲學是許多想法的總和，不是一次就成形的。",ex:"the sum of many ideas",exzh:"許多想法的總和"},
+{w:"a variety of",ipa:"/ə vəˈraɪəti ʌv/",pos:"phrase",zh:"各式各樣的",def:"後面接複數名詞，表示種類很多。from a variety of sources 是「來自各種來源」。",ex:"from a variety of sources",exzh:"從各種來源"},
+{w:"in terms of",ipa:"/ɪn tɜːrmz ʌv/",pos:"phrase",zh:"就…而言、在…方面",def:"用來限定討論的範圍。in terms of both A and B 是「在 A 和 B 兩方面」。",ex:"in terms of both rich experiences and powerful lessons",exzh:"既有豐富的經歷，也有深刻的教訓"},
+{w:"put to work",ipa:"/pʊt tuː wɜːrk/",pos:"phrase",zh:"運用、派上用場",def:"put A to work 是讓 A 發揮作用。這裡指把學到的教訓真正用在新情況上。",ex:"put the lessons to work",exzh:"把這些教訓派上用場"},
+{w:"circumstances",ipa:"/ˈsɜːrkəmˌstænsɪz/",pos:"noun（複數）",zh:"情況、處境",def:"某件事發生時的各種條件與背景，常用複數。similar circumstances 指類似的局面。",ex:"when similar circumstances materialize again",exzh:"當類似的情況再度出現時"},
+{w:"boom and bust",ipa:"/buːm ənd bʌst/",pos:"phrase",zh:"景氣榮枯、大起大落",def:"boom 是繁榮、bust 是崩潰。cycles of boom and bust 指經濟或市場一再從繁榮走到蕭條的循環。",ex:"cycles of boom and bust",exzh:"景氣榮枯循環"}
 ],
 texts:[{id:"t1",
 paras:[

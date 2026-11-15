@@ -12,7 +12,17 @@ cards:[
 {w:"market returns",ipa:"/ˈmɑːrkɪt rɪˈtɜːrnz/",pos:"noun",zh:"市場報酬",def:"整個市場平均的報酬率。作者的定義：只是和市場表現打平，沒有超越。",ex:"That will give you what is known as “market returns”—merely matching whatever the market does.",exzh:"那會給你所謂的「市場報酬」——只是和市場的表現打平。"},
 {w:"count on",ipa:"/kaʊnt ɑːn/",pos:"phrasal verb",zh:"指望、仰賴",def:"把希望放在某人或某事上。count on luck 是「指望運氣」，作者認為這不算計畫。",ex:"Counting on luck isn’t much of a plan, so you’d better concentrate on insight.",exzh:"指望運氣算不上什麼像樣的計畫，所以你最好專心培養洞察力。"},
 {w:"insight",ipa:"/ˈɪnˌsaɪt/",pos:"noun",zh:"洞察力、見解",def:"看穿事物本質、別人沒看到的見解。作者認為這才是勝過市場的來源，但很難教。",ex:"To accomplish that, you need either good luck or superior insight.",exzh:"要做到這一點，你需要好運，或是卓越的洞察力。"},
-{w:"eloquently",ipa:"/ˈɛləkwəntli/",pos:"adverb",zh:"雄辯地、措辭優美地",def:"說得清楚又有說服力。so eloquently 帶有欽佩的語氣，是在稱讚 Graham 的措辭。",ex:"that necessary “trace of wisdom” that Ben Graham so eloquently calls for.",exzh:"就是班傑明・葛拉漢措辭如此精采地要求的那一絲必要的智慧。"}
+{w:"eloquently",ipa:"/ˈɛləkwəntli/",pos:"adverb",zh:"雄辯地、措辭優美地",def:"說得清楚又有說服力。so eloquently 帶有欽佩的語氣，是在稱讚 Graham 的措辭。",ex:"that necessary “trace of wisdom” that Ben Graham so eloquently calls for.",exzh:"就是班傑明・葛拉漢措辭如此精采地要求的那一絲必要的智慧。"},
+{w:"in the sense that",ipa:"/ɪn ðə sɛns ðæt/",pos:"phrase",zh:"就…這一點而言",def:"用來說明前面的話是從哪個角度成立的，後面接一個完整子句。",ex:"in the sense that in science, controlled experiments can be conducted",exzh:"因為在科學裡，可以進行受控實驗"},
+{w:"conduct",ipa:"/kənˈdʌkt/",pos:"verb",zh:"進行（實驗、調查）",def:"重音在第二音節時是動詞「進行」，常搭配 experiment、survey、research。",ex:"controlled experiments can be conducted",exzh:"可以進行受控實驗"},
+{w:"depend on",ipa:"/dɪˈpɛnd ɑːn/",pos:"phrasal verb",zh:"依賴、信賴",def:"這裡的被動式 can be depended on to hold，是「可以被信賴會成立」。",ex:"can be depended on to hold",exzh:"可以信賴它會成立"},
+{w:"hold",ipa:"/hoʊld/",pos:"verb",zh:"成立、依然有效",def:"不是「握住」，而是指道理、規則、關係在各種情況下都站得住腳。",ex:"can be depended on to hold",exzh:"可以信賴它會成立"},
+{w:"emphasize",ipa:"/ˈɛmfəˌsaɪz/",pos:"verb",zh:"強調",def:"特別凸顯某件事的重要性。作者最想強調的是投資方法要有彈性。",ex:"one of the things I most want to emphasize",exzh:"我最想強調的事情之一"},
+{w:"a matter of",ipa:"/ə ˈmætər ʌv/",pos:"phrase",zh:"取決於、是…的問題",def:"it’s a matter of X 是「說穿了就看 X」，用來指出關鍵所在。",ex:"it’s a matter of what you’re trying to accomplish",exzh:"這取決於你想達成什麼"},
+{w:"accomplish",ipa:"/əˈkɑːmplɪʃ/",pos:"verb",zh:"達成、完成",def:"比 do 或 achieve 稍正式，強調成功做到原本想做的事。",ex:"To accomplish that, you need either good luck or superior insight.",exzh:"要做到這一點，你需要好運，或是卓越的洞察力。"},
+{w:"superior",ipa:"/suːˈpɪriər/",pos:"adjective",zh:"優越的、卓越的",def:"比一般水準更好。superior insight 指超過別人的洞察力。注意後面不接 than，而是接 to。",ex:"superior insight",exzh:"卓越的洞察力"},
+{w:"manage to",ipa:"/ˈmænɪdʒ tuː/",pos:"phrase",zh:"設法做到",def:"表示經過努力、克服困難後終於做成。manage to acquire 是「設法取得」。",ex:"manage to acquire",exzh:"設法取得"},
+{w:"acquire",ipa:"/əˈkwaɪər/",pos:"verb",zh:"取得、習得",def:"透過努力獲得，常指技能、知識或資產。比 get 正式。",ex:"or manage to acquire",exzh:"或是設法取得"}
 ],
 texts:[{id:"t1",
 paras:[
