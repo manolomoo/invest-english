@@ -15,7 +15,7 @@ for(let n=1;n<=10;n++){
  W.texts.forEach(t=>{t.paras.forEach((p,pi)=>{if(!t.zh[pi]||t.zh[pi].length!==p.length)err(id+" zh 段 "+pi+" 句數不符");p.forEach((s,si)=>{if(!(t.zh[pi]&&t.zh[pi][si]))err(id+" 缺中譯 "+s.slice(0,30));if(/["']/.test(s))err(id+" 含直引號："+s.slice(0,30));if(/\s\s/.test(s)||s!==s.trim())err(id+" 空白："+s.slice(0,30))})});if(t.zh.length!==t.paras.length)err(id+" zh 段數不符")});
  if(W.cards.length<10||W.cards.length>30)err(id+" 單字數 "+W.cards.length);
  W.cards.forEach(c=>{["w","ipa","pos","zh","def","ex","exzh"].forEach(f=>{if(!c[f])err(id+" "+c.w+" 缺 "+f)});if(c.ex&&!got.includes(c.ex))err(id+" 例句不在課文："+c.w);if(c.ipa&&!/^\//.test(c.ipa))err(id+" ipa 格式 "+c.w)});
- const g=W.grammar||[];if(g.length<1||g.length>3)err(id+" 文法數 "+g.length);g.forEach(x=>{if(!got.includes(x.quote))err(id+" 文法引句不在課文："+x.title);if(!x.note||!x.title)err(id+" 文法缺欄位")});
+ const g=W.grammar||[];if(g.length<6||g.length>8)err(id+" 文法數 "+g.length);g.forEach(x=>{if(!got.includes(x.quote))err(id+" 文法引句不在課文："+x.title);if(!x.note||!x.title)err(id+" 文法缺欄位")});
  console.log(id,"單字",W.cards.length,"句",sents.length,"文法",g.length)}
 const all=fs.readdirSync(".").filter(f=>/^lesson\d+-data\.js$/.test(f)).map(f=>fs.readFileSync(f,"utf8")).join("");
 if(/secondlevel/i.test(all))err("出現 secondlevel");

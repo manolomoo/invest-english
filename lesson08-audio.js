@@ -50,5 +50,7 @@ Object.assign(window.UNIT_C,{
   "In basketball they say, “You can’t coach height,” meaning all the coaching in the world won’t make a player taller.": "lesson08-audio/en_68323edeb5660f86.mp3",
   "It’s almost as hard to teach insight.": "lesson08-audio/en_b87ee00f639dccc2.mp3",
   "As with any other art form, some people just understand investing better than others.": "lesson08-audio/en_4a9f040586cd71bd.mp3",
-  "They have—or manage to acquire—that necessary “trace of wisdom” that Ben Graham so eloquently calls for.": "lesson08-audio/en_dc45cb6b9773e25d.mp3"
+  "They have—or manage to acquire—that necessary “trace of wisdom” that Ben Graham so eloquently calls for.": "lesson08-audio/en_dc45cb6b9773e25d.mp3",
+  "in the sense that in science, controlled experiments can be conducted, past results can be replicated with confidence, and cause-and-effect relationships can be depended on to hold": "lesson08-audio/en_d622ca947d9a3e98.mp3",
+  "Because investing is at least as much art as it is science": "lesson08-audio/en_00674c61be40dfba.mp3"
 });

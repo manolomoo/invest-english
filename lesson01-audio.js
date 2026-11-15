@@ -53,5 +53,6 @@ Object.assign(window.UNIT_C,{
   "And then Z, and so on.”": "lesson01-audio/en_a6e0db6f043de935.mp3",
   "Since that original memo, I’ve made a few adjustments in the things I consider “the most important,” but the fundamental notion is unchanged: they’re all important.": "lesson01-audio/en_8428971a471465cc.mp3",
   "That is why I have built this book around the idea of the most important things—each is a brick in what I hope will be a solid wall, and none is dispensable.": "lesson01-audio/en_8bfd04f41435619f.mp3",
-  "each is a brick in what I hope will be a solid wall": "lesson01-audio/en_9133af155e5c9738.mp3"
+  "each is a brick in what I hope will be a solid wall": "lesson01-audio/en_9133af155e5c9738.mp3",
+  "As I meet with clients and prospects, I repeatedly hear myself say": "lesson01-audio/en_7c4de86f7787e201.mp3"
 });

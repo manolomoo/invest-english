@@ -44,5 +44,7 @@ Object.assign(window.UNIT_C,{
   "It’s my goal to share ideas and ways of thinking about investment matters that you haven’t come across before.": "lesson03-audio/en_859bc3e41fcc93c8.mp3",
   "Heaven for me would be seven little words: “I never thought of it that way.”": "lesson03-audio/en_9112424c1ae13dff.mp3",
   "In particular, you’ll find I spend more time discussing risk and how to limit it than how to achieve investment returns.": "lesson03-audio/en_4b407a50bdacbf1d.mp3",
-  "To me, risk is the most interesting, challenging and essential aspect of investing.": "lesson03-audio/en_82a8d9fc9d270b42.mp3"
+  "To me, risk is the most interesting, challenging and essential aspect of investing.": "lesson03-audio/en_82a8d9fc9d270b42.mp3",
+  "Thus I begin with a discussion of the market environment": "lesson03-audio/en_3b6e77b6223c18d9.mp3",
+  "Because my philosophy is “of a piece,” however, some ideas are relevant to more than one chapter": "lesson03-audio/en_35aba08797df1156.mp3"
 });

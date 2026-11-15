@@ -65,5 +65,7 @@ Object.assign(window.UNIT_C,{
   "First-level thinking says, “I think the company’s earnings will fall; sell.”": "lesson09-audio/en_06bc96da09af708c.mp3",
   "Second-level thinking says, “I think the company’s earnings will fall less than people expect, and the pleasant surprise will lift the stock; buy.”": "lesson09-audio/en_5415eaf31920ab2a.mp3",
   "All the first-level thinker needs is an opinion about the future, as in “The outlook for the company is favorable, meaning the stock will go up.”": "lesson09-audio/en_87b8d3f428a4d57f.mp3",
-  "All of economics is based on belief in the universality of the profit motive. So is capitalism": "lesson09-audio/en_deba6f2588f06ffa.mp3"
+  "All of economics is based on belief in the universality of the profit motive. So is capitalism": "lesson09-audio/en_deba6f2588f06ffa.mp3",
+  "But in investing, where these things count for less, it calls for more perceptive thinking": "lesson09-audio/en_c5966188ac02d9a5.mp3",
+  "being right may be a necessary condition for investment success, but it won’t be sufficient": "lesson09-audio/en_03803d40348101f5.mp3"
 });

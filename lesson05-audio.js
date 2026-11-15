@@ -42,5 +42,8 @@ Object.assign(window.UNIT_C,{
   "It was virtually impossible to get an investment job during the seventies, meaning that in order to have experienced that decade, you had to have gotten your job before it started.": "lesson05-audio/en_41531ccdaf7312f0.mp3",
   "Not many.": "lesson05-audio/en_05df25c3d354c923.mp3",
   "Most professional investors had joined the industry in the eighties or nineties and didn’t know a market decline could exceed 5 percent, the greatest drop seen between 1982 and 1999.": "lesson05-audio/en_ac36a5992e41cfd0.mp3",
-  "Experience is what you got when you didn’t get what you wanted.": "lesson05-audio/en_56a5582b20525b63.mp3"
+  "Experience is what you got when you didn’t get what you wanted.": "lesson05-audio/en_56a5582b20525b63.mp3",
+  "the Arab oil embargo, stagflation, Nifty Fifty stock collapse and “death of equities” of the 1970s; Black Monday in 1987, when the Dow Jones Industrial Index lost 22.6 percent of its value in one day; the 1994 spike in interest rates that put rate-sensitive debt instruments into freefall; the emerging market crisis, Russian default and meltdown of Long-Term Capital Management in 1998; the bursting of the tech-stock bubble in 2000–2001; the accounting scandals of 2001–2002; and the worldwide financial crisis of 2007–2008": "lesson05-audio/en_44accddcff8baedd.mp3",
+  "didn’t know a market decline could exceed 5 percent": "lesson05-audio/en_66f99675509ee8ab.mp3",
+  "the greatest drop seen between 1982 and 1999": "lesson05-audio/en_993a96fea1086847.mp3"
 });

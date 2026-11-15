@@ -46,5 +46,8 @@ Object.assign(window.UNIT_C,{
   "The happy truth is that I was exposed to all of these elements and aware enough to combine them into the investment philosophy that has worked for my organizations—and thus for my clients—for many years.": "lesson06-audio/en_33d6a08842e6a72d.mp3",
   "I hasten to point out that my philosophy wouldn’t have meant much without skilled implementation on the part of my incredible Oaktree cofounders—Bruce Karsh, Sheldon Stone, Larry Keele, Richard Masson and Steve Kaplan—with whom I was fortunate to team up between 1983 and 1993.": "lesson06-audio/en_5de5b1e44a36d843.mp3",
   "I’m convinced that no idea can be any better than the action taken on it, and that’s especially true in the world of investing.": "lesson06-audio/en_c38bbf835fc17ca5.mp3",
-  "The philosophy I share here wouldn’t have attracted attention were it not for the accomplishments of these partners and the rest of my Oaktree colleagues.": "lesson06-audio/en_f436a40b75312486.mp3"
+  "The philosophy I share here wouldn’t have attracted attention were it not for the accomplishments of these partners and the rest of my Oaktree colleagues.": "lesson06-audio/en_f436a40b75312486.mp3",
+  "learn directly from some outstanding thinkers: John Kenneth Galbraith on human foibles; Warren Buffett on patience and contrarianism": "lesson06-audio/en_eba91f943643f6c0.mp3",
+  "the investment philosophy that has worked for my organizations—and thus for my clients—for many years": "lesson06-audio/en_972cd30f764ab844.mp3",
+  "The happy truth is that I was exposed to all of these elements and aware enough to combine them into the investment philosophy": "lesson06-audio/en_e0ab686d17fe4872.mp3"
 });

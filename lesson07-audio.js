@@ -49,5 +49,6 @@ Object.assign(window.UNIT_C,{
   "The reasons are simple.": "lesson07-audio/en_464086e5e9c04c45.mp3",
   "No rule always works.": "lesson07-audio/en_13cab7df497c1878.mp3",
   "The environment isn’t controllable, and circumstances rarely repeat exactly.": "lesson07-audio/en_8c43dfc600751608.mp3",
-  "Investing, like economics, is more art than science.": "lesson07-audio/en_673a732982df0973.mp3"
+  "Investing, like economics, is more art than science.": "lesson07-audio/en_673a732982df0973.mp3",
+  "to improve this easily attainable standard requires much application and more than a trace of wisdom": "lesson07-audio/en_f9c09786647d8fa5.mp3"
 });

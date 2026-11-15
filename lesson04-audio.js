@@ -51,5 +51,7 @@ Object.assign(window.UNIT_C,{
   "The time I spent at two great business schools provided a very effective and provocative combination: nuts-and-bolts and qualitative instruction in the pre-theory days of my undergraduate education at Wharton, and a theoretical, quantitative education at the Graduate School of Business of the University of Chicago.": "lesson04-audio/en_c2f647243d96df8c.mp3",
   "It’s not the specific facts or processes I learned that mattered most, but being exposed to the two main schools of investment thought and having to ponder how to reconcile and synthesize them into my own approach.": "lesson04-audio/en_f811fea1a623a0e9.mp3",
   "Importantly, a philosophy like mine comes from going through life with your eyes open.": "lesson04-audio/en_f3891c7e4408ebec.mp3",
-  "You must be aware of what’s taking place in the world and of what results those events lead to.": "lesson04-audio/en_3c5f84e13b1afd45.mp3"
+  "You must be aware of what’s taking place in the world and of what results those events lead to.": "lesson04-audio/en_3c5f84e13b1afd45.mp3",
+  "no one arrives on the doorstep of an investment career with his or her philosophy fully formed": "lesson04-audio/en_9c90650420f9f4d2.mp3",
+  "an effective investment philosophy, developed and honed over more than four decades and implemented conscientiously by highly skilled individuals who share culture and values": "lesson04-audio/en_a623d2311c8ca8c1.mp3"
 });
