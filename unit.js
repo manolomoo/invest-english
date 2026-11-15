@@ -46,9 +46,11 @@ function textsHTML(){return W.texts.map(t=>{const ids=[];const meta=t.meta||[];
  return `<div class="box tx" id="tx-${t.id}">${t.title?`<b style="font-size:18px">${esc(t.title)}</b>`:""}
   <div class="row"><button class="b p" data-a="all">▶ 全文連播</button><button class="b" data-a="echo">回音法逐句</button></div>
   <div class="row"><button class="b" data-a="stop">⏹ 停止</button><button class="b" data-a="zh">顯示中文</button></div><div class="cue"></div>
-  <div class="story">${body}</div><div class="tip">點任一句可單獨聽。</div></div>`}).join("")}
+  <div class="story">${body}</div><div class="tip">點任一句可單獨聽。長按或雙擊單字、拖選片語，可加入「我的單字」。</div></div>`}).join("")}
 function bindTexts(){W.texts.forEach(t=>{const box=$("tx-"+t.id),cue=box.querySelector(".cue");
- box.querySelectorAll(".sn").forEach(e=>e.onclick=()=>{if(window.TTS&&TTS.unlock)TTS.unlock();stop();e.classList.add("hl");play1(SENT[+e.dataset.j],"s:"+e.dataset.j).then(()=>e.classList.remove("hl"))});
+ const playSn=e=>{if(window.TTS&&TTS.unlock)TTS.unlock();stop();e.classList.add("hl");play1(SENT[+e.dataset.j],"s:"+e.dataset.j).then(()=>e.classList.remove("hl"))};
+ /* 單擊播放整句；長按／雙擊／拖選 → 我的單字彈窗（mywords.js）。沒載入時退回單純點擊播放。 */
+ if(window.MW&&MW.bindSn)MW.bindSn(box,playSn);else box.querySelectorAll(".sn").forEach(e=>e.onclick=()=>playSn(e));
  box.querySelectorAll("[data-a]").forEach(b=>b.addEventListener("pointerdown",()=>{if(TTS.unlock)TTS.unlock()},{passive:true}));
  box.querySelector('[data-a="stop"]').onclick=stop;
  const zb=box.querySelector('[data-a="zh"]');zb.onclick=()=>{const on=box.classList.toggle("showzh");zb.textContent=on?"隱藏中文":"顯示中文"};

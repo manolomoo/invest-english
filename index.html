@@ -1,9 +1,10 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>投資最重要的事｜學英文</title><link rel="stylesheet" href="style.css?v=5"></head><body><div class="w">
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>投資最重要的事｜學英文</title><link rel="stylesheet" href="style.css?v=6"></head><body><div class="w">
 <header>
 <h1>投資最重要的事｜學英文</h1>
 <p class="lead">用 Howard Marks 的原書《The Most Important Thing Illuminated》來學英文。先做導言與第 1 章 Second-Level Thinking 前半，共 10 課。每課有關鍵單字（含音標與回音法跟讀）、可逐句點選播放的原文與中譯、以及簡短的文法筆記。</p>
 </header>
 <div id="rpgc"></div>
+<div id="mywc"></div>
 <div id="list" style="display:flex;flex-direction:column;gap:10px"></div>
 <p class="mu" style="font-size:13px;line-height:1.6">英文原文出自 Howard Marks, <i>The Most Important Thing Illuminated</i>（Columbia Business School Publishing, 2013）；中文翻譯與說明為學習用途自行撰寫。中譯書名《投資最重要的事》。</p>
 </div>
@@ -22,4 +23,4 @@ const L=[
 document.getElementById("list").innerHTML=L.map((x,k)=>{const n=String(k+1).padStart(2,"0");
 return `<a class="box lc" href="lesson${n}.html"><div class="no">第 ${k+1} 課　・　${x[2]}</div><div class="t">${x[0]}</div><div class="e">${x[1]}</div><div class="s">${x[3]}</div></a>`}).join("");
 </script>
-<script>window.PAGEVER="5"</script><script src="version.js?v=5"></script><script src="rw.js?v=5"></script><script src="rpg.js?v=5"></script><script>RW.home(document.getElementById("list"));RPG.home(document.getElementById("rpgc"));if(location.hash==="#rpg"||location.hash==="#assets"){var e=document.getElementById(location.hash.slice(1));if(e)e.scrollIntoView()}</script></body></html>
+<script>window.PAGEVER="6"</script><script src="version.js?v=6"></script><script src="rw.js?v=6"></script><script src="rpg.js?v=6"></script><script src="mywords.js?v=6"></script><script>try{MW.home(document.getElementById("mywc"))}catch(e){}RW.home(document.getElementById("list"));RPG.home(document.getElementById("rpgc"));if(location.hash==="#rpg"||location.hash==="#assets"||location.hash==="#mywc"){var e=document.getElementById(location.hash.slice(1));if(e)e.scrollIntoView()}</script></body></html>
