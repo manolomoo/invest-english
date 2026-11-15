@@ -53,7 +53,7 @@ a.nav{color:var(--ac);text-decoration:none}
 /* 文法 */
 .gm{gap:8px}.gm h3{margin:0;font-size:18px;line-height:1.4}
 .gq{font-size:19px;line-height:1.7;background:var(--tint);border-left:4px solid var(--ac);border-radius:8px;padding:8px 10px;cursor:pointer;overflow-wrap:anywhere}.gq.hl{outline:2px solid var(--ac)}
-.gn{font-size:16px;line-height:1.7}.gn p{margin:0 0 6px}
+.gn{font-size:20px;line-height:1.75}.gn p{margin:0 0 6px}
 
 /* 首頁 */
 .lead{font-size:16px;line-height:1.7;color:var(--mu)}
