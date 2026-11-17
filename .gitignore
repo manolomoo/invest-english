@@ -4,3 +4,4 @@ REPORT.md
 *.log
 *.pdf
 .DS_Store
+memo-src/
