@@ -106,6 +106,14 @@ function selInfo(){const s=window.getSelection&&getSelection();if(!s||!s.rangeCo
 let pop=null,cur=null,toastT=0;
 function toast(m){let t=document.getElementById("mwtoast");if(!t){t=document.createElement("div");t.id="mwtoast";t.className="mw-toast";document.body.appendChild(t)}t.textContent=m;t.style.display="block";clearTimeout(toastT);toastT=setTimeout(()=>{t.style.display="none"},1600)}
 function closePop(){if(pop){pop.remove();pop=null;cur=null}try{const s=getSelection();if(s&&s.removeAllRanges)s.removeAllRanges()}catch(e){}}
+/* 本地查不到時，線上機器翻譯（Google gtx→at，備援 MyMemory）→ 台灣繁中字串或 "" */
+const CJK=/[\u3400-\u9fff]/;
+async function jget(url,ms){const ac=new AbortController(),t=setTimeout(()=>ac.abort(),ms);try{const r=await fetch(url,{signal:ac.signal});if(!r.ok)throw 0;return await r.text()}finally{clearTimeout(t)}}
+function okZh(z,src){z=String(z||"").replace(/\s+/g," ").trim();if(!z||/MYMEMORY WARNING|WARNING/i.test(z)||!CJK.test(z))return"";if(z.toLowerCase()===String(src).trim().toLowerCase())return"";return z}
+async function mtTranslate(text){const q=encodeURIComponent(text);
+ for(const c of["gtx","at"]){try{const b=await jget("https://translate.googleapis.com/translate_a/single?client="+c+"&sl=en&tl=zh-TW&dt=t&q="+q,5000);const z=okZh(JSON.parse(b)[0].map(x=>x[0]).join(""),text);if(z)return z}catch(e){}}
+ try{const j=JSON.parse(await jget("https://api.mymemory.translated.net/get?q="+q+"&langpair=en%7Czh-TW",5000));if(Number(j.responseStatus)===200){const z=okZh(j.responseData&&j.responseData.translatedText,text);if(z)return z}}catch(e){}
+ return""}
 async function openPop(h){
  const t=h.en?h.en.data:"",text=(h.text!=null?h.text:t.slice(h.a,h.b)).replace(/\s+/g," "),sent=h.sent!=null?h.sent:plain(t),key=nkey(text);
  try{window.dispatchEvent(new Event("mw-open"))}catch(e){}
@@ -129,6 +137,11 @@ async function openPop(h){
  if(!ex)$("#mwSub").textContent=hit.zh?(hit.src==="card"?"自動填入：本課單字卡":"自動填入：離線字典（可修改）"):"查不到這個字，請自己輸入意思";
  else if(!ex.zh&&hit.zh)$("#mwSub").textContent="已自動填入意思";
  mine.final=shown;
+ if(!hit.zh&&(!ex||!ex.zh)){
+  if(!ex)$("#mwSub").textContent="翻譯中…";
+  mtTranslate(shown).then(z=>{if(cur!==mine||!pop)return;
+   if(z&&!mine.dirty&&!inp.value){inp.value=z;if(!ex)$("#mwSub").textContent="自動填入：機器翻譯（可修改）";else $("#mwSub").textContent="已自動填入意思（機器翻譯，可修改）"}
+   else if(!z&&!ex)$("#mwSub").textContent="查不到這個字，請自己輸入意思"})}
  /* 避免彈窗蓋住被選的字 */
  try{const r=h.rng?h.rng():(()=>{const r=document.createRange();r.setStart(h.en,h.a);r.setEnd(h.en,h.b);return r})();const q=r.getBoundingClientRect(),ph=pop.offsetHeight;if(q.bottom>innerHeight-ph-12)window.scrollBy(0,q.bottom-(innerHeight-ph-12)+12)}catch(e){}
  pop.onclick=e=>{const b=e.target.closest&&e.target.closest("[data-a]");if(!b)return;const a=b.getAttribute("data-a");
