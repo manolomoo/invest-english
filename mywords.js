@@ -107,10 +107,11 @@ let pop=null,cur=null,toastT=0;
 function toast(m){let t=document.getElementById("mwtoast");if(!t){t=document.createElement("div");t.id="mwtoast";t.className="mw-toast";document.body.appendChild(t)}t.textContent=m;t.style.display="block";clearTimeout(toastT);toastT=setTimeout(()=>{t.style.display="none"},1600)}
 function closePop(){if(pop){pop.remove();pop=null;cur=null}try{const s=getSelection();if(s&&s.removeAllRanges)s.removeAllRanges()}catch(e){}}
 async function openPop(h){
- const t=h.en.data,text=t.slice(h.a,h.b).replace(/\s+/g," "),sent=plain(t),key=nkey(text);
+ const t=h.en?h.en.data:"",text=(h.text!=null?h.text:t.slice(h.a,h.b)).replace(/\s+/g," "),sent=h.sent!=null?h.sent:plain(t),key=nkey(text);
+ try{window.dispatchEvent(new Event("mw-open"))}catch(e){}
  if(pop&&cur&&cur.key===key&&cur.sent===sent)return;
  const ex=find(text);cur={key,sent,dirty:false,text};
- const first=h.a===0&&/^\p{Lu}\p{Ll}+$/u.test(text);
+ const first=(h.first!=null?h.first:h.a===0)&&/^\p{Lu}\p{Ll}+$/u.test(text);
  if(!pop){pop=document.createElement("div");pop.className="mw-pop";pop.setAttribute("role","dialog");document.body.appendChild(pop)}
  const mine=cur;
  pop.innerHTML=`<div class="mw-ph"><div class="mw-w" id="mwW"></div><button type="button" class="mw-sp" data-a="sp" aria-label="發音">🔊</button><button type="button" class="mw-x" data-a="x" aria-label="關閉">✕</button></div>
@@ -129,7 +130,7 @@ async function openPop(h){
  else if(!ex.zh&&hit.zh)$("#mwSub").textContent="已自動填入意思";
  mine.final=shown;
  /* 避免彈窗蓋住被選的字 */
- try{const r=document.createRange();r.setStart(h.en,h.a);r.setEnd(h.en,h.b);const q=r.getBoundingClientRect(),ph=pop.offsetHeight;if(q.bottom>innerHeight-ph-12)window.scrollBy(0,q.bottom-(innerHeight-ph-12)+12)}catch(e){}
+ try{const r=h.rng?h.rng():(()=>{const r=document.createRange();r.setStart(h.en,h.a);r.setEnd(h.en,h.b);return r})();const q=r.getBoundingClientRect(),ph=pop.offsetHeight;if(q.bottom>innerHeight-ph-12)window.scrollBy(0,q.bottom-(innerHeight-ph-12)+12)}catch(e){}
  pop.onclick=e=>{const b=e.target.closest&&e.target.closest("[data-a]");if(!b)return;const a=b.getAttribute("data-a");
   if(a==="x")closePop();else if(a==="sp")speak(mine.text);
   else if(a==="ok")commit(mine,h,inp.value)};
@@ -163,7 +164,46 @@ function bindSn(box,playFn){
  box.addEventListener("dblclick",e=>{const sn=e.target.closest&&e.target.closest(".sn");if(!sn)return;clearPlay();const h=wordAtPoint(e.clientX,e.clientY,sn);if(h)openPop(h)});
 }
 
+/* ===== 富文字句子（句內有 span／b，如 memo-ai 的 .mm-en）：同一套長按／雙擊／選字 ===== */
+function bindRich(box,opts){opts=opts||{};const SEL=opts.sel||".mm-en";
+ let down=null,lpT=0,lpFired=false,moved=false,tapT=0,mouse=false,selT=0,last={t:0,x:0,y:0};
+ const ctOf=n=>{const e=n&&(n.nodeType===3?n.parentElement:n);const c=e&&e.closest?e.closest(SEL):null;return c&&box.contains(c)?c:null};
+ const flat=(c,n,o)=>{const r=document.createRange();r.setStart(c,0);r.setEnd(n,o);return r.toString().length};
+ const rngOf=(c,a,b)=>{const w=document.createTreeWalker(c,NodeFilter.SHOW_TEXT),r=document.createRange();let p=0,n,s=false;
+  while((n=w.nextNode())){const l=n.data.length;if(!s&&a<=p+l){r.setStart(n,a-p);s=true}if(s&&b<=p+l){r.setEnd(n,b-p);return r}p+=l}return r};
+ const mk=(c,t,a,b)=>{const txt=t.slice(a,b);return{text:txt,sent:plain(t),first:/^\s*$/.test(t.slice(0,a)),rng:()=>rngOf(c,a,b)}};
+ const wordAt=(x,y,c)=>{const cp=caretAt(x,y);if(!cp||!cp.n||cp.n.nodeType!==3||!c.contains(cp.n))return null;const t=c.textContent;let i=flat(c,cp.n,cp.o);
+  if(!isW(t,i)&&isW(t,i-1))i--;if(!isW(t,i))return null;let a=i,b=i+1;while(a>0&&isW(t,a-1))a--;while(b<t.length&&isW(t,b))b++;
+  const rr=rngOf(c,a,b);if(![...rr.getClientRects()].some(q=>x>=q.left-10&&x<=q.right+10&&y>=q.top-10&&y<=q.bottom+10))return null;
+  return mk(c,t,a,b)};
+ const selRich=()=>{const s=window.getSelection&&getSelection();if(!s||!s.rangeCount||s.isCollapsed)return null;const r=s.getRangeAt(0);
+  const c=ctOf(r.startContainer);if(!c||ctOf(r.endContainer)!==c)return null;
+  let a=flat(c,r.startContainer,r.startOffset),b=flat(c,r.endContainer,r.endOffset);const t=c.textContent;if(a>=b)return null;
+  while(a>0&&isW(t,a-1)&&isW(t,a))a--;while(b<t.length&&isW(t,b)&&isW(t,b-1))b++;
+  [a,b]=trimR(t,a,b);if(b<=a)return null;const txt=t.slice(a,b);if(!HASL.test(txt)||txt.length>80||txt.split(/\s+/).length>8)return null;return mk(c,t,a,b)};
+ const clearTap=()=>{clearTimeout(tapT);tapT=0};
+ const check=()=>{const h=selRich();if(h){clearTap();openPop(h)}};
+ box.addEventListener("pointerdown",e=>{const c=ctOf(e.target);if(!c)return;if(e.pointerType==="mouse"&&e.button!==0)return;
+  down={x:e.clientX,y:e.clientY};lpFired=false;moved=false;mouse=e.pointerType==="mouse";clearTimeout(lpT);
+  lpT=setTimeout(()=>{if(!down)return;const h=wordAt(down.x,down.y,c);if(h){lpFired=true;clearTap();openPop(h)}},500)},{passive:true});
+ box.addEventListener("pointermove",e=>{if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>10){moved=true;clearTimeout(lpT)}},{passive:true});
+ const up=()=>{clearTimeout(lpT);down=null;mouse=false;setTimeout(check,60)};
+ box.addEventListener("pointerup",up,{passive:true});box.addEventListener("pointercancel",up,{passive:true});
+ document.addEventListener("selectionchange",()=>{clearTimeout(selT);selT=setTimeout(()=>{if(!mouse)check()},400)});
+ box.addEventListener("click",e=>{const c=ctOf(e.target);if(!c)return;
+  if(lpFired){lpFired=false;return}
+  if(moved){moved=false;return}
+  const now=Date.now();
+  if(now-last.t<400&&Math.hypot(e.clientX-last.x,e.clientY-last.y)<30){last.t=0;clearTap();const h=wordAt(e.clientX,e.clientY,c);if(h)openPop(h);return}
+  last={t:now,x:e.clientX,y:e.clientY};clearTap();
+  if(selRich())return;
+  if(!opts.onTap)return;
+  tapT=setTimeout(()=>{tapT=0;if(lpFired||selRich())return;opts.onTap(c,e)},300)});
+ box.addEventListener("dblclick",e=>{const c=ctOf(e.target);if(!c)return;clearTap();const h=wordAt(e.clientX,e.clientY,c);if(h)openPop(h)});
+}
+function closeDrawer(){closePop()}
+
 function init(){const o=document.getElementById("mwo");if(o)o.onclick=openPanel;if(window.WEEK)dict()}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
-window.MW={home,bindSn,openPanel,closePanel,list:sorted,add,del,find,lookup,speak,dict,key:K};
+window.MW={home,bindSn,bindRich,closeDrawer,openPanel,closePanel,list:sorted,add,del,find,lookup,speak,dict,key:K};
 })();

@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Howard Marks 最新備忘錄｜門外漢談 AI｜學英文</title><link rel="stylesheet" href="style.css?v=9">
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Howard Marks 最新備忘錄｜門外漢談 AI｜學英文</title><link rel="stylesheet" href="style.css?v=10">
 <style>
 .mm-card{background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .mm-card h2{margin:0;font-size:19px;line-height:1.4}
@@ -27,6 +27,7 @@
 .mm-zh{display:none;font-size:18px;line-height:1.7;color:var(--mu);margin:0 0 4px;overflow-wrap:anywhere}.mm-zh b{font-weight:700;color:var(--fg)}.showzh .mm-zh{display:block}
 .mm-b.h .mm-zh{padding-left:15px}
 .mm-note{font-size:15px;line-height:1.65;background:var(--tint);border-radius:10px;padding:8px 10px;margin:2px 0 6px;overflow-wrap:anywhere}
+.mm-en,.mm-tb td{-webkit-touch-callout:none;touch-action:manipulation}
 .mm-v{background:rgba(245,179,1,.22);border-bottom:2px solid #f5b301;border-radius:3px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .mm-tb{width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px;line-height:1.45;margin:4px 0}
 .mm-tb th,.mm-tb td{border:1px solid var(--ln);padding:6px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.mm-tb th{background:var(--tint)}.mm-tb th small{display:block;color:var(--mu);font-weight:400}
@@ -75,7 +76,7 @@
 <div class="mm-card mm-bar">
 <div class="r"><span class="mu" style="font-size:14px">速度</span><div class="seg" id="mmrate"><button type="button" data-r="0.75">0.75</button><button type="button" data-r="1" class="on">1</button><button type="button" data-r="1.25">1.25</button></div></div>
 <div class="r"><label><input type="checkbox" id="mmauto">自動接下一段</label><button type="button" class="b" id="mmzt">隱藏中譯</button></div>
-<div class="mu" style="font-size:13px;line-height:1.5">黃色底線的字可以點，看詞性、意思與例句。</div>
+<div class="mu" style="font-size:13px;line-height:1.5">長按或點兩下單字，或反白片語，可加入我的單字。黃色底線的字單擊仍可看本課小卡。</div>
 </div>
 <div id="mmtexts" class="showzh" style="display:flex;flex-direction:column;gap:12px"></div>
 </section>
@@ -98,12 +99,12 @@
 <p class="mu mm-foot">英文原文與朗讀音檔出自 Oaktree Capital, Howard Marks memo “A Layman Thinks About AI” (Nov 11, 2026)，僅供個人學習；中文為學習用途自行撰寫。</p>
 </div>
 <div class="mm-mini" id="mmmini" hidden><span id="mmmt"></span><button type="button" id="mmmp">⏸ 暫停</button><button type="button" id="mmms">■ 停止</button></div>
-<script>window.PAGEVER="9"</script><script src="version.js?v=9"></script>
-<script src="mywords.js?v=9"></script>
-<script src="speech.js?v=9"></script>
-<script src="memo-vocab-audio.js?v=9"></script>
-<script src="memo-ai-data.js?v=9"></script>
-<script src="memo-ai-segs.js?v=9"></script>
+<script>window.PAGEVER="10"</script><script src="version.js?v=10"></script>
+<script src="mywords.js?v=10"></script>
+<script src="speech.js?v=10"></script>
+<script src="memo-vocab-audio.js?v=10"></script>
+<script src="memo-ai-data.js?v=10"></script>
+<script src="memo-ai-segs.js?v=10"></script>
 <script>
 (function(){
 "use strict";
@@ -165,15 +166,19 @@ function renderTexts(){
  $("mmtexts").innerHTML=SEGS.map(function(s,k){
   return'<div class="mm-seg" id="seg-'+s.id+'" data-k="'+k+'"><div class="mm-sh"><button type="button" class="b p pl">▶ 播放本段（Howard Marks 原音）</button><span class="t">第 '+(k+1)+" / "+SEGS.length+" 段"+(fmt(s.dur)?"・"+fmt(s.dur):"")+"</span></div>"+s.blocks.map(blockHTML).join("")+"</div>"}).join("")}
 $("mmtexts").addEventListener("click",function(e){
- var v=e.target.closest(".mm-v");if(v){openPop(+v.dataset.i);return}
  var p=e.target.closest(".pl");if(p){playSeg(+p.closest(".mm-seg").dataset.k)}});
+
+/* ---------- 我的單字：長按／雙擊／拖選（mywords.js bindRich）---------- */
+window.WEEK={id:"memo-ai",n:0,cards:V.map(function(v){return{w:v.w,zh:v.zh}})};
+if(window.MW){MW.dict();window.addEventListener("mw-open",function(){closePop()});
+ MW.bindRich($("mmtexts"),{sel:".mm-en,.mm-tb td",onTap:function(c,ev){var v=ev.target.closest&&ev.target.closest(".mm-v");if(v)openPop(+v.dataset.i)}})}
 
 /* ---------- 單字小卡 ---------- */
 var pop=null;
 function closePop(){if(pop){pop.remove();pop=null}}
 function mwHas(w){try{return window.MW&&MW.find(w)}catch(e){return false}}
 function mwAdd(v,btn){try{if(!window.MW)return;MW.add({w:v.w,zh:v.zh,s:v.ex,l:"memo-ai",n:0,t:Date.now()});toast("已加入「"+v.w+"」到我的單字");if(btn)btn.textContent="⭐ 已加入"}catch(e){}}
-function openPop(i){closePop();var v=V[i];pop=document.createElement("div");pop.className="mm-pop";
+function openPop(i){closePop();try{if(window.MW)MW.closeDrawer()}catch(e){}var v=V[i];pop=document.createElement("div");pop.className="mm-pop";
  pop.innerHTML='<div class="w">'+esc(v.w)+'</div><div class="m">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+'</div><div class="mm-zh1">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="mm-ex">'+boldW(v.ex,v.w)+'<div class="z">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-a="w">🔊 念單字</button><button type="button" class="b" data-a="l">🔊 聽原句</button><button type="button" class="b" data-a="m">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button><button type="button" class="b" data-a="x">關閉</button></div>';
  pop.onclick=function(e){var b=e.target.closest("button[data-a]");if(!b)return;var a=b.dataset.a;if(a==="x")closePop();else if(a==="w")say(v.w);else if(a==="l")say(v.ex);else if(a==="m"){if(!mwHas(v.w))mwAdd(v,b)}};
  document.body.appendChild(pop)}
