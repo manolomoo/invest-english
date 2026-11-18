@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Howard Marks 最新備忘錄｜門外漢談 AI｜學英文</title><link rel="stylesheet" href="style.css?v=8">
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Howard Marks 最新備忘錄｜門外漢談 AI｜學英文</title><link rel="stylesheet" href="style.css?v=9">
 <style>
 .mm-card{background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .mm-card h2{margin:0;font-size:19px;line-height:1.4}
@@ -98,9 +98,12 @@
 <p class="mu mm-foot">英文原文與朗讀音檔出自 Oaktree Capital, Howard Marks memo “A Layman Thinks About AI” (Nov 11, 2026)，僅供個人學習；中文為學習用途自行撰寫。</p>
 </div>
 <div class="mm-mini" id="mmmini" hidden><span id="mmmt"></span><button type="button" id="mmmp">⏸ 暫停</button><button type="button" id="mmms">■ 停止</button></div>
-<script src="mywords.js?v=8"></script>
-<script src="memo-ai-data.js?v=1"></script>
-<script src="memo-ai-segs.js?v=1"></script>
+<script>window.PAGEVER="9"</script><script src="version.js?v=9"></script>
+<script src="mywords.js?v=9"></script>
+<script src="speech.js?v=9"></script>
+<script src="memo-vocab-audio.js?v=9"></script>
+<script src="memo-ai-data.js?v=9"></script>
+<script src="memo-ai-segs.js?v=9"></script>
 <script>
 (function(){
 "use strict";
@@ -135,12 +138,11 @@ function sync(){
  document.querySelectorAll(".mm-seg").forEach(function(el){var k=+el.dataset.k,on=k===cur;el.classList.toggle("on",on);
   var b=el.querySelector(".pl");if(b)b.textContent=on&&playing?"⏸ 暫停本段":(on&&!au.ended&&au.currentTime>0?"▶ 繼續播放":"▶ 播放本段（Howard Marks 原音）")});
  var mini=$("mmmini");mini.hidden=cur===null;
- if(cur!==null){$("mmmt").textContent="第 "+(cur+1)+" / "+SEGS.length+" 段";$("mmmp").textContent=playing?"⏸ 暫停":"▶ 播放"}
- document.querySelectorAll("[data-listen]").forEach(function(b){var k=segOf(+b.dataset.listen);b.textContent=(k===cur&&playing)?"⏸ 暫停":"🔊 聽原句"})}
+ if(cur!==null){$("mmmt").textContent="第 "+(cur+1)+" / "+SEGS.length+" 段";$("mmmp").textContent=playing?"⏸ 暫停":"▶ 播放"}}
 function playSeg(k,scroll){
  var s=SEGS[k];if(!s)return;
  if(cur===k){if(au.paused||au.ended){if(au.ended)au.currentTime=0;au.play().catch(function(){})}else au.pause();sync();return}
- au.pause();cur=k;au.src=s.file;au.playbackRate=rate;au.defaultPlaybackRate=rate;
+ if(window.TTS)TTS.cancel();au.pause();cur=k;au.src=s.file;au.playbackRate=rate;au.defaultPlaybackRate=rate;
  var p=au.play();if(p&&p.catch)p.catch(function(){});
  sync();if(scroll){var el=$("seg-"+s.id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})}}
 function stopAll(){au.pause();try{au.removeAttribute("src");au.load()}catch(e){}cur=null;sync()}
@@ -172,11 +174,11 @@ function closePop(){if(pop){pop.remove();pop=null}}
 function mwHas(w){try{return window.MW&&MW.find(w)}catch(e){return false}}
 function mwAdd(v,btn){try{if(!window.MW)return;MW.add({w:v.w,zh:v.zh,s:v.ex,l:"memo-ai",n:0,t:Date.now()});toast("已加入「"+v.w+"」到我的單字");if(btn)btn.textContent="⭐ 已加入"}catch(e){}}
 function openPop(i){closePop();var v=V[i];pop=document.createElement("div");pop.className="mm-pop";
- pop.innerHTML='<div class="w">'+esc(v.w)+'</div><div class="m">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+'</div><div class="mm-zh1">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="mm-ex">'+boldW(v.ex,v.w)+'<div class="z">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-a="l">🔊 聽原句</button><button type="button" class="b" data-a="m">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button><button type="button" class="b" data-a="x">關閉</button></div>';
- pop.onclick=function(e){var b=e.target.closest("button[data-a]");if(!b)return;var a=b.dataset.a;if(a==="x")closePop();else if(a==="l")listen(v.b);else if(a==="m"){if(!mwHas(v.w))mwAdd(v,b)}};
+ pop.innerHTML='<div class="w">'+esc(v.w)+'</div><div class="m">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+'</div><div class="mm-zh1">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="mm-ex">'+boldW(v.ex,v.w)+'<div class="z">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-a="w">🔊 念單字</button><button type="button" class="b" data-a="l">🔊 聽原句</button><button type="button" class="b" data-a="m">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button><button type="button" class="b" data-a="x">關閉</button></div>';
+ pop.onclick=function(e){var b=e.target.closest("button[data-a]");if(!b)return;var a=b.dataset.a;if(a==="x")closePop();else if(a==="w")say(v.w);else if(a==="l")say(v.ex);else if(a==="m"){if(!mwHas(v.w))mwAdd(v,b)}};
  document.body.appendChild(pop)}
 document.addEventListener("click",function(e){if(pop&&!pop.contains(e.target)&&!e.target.closest(".mm-v"))closePop()});
-function listen(b){var k=segOf(b);if(k<0){toast("找不到這段音檔");return}playSeg(k)}
+function say(t){if(!t||!window.TTS)return;stopAll();TTS.play(t)}
 
 /* ---------- 重點 ---------- */
 function renderSummary(){var S=M.summary,qi=0,hIdx=[];B.forEach(function(b,i){if(b.kind==="h")hIdx.push(i)});
@@ -193,10 +195,10 @@ function renderVocab(){var q=$("mmsr").value.trim().toLowerCase();
  var arr=V.map(function(v,i){return i}).filter(function(i){var v=V[i];return!q||(v.w+" "+v.zh+" "+v.exp).toLowerCase().indexOf(q)>=0});
  $("mmvc").textContent="共 "+V.length+" 個"+(q?"，符合 "+arr.length+" 個":"");
  $("mmvl").innerHTML=arr.length?arr.map(function(i){var v=V[i];
-  return'<div class="mm-vi"><div class="h1"><span class="w">'+esc(v.w)+'</span><span class="p">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+'</span></div><div class="mm-zh1">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="mm-ex">'+boldW(v.ex,v.w)+'<div class="z">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-listen="'+v.b+'">🔊 聽原句</button><button type="button" class="b" data-mw="'+i+'">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button></div></div>'}).join(""):'<div class="mu">找不到符合的單字。</div>';
+  return'<div class="mm-vi"><div class="h1"><span class="w">'+esc(v.w)+'</span><span class="p">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+'</span></div><div class="mm-zh1">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="mm-ex">'+boldW(v.ex,v.w)+'<div class="z">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-say="w" data-i="'+i+'">🔊 念單字</button><button type="button" class="b" data-say="l" data-i="'+i+'">🔊 聽原句</button><button type="button" class="b" data-mw="'+i+'">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button></div></div>'}).join(""):'<div class="mu">找不到符合的單字。</div>';
  sync()}
 $("mmsr").oninput=renderVocab;
-$("mmvl").addEventListener("click",function(e){var l=e.target.closest("[data-listen]");if(l){listen(+l.dataset.listen);return}
+$("mmvl").addEventListener("click",function(e){var l=e.target.closest("[data-say]");if(l){var q=V[+l.dataset.i];say(l.dataset.say==="w"?q.w:q.ex);return}
  var m=e.target.closest("[data-mw]");if(m){var v=V[+m.dataset.mw];if(!mwHas(v.w))mwAdd(v,m)}});
 
 /* ---------- 單字卡 ---------- */
@@ -214,11 +216,11 @@ function renderCard(){var d=deck(),nk=V.filter(function(v){return st.known[v.w]}
  if(pos>=d.length)pos=d.length-1;if(pos<0)pos=0;
  var v=V[d[pos]],known=!!st.known[v.w];fc.className="mm-card mm-fc"+(known?" known":"");
  fc.innerHTML=flip?
-  '<div class="w">'+esc(v.w)+'</div><div class="p">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+(known?"　✔ 已會":"")+'</div><div class="bk"><div class="mm-zh1" style="text-align:center">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="ex">'+boldW(v.ex,v.w)+'<div class="mu" style="font-size:15px">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-a="l">🔊 聽原句</button><button type="button" class="b" data-a="m">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button></div></div>'
-  :'<div class="w">'+esc(v.w)+'</div><div class="p">'+esc(v.pos)+(known?"　✔ 已會":"")+'</div><div class="ex">'+boldW(v.ex,v.w)+'</div><div class="hint">點一下翻面，看中文與解說</div>'}
+  '<div class="w">'+esc(v.w)+'</div><div class="p">'+esc(v.pos)+(v.ipa?"　"+esc(v.ipa):"")+(known?"　✔ 已會":"")+'</div><div class="bk"><div class="mm-zh1" style="text-align:center">'+esc(v.zh)+'</div><div class="mm-exp">'+esc(v.exp)+'</div><div class="ex">'+boldW(v.ex,v.w)+'<div class="mu" style="font-size:15px">'+esc(v.exzh)+'</div></div><div class="row"><button type="button" class="b" data-a="w">🔊 念單字</button><button type="button" class="b" data-a="l">🔊 聽原句</button><button type="button" class="b" data-a="m">'+(mwHas(v.w)?"⭐ 已加入":"⭐ 加入我的單字")+'</button></div></div>'
+  :'<div class="w">'+esc(v.w)+'</div><div class="p">'+esc(v.pos)+(known?"　✔ 已會":"")+'</div><div class="ex">'+boldW(v.ex,v.w)+'</div><div class="row"><button type="button" class="b" data-a="w">🔊 念單字</button><button type="button" class="b" data-a="l">🔊 聽原句</button></div><div class="hint">點一下翻面，看中文與解說</div>'}
 function go(n){var d=deck();if(!d.length)return;pos=(pos+n+d.length)%d.length;flip=false;renderCard()}
 $("mmfc").addEventListener("click",function(e){var b=e.target.closest("button[data-a]");
- if(b){var d=deck(),v=V[d[pos]];if(b.dataset.a==="l")listen(v.b);else if(!mwHas(v.w)){mwAdd(v,b)}return}
+ if(b){var d=deck(),v=V[d[pos]];if(b.dataset.a==="w")say(v.w);else if(b.dataset.a==="l")say(v.ex);else if(!mwHas(v.w)){mwAdd(v,b)}return}
  if(!deck().length)return;flip=!flip;renderCard()});
 $("mmprev").onclick=function(){go(-1)};$("mmnext").onclick=function(){go(1)};
 $("mmshuf").onclick=function(){for(var i=order.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=order[i];order[i]=order[j];order[j]=t}pos=0;flip=false;renderCard()};
@@ -236,7 +238,7 @@ $("mmonly").onchange=function(){st.only=this.checked;save(st);pos=0;flip=false;r
 var ids=["s","t","v","c"],nav=$("jump");
 function show(id,scroll){ids.forEach(function(s){var el=$("sec-"+s);if(el)el.hidden=s!==id});
  nav.querySelectorAll("button").forEach(function(b){b.classList.toggle("on",b.dataset.sec===id)});
- closePop();if(id!=="t"&&id!=="v"&&id!=="c")stopAll();
+ closePop();if(window.TTS)TTS.cancel();if(id!=="t"&&id!=="v"&&id!=="c")stopAll();
  if(id==="v")renderVocab();if(id==="c")renderCard();if(scroll)window.scrollTo(0,0)}
 nav.addEventListener("click",function(e){var b=e.target.closest("button[data-sec]");if(!b)return;history.replaceState(null,"","#"+b.dataset.sec);show(b.dataset.sec,true)});
 window.addEventListener("hashchange",function(){var h=location.hash.replace("#","");if(ids.indexOf(h)>=0)show(h,true)});
